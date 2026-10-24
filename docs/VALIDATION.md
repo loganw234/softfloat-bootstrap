@@ -5,7 +5,8 @@ READ, read at a named place; COMPUTED, arithmetic on those; BELIEVED, an estimat
 
 History is what has been pushed: until then an entry is restated in place when a verifier sends its work back,
 keeping each pass's figures beside the new ones (Logan's rule of 2026-10-22, in cft-fp256's record; the kit's
-OWNER.md, rule 10). Nothing here has been pushed yet.
+OWNER.md, rule 10). Nothing here has been pushed yet: v1's first commit is made (below), and its push waits on the
+repository.
 
 ## 2026-10-23 to 2026-10-24: v1 built; its cold read; its verifier's first pass and six re-checks, the sixth READY; six fix rounds
 
@@ -168,6 +169,21 @@ Each figure stands beside the ones it replaced: at dispatch, then after the firs
   the third, `b4e54718...`; after the second, `1fb81970...`; after the first, `20958f28...`). Its manifest's builder
   line still reads "no commit yet". The zip Logan receives is rebuilt after the first commit, whose hash that line
   then names, and the run that builds it is recorded here.
+
+### v1 as committed (MEASURED, in this container)
+
+- **The commit:** `24a92a35067f9393c878fa8d6b152b7b38cac70e`, the builder's first, holding the tree whose digest v1's
+  verifier read on its sixth re-check, with this record's sixth-round entries and that re-check's report added.
+- **`bash verify/run.sh` on it:** 17 of 17 stages passed, nothing skipped, in 6 minutes 47 seconds (run
+  20261024-025211-24a92a3). self-privacy read its one commit's message and identities.
+- **The zip Logan receives:** `dist/softfloat-bootstrap-kit-v1.zip`, 1,973,909 bytes, sha256
+  `d530b3ce6b06bb69cdc46840fc78ff054ec9b2209fdce7183fea1934d33d8f01`, as `dist/SHA256SUMS` names it. Its manifest's
+  builder line names the commit above. The commit that adds this entry changes docs/ alone, so that line, and the zip,
+  stay as they are.
+- **The push has not happened.** The private repository could not be created from this session: GitHub refused it,
+  "403 Resource not accessible by integration", as this session's GitHub app may not create a repository in Logan's
+  account. So the builder goes to him as a git bundle of its history, made after this entry's commit, beside the zip;
+  it is pushed to `loganw234/softfloat-bootstrap` once he creates that repository and gives the app access to it.
 
 ### Known limits carried
 
