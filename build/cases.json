@@ -1,0 +1,718 @@
+{
+ "licence": "These passages are excerpts of cft-fp256's docs/VALIDATION.md. cft-fp256 is Copyright 2026 Logan W., under the Apache License 2.0. The kit's NOTICE.md says what else it carries, and under which licence.",
+ "groups": [
+  {
+   "file": "01-owners-words.md",
+   "title": "The owner's words, recorded beside the lead's reading",
+   "intro": "ParcelRound METHOD.md section 7: the owner's decisions are kept as the owner gave them, with their dates, and the lead's reading goes beside them, marked as the lead's.",
+   "cases": [
+    {
+     "id": "1a",
+     "title": "A wave's requests, verbatim, then the lead's readings",
+     "ranges": [
+      [
+       22531,
+       22553,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "His words verbatim, one request a bullet, then the lead's readings and decisions, each reported to him as it was made.",
+     "cut": {
+      "22547": "a test-design detail of that repository's own sweeps (the kit's reading)"
+     }
+    },
+    {
+     "id": "1b",
+     "title": "How the record is kept, in his words",
+     "ranges": [
+      [
+       23534,
+       23536,
+       "the figures refresh and the header's sentence"
+      ]
+     ],
+     "shows": "His decision on how the record is kept before a push, verbatim; his choice among the lead's three ways, in the lead's words; and the four marks defined in one sentence."
+    },
+    {
+     "id": "1c",
+     "title": "Decisions beside the recommendation they answer",
+     "ranges": [
+      [
+       19161,
+       19172,
+       "the math library round's experiment E1"
+      ]
+     ],
+     "shows": "His decisions verbatim beside the recommendation they answer, and a cap on send-back cycles reached, so the merge went to him, and he waived it."
+    }
+   ]
+  },
+  {
+   "file": "02-questions-to-the-owner.md",
+   "title": "A question put to the owner, and his answer",
+   "intro": "ParcelRound METHOD.md section 7: ask what the owner wants to see first, and record the answer.",
+   "cases": [
+    {
+     "id": "2a",
+     "title": "Twelve questions at once",
+     "ranges": [
+      [
+       19757,
+       19762,
+       "M1's build, second wave, closed"
+      ]
+     ],
+     "shows": "Twelve questions put at once, with the recommendations listed; his answer verbatim, the chosen option's own text, and one question as it was put."
+    },
+    {
+     "id": "2b",
+     "title": "An offer, the answer, and the lead's correction of its own offer",
+     "ranges": [
+      [
+       20097,
+       20101,
+       "M1's build, third wave, closed"
+      ]
+     ],
+     "shows": "An offer the lead made, his answer verbatim, the lead's own correction of that offer, and the rule that set the verifiers' tier."
+    }
+   ]
+  },
+  {
+   "file": "03-send-backs.md",
+   "title": "A send-back under the rule, and what merges instead",
+   "intro": "OWNER.md rule 1: only a regression or a wrong answer sends work back; anything else merges as a recorded known limit, and a sentence that claims more than is true is restated at the merge.",
+   "cases": [
+    {
+     "id": "3a",
+     "title": "Sent back three times",
+     "ranges": [
+      [
+       23585,
+       23599,
+       "the coverage report reads a tree the run did not record from git"
+      ]
+     ],
+     "shows": "A parcel sent back three times: each (b) fixed and restated in place, every earlier figure kept beside the new; a third look finds a check that could not fail."
+    },
+    {
+     "id": "3b",
+     "title": "A wrong answer found by the verifier, and a second by the lead",
+     "ranges": [
+      [
+       22816,
+       22823,
+       "made true where the project tells it"
+      ]
+     ],
+     "shows": "A send-back under the rule: the verifier's (b), a second the lead found, the notes taken and the notes left alone, then the re-check."
+    }
+   ]
+  },
+  {
+   "file": "04-known-limits.md",
+   "title": "Known limits stated by the behaviour they concede",
+   "intro": "ParcelRound METHOD.md section 5: a limit is stated by the behaviour it concedes, not by the plants that found it.",
+   "cases": [
+    {
+     "id": "4a",
+     "title": "What still passes",
+     "ranges": [
+      [
+       23515,
+       23521,
+       "gates that could pass a damaged input"
+      ]
+     ],
+     "shows": "Limits stated as what still passes: \"It guards accident, not forgery\"; a skip by name where git cannot say."
+    },
+    {
+     "id": "4b",
+     "title": "What did not run, stated as limits",
+     "ranges": [
+      [
+       23382,
+       23392,
+       "the card scheduler's staged runner"
+      ]
+     ],
+     "shows": "Limits stated as costs and as what did not run: \"The guard is a look, not a lock\". The section's last line, its verifier's notes kept as limits, is cut for a term on the gate's list."
+    }
+   ]
+  },
+  {
+   "file": "05-a-wrong-finding.md",
+   "title": "A verifier's finding that was itself wrong",
+   "intro": "A verifier is held to the same standard as the work it checks: its words are claims, and its re-check can find its own (b).",
+   "cases": [
+    {
+     "id": "5a",
+     "title": "A (b) in the verifier's own words",
+     "ranges": [
+      [
+       21846,
+       21859,
+       "the side parcels of 2026-10-19, closed"
+      ]
+     ],
+     "shows": "An integration verifier's (b)s, restated, and its re-check's one (b), which was in the verifier's own words."
+    },
+    {
+     "id": "5b",
+     "title": "Neither confirms nor refutes",
+     "ranges": [
+      [
+       23106,
+       23106,
+       "five false statements outside host/ and rtl/"
+      ]
+     ],
+     "shows": "A verifier's run made under other conditions, which \"neither confirms nor refutes\" the figures; its notes added at the merge."
+    }
+   ]
+  },
+  {
+   "file": "06-the-leads-slips.md",
+   "title": "The lead's own slips, recorded",
+   "intro": "ParcelRound METHOD.md section 7: the lead's own slips go in every round's record, each written in the ledger when it is caught.",
+   "cases": [
+    {
+     "id": "6a",
+     "title": "Twelve (b)s that were the lead's own words",
+     "ranges": [
+      [
+       22601,
+       22608,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "Twelve of a wave's (b)s were the lead's own words, listed, and the lead's lesson, four times in one day."
+    },
+    {
+     "id": "6b",
+     "title": "Each slip in the round's ledger",
+     "ranges": [
+      [
+       19185,
+       19191,
+       "the math library round's experiment E1"
+      ]
+     ],
+     "shows": "The lead's slips, each recorded in the round's ledger."
+    },
+    {
+     "id": "6c",
+     "title": "Found during a re-check, and before a commit",
+     "ranges": [
+      [
+       22789,
+       22789,
+       "the coverage wave, closed"
+      ],
+      [
+       20986,
+       20987,
+       "CI's RTL suite as three parallel jobs"
+      ]
+     ],
+     "shows": "More of the lead's slips: some found by the lead during a re-check, one caught before its commit, with the verifier reproducing both the slip and the fix."
+    }
+   ]
+  },
+  {
+   "file": "07-conduct.md",
+   "title": "An agent's conduct slip, and its repair",
+   "intro": "What an agent did outside its brief, how it was found, how it was repaired and checked, and the brief rule that came of it.",
+   "cases": [
+    {
+     "id": "7a",
+     "title": "A wave's conduct",
+     "ranges": [
+      [
+       22675,
+       22683,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "A global git setting made and removed, then checked; a write into the main checkout repaired and checked with `git fsck`; the brief rules added since; the lead's own."
+    },
+    {
+     "id": "7b",
+     "title": "A directory that was not its own",
+     "ranges": [
+      [
+       21783,
+       21791,
+       "the side parcels of 2026-10-19, closed"
+      ]
+     ],
+     "shows": "A directory deleted that was not the agent's own, reported unprompted; the rule restated; a browser-tab rule added."
+    },
+    {
+     "id": "7c",
+     "title": "Two slips, and his replies",
+     "ranges": [
+      [
+       18987,
+       18991,
+       "step 6's leftovers, closed"
+      ]
+     ],
+     "shows": "Two agents' slips, each with his verbatim reply, and the two rules every brief carries since."
+    }
+   ]
+  },
+  {
+   "file": "08-not-a-regression.md",
+   "title": "A failure shown not to be a regression, or not a defect",
+   "intro": "ParcelRound METHOD.md section 7: never call a failure a defect or a false alarm until a clean re-run says which.",
+   "cases": [
+    {
+     "id": "8a",
+     "title": "Four fresh clones, the tip and the base",
+     "ranges": [
+      [
+       22655,
+       22663,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "Two failures shown not to be a regression: four fresh clones, at the tip and at the base, built and unbuilt."
+    },
+    {
+     "id": "8b",
+     "title": "The check was frozen",
+     "ranges": [
+      [
+       23413,
+       23413,
+       "the card stress driver before the nights run it"
+      ]
+     ],
+     "shows": "A failure on the box traced to a check frozen on old data: \"The planner and the tally were right; the check was frozen\". The check now derives what it expects."
+    },
+    {
+     "id": "8c",
+     "title": "A test that encodes the card's image",
+     "ranges": [
+      [
+       18310,
+       18313,
+       "step 6's closing records, part one"
+      ]
+     ],
+     "shows": "A failing check read as \"a test that encodes the card's image, not a defect\", with the negative control failing as it must."
+    }
+   ]
+  },
+  {
+   "file": "09-flakes.md",
+   "title": "A flake, recorded as one",
+   "intro": "A check that fails under load and passes alone is measured both ways before it is called anything.",
+   "cases": [
+    {
+     "id": "9a",
+     "title": "Measured both ways",
+     "ranges": [
+      [
+       23429,
+       23429,
+       "the card stress driver before the nights run it"
+      ],
+      [
+       23461,
+       23461,
+       "the card stress driver before the nights run it"
+      ]
+     ],
+     "shows": "A check that failed once under load and passed alone twice, measured both ways, and carried as load-sensitive."
+    },
+    {
+     "id": "9b",
+     "title": "Pre-existing, and not touched",
+     "ranges": [
+      [
+       21590,
+       21590,
+       "(parcel EX, Sonnet)"
+      ]
+     ],
+     "shows": "A pre-existing, timing-flaky check, not touched, recorded as a known limit by agreement with the lead; no gate is exposed."
+    }
+   ]
+  },
+  {
+   "file": "10-corrections-owed.md",
+   "title": "Corrections a record owes",
+   "intro": "A commit message stands as written; what it got wrong is listed in the record, where a later reader will look.",
+   "cases": [
+    {
+     "id": "10a",
+     "title": "A commit message stands as written",
+     "ranges": [
+      [
+       22610,
+       22617,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "Corrections a record owes, where a commit message stands as written, and one that was not amended because another branch had grown from it."
+    },
+    {
+     "id": "10b",
+     "title": "Messages that cannot be restated",
+     "ranges": [
+      [
+       23344,
+       23349,
+       "cft_last_error() belongs to the call that just returned"
+      ]
+     ],
+     "shows": "The lead's edits at a merge, counts corrected in place, and two of the lead's own commit messages, which cannot be restated."
+    }
+   ]
+  },
+  {
+   "file": "11-skips-named.md",
+   "title": "Skips named and counted",
+   "intro": "HonestFramework METHOD.md section 5: a stage whose tools are missing is skipped by name, with its reason.",
+   "cases": [
+    {
+     "id": "11a",
+     "title": "A gate's skips, by name",
+     "ranges": [
+      [
+       21352,
+       21363,
+       "M1's build, seventh wave, closed"
+      ]
+     ],
+     "shows": "A gate's skips, each by name with its reason, the same as the earlier gates'; its clone asserted before the run."
+    },
+    {
+     "id": "11b",
+     "title": "A verdict line that counts its inner skips",
+     "ranges": [
+      [
+       23427,
+       23427,
+       "the card stress driver before the nights run it"
+      ]
+     ],
+     "shows": "A verdict line that counts its inner skips, each named with its reason."
+    }
+   ]
+  },
+  {
+   "file": "12-pause-and-resume.md",
+   "title": "A pause, and a resume",
+   "intro": "ParcelRound METHOD.md section 4: when a pause is announced, each agent records where it is before it stops.",
+   "cases": [
+    {
+     "id": "12a",
+     "title": "Resume notes, and agents dispatched again from them",
+     "ranges": [
+      [
+       16510,
+       16510,
+       "the steps 5 and 6 round"
+      ]
+     ],
+     "shows": "He paused the round; every agent committed and wrote a resume note; the agents did not survive the pause, and each was dispatched again from its brief and its own resume note."
+    },
+    {
+     "id": "12b",
+     "title": "A weekend's pause, and the resume, in his words",
+     "ranges": [
+      [
+       20805,
+       20805,
+       "the sixth wave, closed"
+      ],
+      [
+       21277,
+       21279,
+       "M1's build, seventh wave, closed"
+      ]
+     ],
+     "shows": "A pause over a weekend in his words, and the resume in his words."
+    }
+   ]
+  },
+  {
+   "file": "13-time-boxes.md",
+   "title": "Time boxes and size ceilings, against the actuals",
+   "intro": "The leads' brief rule since 2026-10-19: every brief carries a scope ceiling and a time box, and the record sets each against what happened.",
+   "cases": [
+    {
+     "id": "13a",
+     "title": "First passes against their boxes",
+     "ranges": [
+      [
+       22770,
+       22770,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "Time boxes against first passes, the overruns named, and size ceilings against sizes, reported on his question."
+    },
+    {
+     "id": "13b",
+     "title": "A size past its mark, accepted after the fact",
+     "ranges": [
+      [
+       23114,
+       23114,
+       "six small tool defects a user meets"
+      ]
+     ],
+     "shows": "A size past its mark, accepted by the lead after the fact and named as the parcel's slip, and every fix with a test shown red once."
+    }
+   ]
+  },
+  {
+   "file": "14-model-experiments.md",
+   "title": "A model experiment, reported as data",
+   "intro": "How an experiment with models is reported: as data, with its caveats, its criteria applied as they were fixed, and the lead's reading marked as the lead's.",
+   "cases": [
+    {
+     "id": "14a",
+     "title": "One tier of authors, another of verifiers",
+     "ranges": [
+      [
+       22685,
+       22698,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "An experiment of his, reported as data, with what it did not show, and the lead's reading for him."
+    },
+    {
+     "id": "14b",
+     "title": "Not met, by the letter",
+     "ranges": [
+      [
+       19140,
+       19148,
+       "the math library round's experiment E1"
+      ]
+     ],
+     "shows": "An experiment's verdict with its criteria applied as fixed in advance: \"Not met, by the letter\"."
+    },
+    {
+     "id": "14c",
+     "title": "The experiment's own limits",
+     "ranges": [
+      [
+       19180,
+       19184,
+       "the math library round's experiment E1"
+      ]
+     ],
+     "shows": "The experiment's known limits: n = 1, a seal held by instruction only, position bias, default effort."
+    }
+   ]
+  },
+  {
+   "file": "15-checked-before-acting.md",
+   "title": "A report checked before the lead acts on it",
+   "intro": "ParcelRound METHOD.md section 4: verify an escalation like any other report.",
+   "cases": [
+    {
+     "id": "15a",
+     "title": "His question on a parcel's time",
+     "ranges": [
+      [
+       21717,
+       21717,
+       "the side parcels of 2026-10-19, closed"
+      ],
+      [
+       21729,
+       21733,
+       "the side parcels of 2026-10-19, closed"
+      ]
+     ],
+     "shows": "His question on a parcel's time, answered from its ledger and transcript, and the brief rule that came of it."
+    },
+    {
+     "id": "15b",
+     "title": "Two suites that collided",
+     "ranges": [
+      [
+       23000,
+       23000,
+       "the card stress driver's resume counted per tree class"
+      ],
+      [
+       23041,
+       23041,
+       "the host pool's slices as signed sweep records"
+      ]
+     ],
+     "shows": "One parcel's measured collision with another's suite, relayed by the lead; both sides discount the overlapping runs."
+    }
+   ]
+  },
+  {
+   "file": "16-merges.md",
+   "title": "Merges recorded, and what a merge exposed",
+   "intro": "ParcelRound METHOD.md section 7: the integration verifier makes each merge again, from its parents, with git merge-tree.",
+   "cases": [
+    {
+     "id": "16a",
+     "title": "Each merge's conflicts, recomputed",
+     "ranges": [
+      [
+       22619,
+       22638,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "Merges recorded, their conflicts recomputed with `git merge-tree` from each merge's two parents."
+    },
+    {
+     "id": "16b",
+     "title": "A silent fallback, exposed by a merge",
+     "ranges": [
+      [
+       23643,
+       23647,
+       "the nightly progress page"
+      ]
+     ],
+     "shows": "A merge that exposed a silent fallback, and the fix: \"an error from the report is a failure, not a fallback\"; plants shown red in scratch copies."
+    }
+   ]
+  },
+  {
+   "file": "17-remote-runs-asserted.md",
+   "title": "A run elsewhere, its SHA and content asserted apart",
+   "intro": "HonestFramework METHOD.md section 6: assert the SHA and the content separately. Two more instances sit in other samples: 7a's bullet on an empty clone, and 11a's clone asserted before the run.",
+   "cases": [
+    {
+     "id": "17a",
+     "title": "A clone asserted before a run on the card",
+     "ranges": [
+      [
+       23296,
+       23296,
+       "cft_last_error() belongs to the call that just returned"
+      ]
+     ],
+     "shows": "A run on another machine, from a clone whose SHA and content were asserted apart before it built."
+    }
+   ]
+  },
+  {
+   "file": "18-notes-not-taken.md",
+   "title": "A verifier's notes not taken, with reasons",
+   "intro": "A note that does not send work back is still answered: taken, or not taken with a reason, in the record.",
+   "cases": [
+    {
+     "id": "18a",
+     "title": "The verifiers' other notes",
+     "ranges": [
+      [
+       21023,
+       21036,
+       "CI's RTL suite as three parallel jobs"
+      ]
+     ],
+     "shows": "The verifiers' notes not taken, each with its reason: \"The lead takes the trade\"."
+    },
+    {
+     "id": "18b",
+     "title": "An integration verifier's notes",
+     "ranges": [
+      [
+       22783,
+       22783,
+       "the coverage wave, closed"
+      ],
+      [
+       22790,
+       22790,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "An integration verifier's notes not taken, each with its reason."
+    }
+   ]
+  },
+  {
+   "file": "19-what-the-brief-got-wrong.md",
+   "title": "What the brief got wrong",
+   "intro": "ParcelRound METHOD.md section 3: every parcel's report ends with anything it found that its brief got wrong.",
+   "cases": [
+    {
+     "id": "19a",
+     "title": "A parcel's list",
+     "ranges": [
+      [
+       22478,
+       22487,
+       "the stress driver's sweep reorganised"
+      ]
+     ],
+     "shows": "What the brief got wrong, the size among it."
+    },
+    {
+     "id": "19b",
+     "title": "A suggestion that would have made a check unable to fail",
+     "ranges": [
+      [
+       22206,
+       22211,
+       "the stress driver's three fixes"
+      ]
+     ],
+     "shows": "What the brief got wrong, one suggestion of which would have made a check unable to fail."
+    },
+    {
+     "id": "19c",
+     "title": "The author's own drafts",
+     "ranges": [
+      [
+       22864,
+       22869,
+       "a design study of the card scheduler"
+      ]
+     ],
+     "shows": "What the author's own drafts got wrong, and what changed, before the first commit."
+    }
+   ]
+  },
+  {
+   "file": "20-record-skeleton.md",
+   "title": "The skeleton of a closed-wave record entry",
+   "intro": "The sections of a record entry that closes a wave, in the order the six most recent such entries put them (MEASURED by the read-only surveyor's script over cft-fp256's docs/VALIDATION.md; its report is in the builder's docs/reviews/KIT-0/survey-cases.md). Each line gives how many of the six carry the section.\n\n1. What Logan asked, verbatim (6 of 6, always first).\n2. The lead's readings and decisions, reported to him as they were made (4).\n3. The chain: each piece of work, its author, its verifier's passes with (a) and (b) per pass, and its send-backs (4).\n4. The runs on the build host, the card or the gate, each asserted and copied with its sha256 (5).\n5. Merge messages and earlier entries, restated where they claimed too much (2).\n6. Conduct: what agents did outside their briefs, and its repair (3).\n7. Time and tokens, per agent, with the method of the count (4).\n8. Known limits carried, by the owner's rule (6 of 6).\n9. The follow-ups (2).\n10. Records: what was recounted, and where the copies are (4, always last).\n\nTwo of those sections follow, from the wave whose entry the other samples quote most, \"the coverage wave, closed\", with their cuts marked. The chain's section runs on past 20a's last line: its lines after that are sample 6a. The rest of that entry is quoted by samples under their own situations. In the entry's order, its passages are 1a, 20a, 6a, 10a, 16a, 8a, 7a, 14a, 20b (which holds 13a's line), 18b, and 6c's first line.",
+   "cases": [
+    {
+     "id": "20a",
+     "title": "The chain",
+     "ranges": [
+      [
+       22583,
+       22600,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "One row per piece of work: its commits, its author, each verifier pass as (a), (b), and how often it was sent back."
+    },
+    {
+     "id": "20b",
+     "title": "Time and tokens",
+     "ranges": [
+      [
+       22742,
+       22771,
+       "the coverage wave, closed"
+      ]
+     ],
+     "shows": "One row per agent: its model, passes, minutes for the first pass and in all, tool uses and output tokens, with the method of the count stated first."
+    }
+   ]
+  }
+ ]
+}

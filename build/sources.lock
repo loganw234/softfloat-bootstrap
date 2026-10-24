@@ -1,0 +1,6 @@
+{
+  "HonestFramework": {"commit": "65447fd4d8253034fd6d206479c5a5371c623c60"},
+  "ParcelRound": {"commit": "f42242ecc1707a3d36c52e4b2a3b580ee2783e5b"},
+  "QRO-Crate": {"commit": "8afeedef8d4d28316003916a313736d310d0888d", "bundle_ref": "main"},
+  "cft-fp256": {"commit": "39f98018b86ec7305f14b5bfe235cb3a4daff766"}
+}
