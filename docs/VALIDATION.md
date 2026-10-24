@@ -205,3 +205,22 @@ Each figure stands beside the ones it replaced: at dispatch, then after the firs
   with nothing else the fifteen things the questions ask. It shows nothing about how Meta's models will read it.
 - **The scratch directories** of the surveyor, the plan's verifier and v1's verifier, with their scripts, were in
   this container and are not kept. Their reports say what they ran.
+
+## 2026-10-24: v1 pushed
+
+### What Logan asked, verbatim
+
+- on the repository, at 23:58 +0000 or a few minutes before: "Repo made and permissions updated, go ahead".
+
+### The push (MEASURED, in this container)
+
+- **The repository** `loganw234/softfloat-bootstrap` was attached to this session with push access, and was empty:
+  `git ls-remote` listed no ref.
+- **`main` was pushed** at `ca97e407cba3cfd565db279a098f9a026827810f`, the two commits the entry above records. Git
+  printed "push negotiation failed; proceeding anyway" through the session's proxy, and the push went on: `git
+  ls-remote` then listed `main` and `HEAD` at that commit.
+- **Its content, apart from its id:** a fresh clone's tree is `d4a1fb29c647dd6859305bd9330eca0809dd8215`, as the local
+  tree is.
+- **The entry above says the push waits on the repository.** That was so when it was committed; this entry is what
+  followed, not a restatement of it (OWNER.md, rule 10). This entry's own commit changes docs/ alone, so the zip's
+  manifest still names `24a92a3`, and the zip Logan holds, sha256 `d530b3ce...`, is unchanged.
