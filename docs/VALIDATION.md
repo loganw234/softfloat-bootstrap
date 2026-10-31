@@ -267,3 +267,22 @@ Each figure stands beside the ones it replaced: at dispatch, then after the firs
     75 relative links in 6 documents.
 - **Nothing of this goes to the project repository.** It describes cft-fp256's code, which is what the clean room
   keeps from the project's agents.
+
+## 2026-10-31: AUDIT-1 pushed
+
+### What Logan asked, verbatim
+
+- **On the push.** He was asked first, because GitHub lists this repository as public though its README says it
+  stays private, so a push would put the reports' description of cft-fp256's design within reach of the project's
+  agents until 2026-11-04. His answer: "Push now, public" (his choice among the options put to him).
+- **Then:** "The work on the core library is concluded, so exposure is no longer a concern".
+
+### The push (MEASURED, in this container)
+
+- **`claude/sweet-dirac-dv44dp` was pushed** at `d0ef8b3ef3b198175c258f6e2acd14a72965aecd`, the commit the entry
+  above records: `git ls-remote` lists the branch at that commit.
+- **The issue** [loganw234/cft-fp256#1](https://github.com/loganw234/cft-fp256/issues/1) was filed before the
+  push. Its body then gained links to audit/ and AUDIT-1.md, pinned to `d0ef8b3`.
+- **GitHub lists this repository as public** (READ, the session's repository listing). The README's "stays private"
+  is left as it is: it is Logan's to restate.
+- **This entry's commit changes docs/ alone.**
