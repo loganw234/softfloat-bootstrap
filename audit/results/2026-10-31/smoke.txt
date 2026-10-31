@@ -1,0 +1,20 @@
+
+== binary32 ==
+1 + 2  RNE           muse 0x40400000 [-        ]  cft 0x40400000 [-        ]  SAME  (3)
+1 / 3  RNE           muse 0x3eaaaaab [inexact  ]  cft 0x3eaaaaab [inexact  ]  SAME  (0.3333333432674408)
+1 / 3  RTZ           muse 0x3eaaaaaa [inexact  ]  cft 0x3eaaaaaa [inexact  ]  SAME  (0.3333333134651184)
+1 / 3  RUP(+inf)     muse 0x3eaaaaab [inexact  ]  cft 0x3eaaaaab [inexact  ]  SAME  (0.3333333432674408)
+1 / 3  RDN(-inf)     muse 0x3eaaaaaa [inexact  ]  cft 0x3eaaaaaa [inexact  ]  SAME  (0.3333333134651184)
+1 / 3  RMM(away)     muse 0x3eaaaaab [inexact  ]  cft 0x3eaaaaab [inexact  ]  SAME  (0.3333333432674408)
+  trap: rounding number 2 => muse +inf 0x3eaaaaab, cft -inf 0x3eaaaaaa (cft +inf is 3: 0x3eaaaaab)
+
+== binary64 ==
+1 + 2  RNE           muse 0x4008000000000000 [-        ]  cft 0x4008000000000000 [-        ]  SAME  (3)
+1 / 3  RNE           muse 0x3fd5555555555555 [inexact  ]  cft 0x3fd5555555555555 [inexact  ]  SAME  (0.3333333333333333)
+1 / 3  RTZ           muse 0x3fd5555555555555 [inexact  ]  cft 0x3fd5555555555555 [inexact  ]  SAME  (0.3333333333333333)
+1 / 3  RUP(+inf)     muse 0x3fd5555555555556 [inexact  ]  cft 0x3fd5555555555556 [inexact  ]  SAME  (0.33333333333333337)
+1 / 3  RDN(-inf)     muse 0x3fd5555555555555 [inexact  ]  cft 0x3fd5555555555555 [inexact  ]  SAME  (0.3333333333333333)
+1 / 3  RMM(away)     muse 0x3fd5555555555555 [inexact  ]  cft 0x3fd5555555555555 [inexact  ]  SAME  (0.3333333333333333)
+  trap: rounding number 2 => muse +inf 0x3fd5555555555556, cft -inf 0x3fd5555555555555 (cft +inf is 3: 0x3fd5555555555556)
+
+flag bits (both): invalid=1 divByZero=2 overflow=4 underflow=8 inexact=16

@@ -1,0 +1,7 @@
+    175  1. >20-digit input, differing: muse follows its two-step rule True, cft exact True
+    383  2. decimal output, differing: asked > 20 digits True; muse = 20 correct digits then zeros True; cft correct to every digit True
+  12264  3. augmented flag difference: muse 0x00 cft 0x08, tail exact nonzero subnormal True
+   1500  4. cft's own corpus: record accepts, cft accepted
+    390  4. cft's own corpus: record refuses, cft refused
+      0  5. a string muse accepts whole that cft refuses
+every class is what it claims

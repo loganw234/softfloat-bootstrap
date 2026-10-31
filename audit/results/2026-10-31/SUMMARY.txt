@@ -1,0 +1,25 @@
+audit/run.sh 2026-10-31T03:16:38Z, scale 1
+muse-softfloat a2241fc52e1ec20c89fdff19e5be475dc3117016
+cft-fp256 f68c630158d667e07f9e9935381b8fc98aea0844
+softfloat-bootstrap a23a0ff5aa0529642db545a065d4497e9daa27d6
+
+  controls caught: 17 of 17
+  293 paths; 13 reach a run of >= 50 exact or >= 80 normalised tokens
+muse high-entropy words 33468, cft 43905, shared 54 (0.161% of muse)
+hostref: 72000 cases, 0 disagreements 
+sfref: 120000 cases, 0 disagreements 
+control (cft module vs cft record): ok 163412, not ok 0
+cross   (muse module vs cft record): ok 154774, not ok 8638
+files 51 | replayable lines (op mapped on both sides, f32/f64): 146907 {"n":146907,"museOk":146907,"museBad":0,"cftOk":140540,"cftNan":6119,"cftFlags":88,"cftValue":0,"cftInv":160}
+every class is what it claims
+cases 44460000 in 105.963s over 660 tasks
+    44143795  ok
+      308963  nan-payload
+        7221  int invalid delivery
+          21  flags muse inexact cft overflow|inexact
+checked answers 62256
+    31128  cft ok
+    31128  muse ok
+out-of-range/inf operands: 32160 cases over 80 descriptors, both-invalid 29986, any difference 0
+exp2m1 at emax+1: 30 cases, 8 not as 754-2019 7.4 requires
+dense: 40 sweeps, same 16777216, nan-payload 0, differ 0

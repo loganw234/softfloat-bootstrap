@@ -224,3 +224,46 @@ Each figure stands beside the ones it replaced: at dispatch, then after the firs
 - **The entry above says the push waits on the repository.** That was so when it was committed; this entry is what
   followed, not a restatement of it (OWNER.md, rule 10). This entry's own commit changes docs/ alone, so the zip's
   manifest still names `24a92a3`, and the zip Logan holds, sha256 `d530b3ce...`, is unchanged.
+
+## 2026-10-31: AUDIT-1, the project repository against cft-fp256, and the two libraries against each other
+
+### What Logan asked, verbatim
+
+- on the audit: "perform an audit of whether muse-softfloat appears to have taken any code directly from cft-fp256,
+  once that audit completes I'd like you to utilize each other to test the opposing. One option is the two WASM
+  modules, may be the easiest surface to compare the two libraries";
+- on keeping it: "Commit the audit tooling to softfloat-bootstrap, as well as the report to that repo. If possible,
+  submit a bug report on the cft repo and I will have it fixed on that side".
+
+### What it found (MEASURED, in this container; [AUDIT-1.md](AUDIT-1.md) has each figure and its limits)
+
+- **The audit:** no sign that muse-softfloat, at `a2241fc`, took code from cft-fp256, at `f68c630`.
+  - The token search covered both whole histories and caught 17 of 17 planted copies.
+  - The constant, identifier, comment, string and test-data comparisons, the structural read and the record review
+    found nothing that common sources do not explain.
+  - Its limits are stated there: reading without copying, no fence on day 1, and raw transcripts out of the record.
+- **The cross-test:** no value difference on the shared surface, binary32 and binary64. That covers cft's published
+  corpus through muse, muse's committed corpus through cft, 44.46 million random cases and 16.8 million contiguous
+  inputs.
+  - Every other difference is a choice one project documents, and each class was checked case by case.
+  - The one exception is a defect in cft-fp256: exp2m1 at x = emax+1 raises a spurious overflow under
+    roundTowardZero and roundTowardNegative, in its golden model, in libcft and in its published vectors. It is
+    reported at [loganw234/cft-fp256#1](https://github.com/loganw234/cft-fp256/issues/1).
+- **The controls held,** each watched to fail:
+  - the planted copies;
+  - planted wrong answers (20 of 20, and 19 of 19);
+  - each library's own corpus through its own side (163,412 and 146,907);
+  - the exact arbiter against the x86 SSE unit and Berkeley SoftFloat 3e (192,000 cases, 0 disagreements).
+
+### What changed here
+
+- **Added:** [audit/](../audit/README.md), the tooling; its first run's outputs, in audit/results/2026-10-31/;
+  [AUDIT-1.md](AUDIT-1.md); and the three agents' reports, in [reviews/AUDIT-1/](reviews/AUDIT-1/README.md).
+- **The kit is unchanged** (READ, not MEASURED). Nothing in kit/ or build/ changed, so the kit the builder makes,
+  and the zip Logan holds, are what they were.
+  - The runner's build stages could not run in this container: they read HonestFramework, ParcelRound and QRO-Crate
+    from SOURCES, and none of the three is here.
+  - The two stages that read the whole tree pass (MEASURED): `self-privacy`, 109 files and 3 commits, and `docs`,
+    75 relative links in 6 documents.
+- **Nothing of this goes to the project repository.** It describes cft-fp256's code, which is what the clean room
+  keeps from the project's agents.

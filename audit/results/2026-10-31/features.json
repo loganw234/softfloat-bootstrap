@@ -1,0 +1,7864 @@
+{
+ "constants_shared": 61,
+ "constants_shared_explained_by_baseline": 1,
+ "constants_shared_unexplained": [
+  {
+   "value": "0x989680",
+   "muse": [
+    "src/msf_string.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "host/src/chars.c",
+    "host/tests/mp_err_check.c",
+    "hw/rebuild-2022.sh"
+   ],
+   "muse_ex": [
+    "src/msf_string.c",
+    209
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    951
+   ]
+  },
+  {
+   "value": "0x5f5e100",
+   "muse": [
+    "src/msf_string.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "host/src/chars.c",
+    "hw/build-pair.sh"
+   ],
+   "muse_ex": [
+    "src/msf_string.c",
+    209
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    951
+   ]
+  },
+  {
+   "value": "0x3dcccccc",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ],
+   "muse_ex": [
+    "examples/host/main.c",
+    169
+   ],
+   "cft_ex": [
+    "host/tests/api_test.c",
+    3473
+   ]
+  },
+  {
+   "value": "0x3dcccccd",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ],
+   "muse_ex": [
+    "examples/host/main.c",
+    165
+   ],
+   "cft_ex": [
+    "host/tests/api_test.c",
+    3469
+   ]
+  },
+  {
+   "value": "0x3fb504f3",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ],
+   "muse_ex": [
+    "examples/host/main.c",
+    187
+   ],
+   "cft_ex": [
+    "host/tests/api_test.c",
+    2137
+   ]
+  },
+  {
+   "value": "0x94d049bb133111eb",
+   "muse": [
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    "docs/studies/swp-a/perm_check.c",
+    "docs/studies/swp-a/perm_check.py",
+    "docs/studies/swp-a/seed_audit.py"
+   ],
+   "muse_ex": [
+    "tests/explog_exhaustive.c",
+    269
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    128
+   ]
+  },
+  {
+   "value": "0x40f34326",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    36
+   ]
+  },
+  {
+   "value": "0x100000001b3",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/transcend.c",
+    "bindings/python/demo_mpfr_dropin.py",
+    "host/examples/vector_fma.c",
+    "host/examples/vector_fma.cpp"
+   ],
+   "muse_ex": [
+    "tests/runner.c",
+    369
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/transcend.c",
+    1399
+   ]
+  },
+  {
+   "value": "0x9e3779b97f4a7c15",
+   "muse": [
+    "board/ias15_selftest.c",
+    "board/kissfft_main.c",
+    "demo/kissfft_host_main.c",
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    "docs/studies/hx/hx_probe.c",
+    "docs/studies/swp-a/perm_check.c",
+    "docs/studies/swp-a/perm_check.py"
+   ],
+   "muse_ex": [
+    "board/ias15_selftest.c",
+    294
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    126
+   ]
+  },
+  {
+   "value": "0x12d687",
+   "muse": [
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "host/tests/audit_check.py",
+    "host/tools/mpfr_check.c",
+    "python/tests/test_cert2.py",
+    "python/tests/test_ed25519.py"
+   ],
+   "muse_ex": [
+    "tests/gen_vectors_f64.py",
+    777
+   ],
+   "cft_ex": [
+    "host/tests/audit_check.py",
+    2176
+   ]
+  },
+  {
+   "value": "0x4afa1b10",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    34
+   ]
+  },
+  {
+   "value": "0x123456789abcdef0",
+   "muse": [
+    "board/bench_main.c"
+   ],
+   "cft": [
+    "host/tests/tf_subject_check.py"
+   ],
+   "muse_ex": [
+    "board/bench_main.c",
+    49
+   ],
+   "cft_ex": [
+    "host/tests/tf_subject_check.py",
+    72
+   ]
+  },
+  {
+   "value": "0x514a0879",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    91
+   ]
+  },
+  {
+   "value": "0xbf58476d1ce4e5b9",
+   "muse": [
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    "docs/studies/swp-a/perm_check.c",
+    "docs/studies/swp-a/perm_check.py",
+    "docs/studies/swp-a/seed_audit.py"
+   ],
+   "muse_ex": [
+    "tests/explog_exhaustive.c",
+    268
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/lane_cut.h",
+    127
+   ]
+  },
+  {
+   "value": "0x55176cd6",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    49
+   ]
+  },
+  {
+   "value": "0x559552fb",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    34
+   ]
+  },
+  {
+   "value": "0x14057b7ef767814f",
+   "muse": [
+    "board/ias15_selftest.c",
+    "board/kissfft_main.c",
+    "demo/kissfft_host_main.c"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs",
+    "bindings/wasm/remote.html",
+    "host/tests/api_test.c",
+    "host/tests/remote_check.py"
+   ],
+   "muse_ex": [
+    "board/ias15_selftest.c",
+    297
+   ],
+   "cft_ex": [
+    "bindings/node/remote_test.mjs",
+    463
+   ]
+  },
+  {
+   "value": "0x14650fb0739d0383",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tools/cft_resident.cpp"
+   ],
+   "muse_ex": [
+    "tests/runner.c",
+    366
+   ],
+   "cft_ex": [
+    "host/tools/cft_resident.cpp",
+    102
+   ]
+  },
+  {
+   "value": "0x16e360",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "hw/test_divsqrt_hard.py"
+   ],
+   "muse_ex": [
+    "tools/extract_session_metrics.py",
+    365
+   ],
+   "cft_ex": [
+    "hw/test_divsqrt_hard.py",
+    596
+   ]
+  },
+  {
+   "value": "0x5c17f0bb",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    51
+   ]
+  },
+  {
+   "value": "0x691d3e88",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    50
+   ]
+  },
+  {
+   "value": "0x6debac98",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    35
+   ]
+  },
+  {
+   "value": "0x7298b62d",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    36
+   ]
+  },
+  {
+   "value": "0x1e8480",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "docs/studies/swp-a/perm_check.c",
+    "docs/studies/swp-a/sw_rates.sh",
+    "hw/run-c5-soak.sh"
+   ],
+   "muse_ex": [
+    "tools/extract_session_metrics.py",
+    358
+   ],
+   "cft_ex": [
+    "docs/studies/hx/hx_quadmath.c",
+    193
+   ]
+  },
+  {
+   "value": "0x13528a3",
+   "muse": [
+    "tests/gen_vectors_tier2.py",
+    "tests/gen_vectors_trig.py",
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "hw/test_c5_wide.py"
+   ],
+   "muse_ex": [
+    "tests/gen_vectors_tier2.py",
+    392
+   ],
+   "cft_ex": [
+    "hw/test_c5_wide.py",
+    226
+   ]
+  },
+  {
+   "value": "0x80dc1cd1",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    92
+   ]
+  },
+  {
+   "value": "0x8a0d175b",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    35
+   ]
+  },
+  {
+   "value": "0x8a67cc74",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    92
+   ]
+  },
+  {
+   "value": "0x8b25166c",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    49
+   ]
+  },
+  {
+   "value": "0x8baafa2b",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    35
+   ]
+  },
+  {
+   "value": "0x8e3404dd",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    91
+   ]
+  },
+  {
+   "value": "0x9e3779b1",
+   "muse": [
+    "board/bench_main.c"
+   ],
+   "cft": [
+    "host/tests/seq_check.py",
+    "programs/workloads/cft-hard-workloads/tools/models.py",
+    "tb/test_seq_core.py"
+   ],
+   "muse_ex": [
+    "board/bench_main.c",
+    70
+   ],
+   "cft_ex": [
+    "host/tests/seq_check.py",
+    2201
+   ]
+  },
+  {
+   "value": "0x2545f4914f6cdd1d",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/reduce_parts_test.c",
+    "host/tools/cft_bench.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "muse_ex": [
+    "tests/alg_decider.c",
+    616
+   ],
+   "cft_ex": [
+    "docs/studies/hx/hx_quadmath.c",
+    28
+   ]
+  },
+  {
+   "value": "0xb17217f7",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    37
+   ]
+  },
+  {
+   "value": "0x2dc6c0",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/perm_check.c",
+    "hw/test_card_stress_report.py"
+   ],
+   "muse_ex": [
+    "tools/extract_session_metrics.py",
+    360
+   ],
+   "cft_ex": [
+    "docs/studies/swp-a/perm_check.c",
+    348
+   ]
+  },
+  {
+   "value": "0xb8aa3b29",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    51
+   ]
+  },
+  {
+   "value": "0xbe87fed0",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    50
+   ]
+  },
+  {
+   "value": "0xc16be0b3",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    48
+   ]
+  },
+  {
+   "value": "0xc4c6628b",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    92
+   ]
+  },
+  {
+   "value": "0xc90fdaa2",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    93
+   ]
+  },
+  {
+   "value": "0xc9e3b398",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    36
+   ]
+  },
+  {
+   "value": "0x20bbea6",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    91
+   ]
+  },
+  {
+   "value": "0xcd3a431b",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    90
+   ]
+  },
+  {
+   "value": "0xd1a13247",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    49
+   ]
+  },
+  {
+   "value": "0xd1cf79ab",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    37
+   ]
+  },
+  {
+   "value": "0xdd695a58",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    50
+   ]
+  },
+  {
+   "value": "0xde1c43f7",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    49
+   ]
+  },
+  {
+   "value": "0xe7b87620",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    35
+   ]
+  },
+  {
+   "value": "0xeb577aa8",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    50
+   ]
+  },
+  {
+   "value": "0x3d0900",
+   "muse": [
+    "board/interval_host.c",
+    "board/interval_main.c"
+   ],
+   "cft": [
+    "docs/studies/swp-a/sw_rates.sh",
+    "hw/test_card_stress.py",
+    "hw/test_card_stress_progress.py",
+    "hw/test_card_stress_report.py"
+   ],
+   "muse_ex": [
+    "board/interval_host.c",
+    101
+   ],
+   "cft_ex": [
+    "docs/studies/swp-a/sw_rates.sh",
+    73
+   ]
+  },
+  {
+   "value": "0xef9519b3",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    90
+   ]
+  },
+  {
+   "value": "0x3f847ae147ae147b",
+   "muse": [
+    "board/ias15_ic.h",
+    "board/ias15_selftest.c"
+   ],
+   "cft": [
+    "python/tests/test_lang.py"
+   ],
+   "muse_ex": [
+    "board/ias15_ic.h",
+    16
+   ],
+   "cft_ex": [
+    "python/tests/test_lang.py",
+    188
+   ]
+  },
+  {
+   "value": "0x400921fb54442d18",
+   "muse": [
+    "board/ias15_selftest.c"
+   ],
+   "cft": [
+    "host/tests/tf_subject_check.py"
+   ],
+   "muse_ex": [
+    "board/ias15_selftest.c",
+    203
+   ],
+   "cft_ex": [
+    "host/tests/tf_subject_check.py",
+    44
+   ]
+  },
+  {
+   "value": "0x2168c234",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    93
+   ]
+  },
+  {
+   "value": "0x24d92f75",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    105
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    48
+   ]
+  },
+  {
+   "value": "0x5851f42d4c957f2d",
+   "muse": [
+    "board/ias15_selftest.c",
+    "board/kissfft_main.c",
+    "demo/kissfft_host_main.c"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs",
+    "bindings/wasm/remote.html",
+    "host/tests/api_test.c",
+    "host/tests/remote_check.py"
+   ],
+   "muse_ex": [
+    "board/ias15_selftest.c",
+    297
+   ],
+   "cft_ex": [
+    "bindings/node/remote_test.mjs",
+    463
+   ]
+  },
+  {
+   "value": "0x3f2f6af",
+   "muse": [
+    "src/msf_explog_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    "host/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_explog_tables.h",
+    29
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    36
+   ]
+  },
+  {
+   "value": "0x29024e08",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    92
+   ]
+  },
+  {
+   "value": "0x7a1200",
+   "muse": [
+    "board/msf_led.h"
+   ],
+   "cft": [
+    "docs/studies/swp-a/perm_check.c",
+    "docs/studies/swp-a/sw_rates.sh",
+    "hw/card_stress_standin.py",
+    "hw/test_card_stress.py"
+   ],
+   "muse_ex": [
+    "board/msf_led.h",
+    91
+   ],
+   "cft_ex": [
+    "docs/studies/swp-a/perm_check.c",
+    382
+   ]
+  },
+  {
+   "value": "0x3b139b22",
+   "muse": [
+    "src/msf_trig_tables.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h"
+   ],
+   "muse_ex": [
+    "src/msf_trig_tables.h",
+    27
+   ],
+   "cft_ex": [
+    "bindings/arduino/cft-arduino/src/cft/src/mp_consts.h",
+    91
+   ]
+  }
+ ],
+ "identifiers_shared_unexplained": [
+  {
+   "id": "ASAN_OPTIONS",
+   "muse": [
+    "tools/run.sh"
+   ],
+   "cft": [
+    "host/fuzz/leaks.sh",
+    "host/fuzz/repro.sh",
+    "host/fuzz/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "AUG_ADD",
+   "muse": [
+    "src/msf_aug.c"
+   ],
+   "cft": [
+    "tb/fpfma_common.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "ArrayBuffer",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/remote.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "CFLAGS",
+   "muse": [
+    "audit-bundle/lead-scripts/build1.sh",
+    "tools/run.sh"
+   ],
+   "cft": [
+    "verify/run.sh"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "CLASS_NAMES",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/index.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "CompletedProcess",
+   "muse": [
+    "site/build.py"
+   ],
+   "cft": [
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "Constant",
+   "muse": [
+    "audit-bundle/lead-scripts/extract_copy.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/subset_oracle.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "Counter",
+   "muse": [
+    "audit-bundle/lead-scripts/check_gen.py",
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v3.sh"
+   ],
+   "cft": [
+    "docs/studies/m2/worst_range.py",
+    "docs/studies/sched-a/volumes.py",
+    "docs/studies/swp-a/stress_records.py"
+   ],
+   "ncft_files": 25
+  },
+  {
+   "id": "DIVZERO",
+   "muse": [
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "python/external_ibm.py",
+    "python/external_ucblib.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "DataView",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/program_test.mjs",
+    "bindings/node/remote_test.mjs"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "Decimal",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/test_card_stress_progress.py",
+    "programs/workloads/cft-hard-workloads/tools/diagnostics.py",
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "EXPECT",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Hello/Hello.ino"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "FORMATS",
+   "muse": [
+    "tools/gen_tables.py"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/make_seq_corpus.py",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 167
+  },
+  {
+   "id": "FileNotFoundError",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "hw/sched/sched_config.py",
+    "hw/sched/sched_state.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "Fraction",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/hx/hx_fma_cex.py"
+   ],
+   "ncft_files": 116
+  },
+  {
+   "id": "GetCurrentProcess",
+   "muse": [
+    "tests/aug_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/orbits.c",
+    "python/tests/mathlib_runs.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "HEADER",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "host/tests/loader_order_check.py",
+    "host/tools/gen_2opi.py",
+    "host/tools/gen_mp_consts.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "INEXACT",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "python/external_ibm.py",
+    "python/external_ucblib.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "INFINITY",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "host/fuzz/fuzz_ckpt.py",
+    "host/tools/clause5_soak.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "INT_MAX",
+   "muse": [
+    "tests/sanitize_canary_ub.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft_config.h"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "INVALID",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "docs/studies/m1/m1exp.py",
+    "docs/studies/m1/m1exp32.py",
+    "docs/studies/m1/m1log.py"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "Iinclude",
+   "muse": [
+    "demo/run_demo.sh",
+    "examples/host/build.sh"
+   ],
+   "cft": [
+    "docs/studies/swp-a/eval_order.sh",
+    "docs/studies/swp-a/host_only_rate.sh",
+    "host/fuzz/run_ckpt.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "Infinity",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/test.mjs",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "K_ZERO",
+   "muse": [
+    "tests/aug_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/augmented.c",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c"
+   ],
+   "ncft_files": 14
+  },
+  {
+   "id": "Loading",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "MPFR_RNDD",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/divsqrt_soak.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "MPFR_RNDN",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "demo/twiddle_gate.c",
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "MPFR_RNDU",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/divsqrt_soak.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "MPFR_RNDZ",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/divsqrt_soak.c",
+    "host/tools/mpfr_c5.h"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "NEAREST",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "python/tests/mathlib_trig_family.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "Nothing",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "OVERFLOW",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "python/external_ibm.py",
+    "python/external_ucblib.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "Object",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/lib.mjs",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 16
+  },
+  {
+   "id": "PRIu64",
+   "muse": [
+    "board/interval_host.c",
+    "board/interval_main.c"
+   ],
+   "cft": [
+    "host/tools/cft_selftest.c",
+    "host/tools/collatz.c",
+    "host/tools/enclose.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "PRIx64",
+   "muse": [
+    "board/interval_host.c"
+   ],
+   "cft": [
+    "host/tools/mersenne.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "Promise",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/remote_test.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "RECORD",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/verify_demos.mjs",
+    "host/tests/audit_check.py",
+    "vectors/gen_vectors.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "Request",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "python/fetch_external.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "Result",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "python/cft_golden/seq.py",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "SAMPLE",
+   "muse": [
+    "audit-bundle/lead-scripts/board-w1.sh",
+    "audit-bundle/lead-scripts/board-w2.sh",
+    "site/app.js"
+   ],
+   "cft": [
+    "python/tests/test_lang_time.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "SEGMENTS",
+   "muse": [
+    "video/assemble.py"
+   ],
+   "cft": [
+    "programs/acceptance.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "STDOUT",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "host/tests/photograph_check.py",
+    "host/tests/remote_check.py",
+    "host/tests/segrun_check.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "Serial",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py",
+    "board/ias15_host.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Bench/Bench.ino",
+    "bindings/arduino/cft-arduino/examples/Hello/Hello.ino",
+    "bindings/arduino/cft-arduino/examples/RemoteReplay/RemoteReplay.ino"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "String",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/node/remote_test.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "SystemExit",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_mutants.py",
+    "board/host_replay.py",
+    "board/interval_board_host.py"
+   ],
+   "cft": [
+    "bindings/node/make_seq_corpus.py",
+    "docs/studies/hx/hx_cost.py",
+    "docs/studies/hx/hx_fma_cex.py"
+   ],
+   "ncft_files": 49
+  },
+  {
+   "id": "TMPDIR",
+   "muse": [
+    "audit-bundle/lead-scripts/append10.sh",
+    "audit-bundle/lead-scripts/append11.sh",
+    "audit-bundle/lead-scripts/append12.sh"
+   ],
+   "cft": [
+    "docs/studies/swp-a/perm_check.sh"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "UBSAN_OPTIONS",
+   "muse": [
+    "tools/run.sh"
+   ],
+   "cft": [
+    "host/fuzz/leaks.sh",
+    "host/fuzz/repro.sh",
+    "host/fuzz/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "UNDERFLOW",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "python/external_ibm.py",
+    "python/external_ucblib.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "WORKLOADS",
+   "muse": [
+    "video/segments/render_why.py"
+   ],
+   "cft": [
+    "programs/acceptance.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "WebAssembly",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5site.sh",
+    "site/app.js",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/lib.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "Wextra",
+   "muse": [
+    "audit-bundle/lead-scripts/board-w1.sh",
+    "audit-bundle/lead-scripts/board-w2.sh",
+    "audit-bundle/lead-scripts/prep_sixboard.sh"
+   ],
+   "cft": [
+    "bindings/wasm/build.sh",
+    "bindings/wasm/build_demos.sh",
+    "docs/studies/hx/box_hx_probe.sh"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "_HEXDIGITS",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "python/cft_golden/chars.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "_IOFBF",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "host/tools/tf_subject.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "_WIN32",
+   "muse": [
+    "tests/aug_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "host/fuzz/cft_fuzz.c"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "__GNUC__",
+   "muse": [
+    "tests/sanitize_canary_heap_far.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/include/cft.h"
+   ],
+   "ncft_files": 13
+  },
+  {
+   "id": "__LINE__",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c",
+    "host/tests/cpp_api_test.cpp",
+    "host/tests/reduce_parts_test.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "__attribute__",
+   "muse": [
+    "board/ias15_main.c",
+    "site/glue.c",
+    "tests/sanitize_canary_heap_far.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "host/include/cft.h",
+    "host/tests/device_test.c"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "__future__",
+   "muse": [
+    "video/assemble.py",
+    "video/data.py",
+    "video/inventory.py"
+   ],
+   "cft": [
+    "bindings/arduino/sync.py",
+    "host/tests/soak_chunk_check.py",
+    "host/tools/serial_replay.py"
+   ],
+   "ncft_files": 36
+  },
+  {
+   "id": "__import__",
+   "muse": [
+    "video/inventory.py"
+   ],
+   "cft": [
+    "docs/studies/m1/m1harness.py",
+    "host/tools/segsat.py",
+    "python/tests/test_augmented.py"
+   ],
+   "ncft_files": 16
+  },
+  {
+   "id": "__slots__",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "docs/studies/m2/m2red.py",
+    "programs/check.py"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "_finite",
+   "muse": [
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "host/tests/diff_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "_local",
+   "muse": [
+    "video/scenes.py"
+   ],
+   "cft": [
+    "programs/check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "_rand_bits",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "python/cft_golden/vectors.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "_value",
+   "muse": [
+    "tests/gen_vectors_f16.py"
+   ],
+   "cft": [
+    "python/tests/mathlib_family.py",
+    "python/tests/test_minmax_mag.py",
+    "python/tests/test_rounding.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "_write",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "host/fuzz/cft_fuzz.c",
+    "host/tools/serial_replay.py",
+    "python/figure_extracts.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "abspath",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/compile_check.py",
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.py",
+    "bindings/arduino/sync.py"
+   ],
+   "ncft_files": 40
+  },
+  {
+   "id": "accent",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "accounting",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "python/figure_extracts.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "active",
+   "muse": [
+    "video/segments/gitvisual.py",
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/program.c",
+    "docs/studies/m1/vm1b/p5_budget.py",
+    "docs/studies/m1/vm1b/p5c_budget_end.py"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "addEventListener",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "agreed",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh"
+   ],
+   "cft": [
+    "host/tests/device_test.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "aligned",
+   "muse": [
+    "board/ias15_main.c"
+   ],
+   "cft": [
+    "tb/test_seq_core.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "anchor",
+   "muse": [
+    "demo/kissfft_host_main.c",
+    "video/segments/gitvisual.py",
+    "video/segments/idea.py"
+   ],
+   "cft": [
+    "bindings/wasm/make_demos.py",
+    "bindings/wasm/verify.mjs",
+    "bindings/wasm/verify_demos.mjs"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "anchors",
+   "muse": [
+    "tests/gen_vectors_trig.py"
+   ],
+   "cft": [
+    "host/tools/pi_worstcase.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "annotations",
+   "muse": [
+    "video/assemble.py",
+    "video/data.py",
+    "video/inventory.py"
+   ],
+   "cft": [
+    "bindings/arduino/sync.py",
+    "host/tests/soak_chunk_check.py",
+    "host/tools/serial_replay.py"
+   ],
+   "ncft_files": 36
+  },
+  {
+   "id": "appendChild",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "approx",
+   "muse": [
+    "src/msf_math.c",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "python/tests/test_mathlib.py",
+    "python/tests/test_mathlib_trig.py",
+    "python/tests/test_seq_rev8.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "archive",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "hw/probe_rt.sh",
+    "verify/test-inner-skips.sh"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "arrayBuffer",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/remote.mjs"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "asIntN",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "asarray",
+   "muse": [
+    "video/segments/gitvisual.py",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/numpy_models.py",
+    "programs/workloads/cft-hard-workloads/tools/validate_models.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "astimezone",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "python/project_packager.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "astype",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/gitvisual.py",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32.py",
+    "python/tests/test_mathlib_reduction_tw.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "attribute",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5attr.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "docs/studies/swp-a/merge_law.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "attributes",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "augmented",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/_lib.py",
+    "bindings/python/cftmpfr/batch.py",
+    "bindings/python/cftmpfr/core.py"
+   ],
+   "ncft_files": 16
+  },
+  {
+   "id": "augmentedAddition",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "banned",
+   "muse": [
+    "audit-bundle/lead-scripts/check_gen.py"
+   ],
+   "cft": [
+    "bindings/wasm/make_demos.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "banner",
+   "muse": [
+    "board/host_replay.py",
+    "board/interval_board_host.py"
+   ],
+   "cft": [
+    "bindings/arduino/verify.sh",
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "beginPath",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "binary32",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "binary64",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "bisect",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "python/cftc/regalloc.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "bisect_right",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "python/cftc/regalloc.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "bit_length",
+   "muse": [
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/ext-a/wide_golden.py"
+   ],
+   "ncft_files": 77
+  },
+  {
+   "id": "bits_list",
+   "muse": [
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "host/tests/augmented_check.py",
+    "host/tests/character_check.py",
+    "host/tests/clause5_check.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "bits_of",
+   "muse": [
+    "board/ias15_hash.c",
+    "tools/gen_explog_tables.py"
+   ],
+   "cft": [
+    "docs/studies/m1/m1core.py",
+    "docs/studies/m2/m2core.py",
+    "docs/studies/swp-a/hardcase_div.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "blocks",
+   "muse": [
+    "video/segments/why.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "host/tests/audit_check.py",
+    "host/tests/segrun_check_v2.py"
+   ],
+   "ncft_files": 24
+  },
+  {
+   "id": "boards",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/compile_check.py",
+    "bindings/arduino/verify.sh"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "bodies",
+   "muse": [
+    "audit-bundle/lead-scripts/append7.sh",
+    "site/app.js"
+   ],
+   "cft": [
+    "host/tools/gathertime.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "bounds",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "video/assemble.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "docs/studies/m2/tw32_run.py",
+    "programs/acceptance.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "bracket",
+   "muse": [
+    "tools/gen_explog_tables.py",
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "python/cft_golden/lang/render.py",
+    "python/tests/test_lang.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "branch",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "video/segments/gitvisual.py"
+   ],
+   "cft": [
+    "host/tests/segrun_check_v2.py",
+    "hw/sched/sched_publish.py",
+    "hw/sync-worktree.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "browser",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "builtin",
+   "muse": [
+    "video/render.py"
+   ],
+   "cft": [
+    "python/tests/test_lang.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "button",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "candidate",
+   "muse": [
+    "demo/compare_ias15.py"
+   ],
+   "cft": [
+    "python/cftc/manifest.py",
+    "python/cftc/regalloc.py",
+    "python/tests/test_cftc.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "candidates",
+   "muse": [
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "docs/studies/m4/plants.py",
+    "python/cftc/regalloc.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "canvas",
+   "muse": [
+    "site/index.html",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "capture",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py"
+   ],
+   "cft": [
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "carries",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "caught",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/node/test.mjs",
+    "docs/studies/sched-a/coverage_state.py",
+    "docs/studies/sched-a/latency.py"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "center",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "charset",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "check_pair",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "host/tests/formatof_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "chosen",
+   "muse": [
+    "video/segments/prep_augint_sample.py"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs",
+    "docs/studies/m4/phaseorder.py",
+    "host/tests/augmented_check.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "claims",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "docs/studies/hx/hx_spaces.py",
+    "docs/studies/m2/m2red.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "className",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "classify",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/divsqrt.c",
+    "bindings/node/core.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 39
+  },
+  {
+   "id": "clause",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "verify/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "clearRect",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "cls_of",
+   "muse": [
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/augmented.c",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "cmd_run",
+   "muse": [
+    "board/ias15_main.c"
+   ],
+   "cft": [
+    "python/external_tf.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "coeffs",
+   "muse": [
+    "video/segments/gitvisual.py"
+   ],
+   "cft": [
+    "bindings/python/demo_mpfr_dropin.py",
+    "programs/check.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "collect",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "host/src/backend_xrt.cpp",
+    "python/cft_golden/lang/check.py",
+    "tb/test_mulcycle.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "collections",
+   "muse": [
+    "audit-bundle/lead-scripts/check_gen.py",
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v3.sh"
+   ],
+   "cft": [
+    "docs/studies/m2/worst_range.py",
+    "docs/studies/sched-a/volumes.py",
+    "docs/studies/swp-a/stress_records.py"
+   ],
+   "ncft_files": 29
+  },
+  {
+   "id": "committed",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "programs/lang_check.py",
+    "programs/tangent_check.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "compat",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "demo/run_demo.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "python/figure_extracts.py",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "components",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "python/cft_golden/lang/graph.py",
+    "python/cft_golden/lang/nesting.py",
+    "python/cft_golden/lang/render.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "comports",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py"
+   ],
+   "cft": [
+    "host/tools/cft-serial-bridge.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "compress",
+   "muse": [
+    "tests/sha256.c"
+   ],
+   "cft": [
+    "python/packager_png.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "concat",
+   "muse": [
+    "audit-bundle/lead-scripts/concat_assembly_v1.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs",
+    "bindings/wasm/remote.mjs",
+    "site/nightly.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "concatenate",
+   "muse": [
+    "video/scenes.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/numpy_models.py",
+    "programs/workloads/cft-hard-workloads/tools/validate_models.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "config",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh"
+   ],
+   "cft": [
+    "hw/rebuild-2022.sh",
+    "hw/verify-image.sh",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "console",
+   "muse": [
+    "site/replay.mjs"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/conformance.mjs",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "context",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "contextmanager",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "hw/test_card_stress.py",
+    "hw/test_card_stress_report.py",
+    "hw/test_sweep_record.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "contract",
+   "muse": [
+    "audit-bundle/lead-scripts/board-w1.sh",
+    "audit-bundle/lead-scripts/board-w2.sh",
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "copyfile",
+   "muse": [
+    "audit-bundle/lead-scripts/build_audit_bundle.py",
+    "audit-bundle/lead-scripts/integrate_segments.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "host/fuzz/fuzz_ckpt.py",
+    "host/tests/orbits_check.py",
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "copysign",
+   "muse": [
+    "audit-bundle/lead-scripts/nmcheck.sh",
+    "board/hello_main.c",
+    "board/ias15_selftest.c"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/lib.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "correctly",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "createElement",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "site/nightly.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "crosses",
+   "muse": [
+    "tests/gen_vectors_f16.py"
+   ],
+   "cft": [
+    "python/bench_report.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "deadline",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "board/host_replay.py",
+    "board/ias15_host.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.py",
+    "bindings/node/remote_test.mjs",
+    "docs/studies/m1/pools_run.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "decide",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py",
+    "python/c5_class_enum.py",
+    "python/tests/test_c5_class_enum.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "decided",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mpfloat.c",
+    "bindings/arduino/cft-arduino/src/cft/src/mpfloat.h",
+    "bindings/arduino/cft-arduino/src/cft/src/transcend.c"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "decides",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh"
+   ],
+   "cft": [
+    "programs/tangent_check.py",
+    "python/tests/test_lang_tangent.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "decode_value",
+   "muse": [
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "python/external_tf.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "defaultdict",
+   "muse": [
+    "site/build_data.py",
+    "tools/extract_session_metrics.py",
+    "video/data.py"
+   ],
+   "cft": [
+    "docs/studies/sched-a/volumes.py",
+    "docs/studies/swp-a/stress_records.py",
+    "host/tests/seq_check.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "denominator",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_fma_cex.py",
+    "docs/studies/m1/cancel.py",
+    "docs/studies/m1/g44.py"
+   ],
+   "ncft_files": 67
+  },
+  {
+   "id": "derive",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "host/tests/orbits_check.py",
+    "host/tests/segrun_check.py"
+   ],
+   "ncft_files": 13
+  },
+  {
+   "id": "design",
+   "muse": [
+    "audit-bundle/lead-scripts/append24.sh",
+    "audit-bundle/lead-scripts/append25.sh"
+   ],
+   "cft": [
+    "hw/test-sweep-judge.sh",
+    "python/tests/test_mathlib_trig.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "device",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py"
+   ],
+   "cft": [
+    "bindings/wasm/build.sh",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js"
+   ],
+   "ncft_files": 31
+  },
+  {
+   "id": "diagnostic",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/src/backend_xrt.cpp",
+    "host/tools/clause5_soak.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "directed",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "host/tests/clause5_check.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "direction",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/prep_augint_sample.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "hw/openxc7/gen_harness.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "dirname",
+   "muse": [
+    "audit-bundle/lead-scripts/build_led_workloads.sh",
+    "examples/host/build.sh",
+    "tests/gen_interval_catalogue.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/compile_check.py",
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.py",
+    "bindings/arduino/sync.py"
+   ],
+   "ncft_files": 67
+  },
+  {
+   "id": "disabled",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "discard",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/softfloat.c",
+    "docs/studies/m1/m1core.py",
+    "docs/studies/m2/m2core.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "display",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "divmod",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/hx/hx_ladder.py",
+    "docs/studies/m1/m1core.py"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "dropped",
+   "muse": [
+    "src/msf_math.c",
+    "src/msf_string.c",
+    "tests/gen_vectors.py"
+   ],
+   "cft": [
+    "bindings/wasm/remote.html",
+    "docs/studies/swp-a/symmetry_check.py",
+    "host/tests/audit_check.py"
+   ],
+   "ncft_files": 13
+  },
+  {
+   "id": "dst_root",
+   "muse": [
+    "audit-bundle/lead-scripts/build_audit_bundle.py"
+   ],
+   "cft": [
+    "host/tests/soak_chunk_check.py",
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "dump_path",
+   "muse": [
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mersenne.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "e_bits",
+   "muse": [
+    "src/msf_roundpack.c"
+   ],
+   "cft": [
+    "python/cft_golden/augmented.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "ellipse",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/gitvisual.py",
+    "video/segments/idea.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "events",
+   "muse": [
+    "audit-bundle/lead-scripts/inspect2.py",
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "hw/card_stress_report.py",
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "everything",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/sched/sched_run.py",
+    "hw/test_card_stress.py",
+    "programs/lang_check.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "exact_digits",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "host/tests/character_check.py",
+    "python/cft_golden/chars.py",
+    "python/cft_golden/vectors.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "exhaustive",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "docs/studies/swp-a/stress_records.py",
+    "docs/studies/swp-a/sw_rates_compare.py",
+    "host/tests/mp_err_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "exp2m1",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/test.mjs",
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "exp_field",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "exp_mask",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/augmented.c",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c"
+   ],
+   "ncft_files": 58
+  },
+  {
+   "id": "expand",
+   "muse": [
+    "tools/gen_tables.py"
+   ],
+   "cft": [
+    "docs/studies/m2/share.py",
+    "docs/studies/m2/tw32_run.py",
+    "docs/studies/m4/share.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "exports",
+   "muse": [
+    "site/app.js",
+    "site/replay.mjs"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/lib.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "extract",
+   "muse": [
+    "audit-bundle/lead-scripts/build_multiboard_ias15.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "audit-bundle/lead-scripts/run_ias15_board.sh"
+   ],
+   "cft": [
+    "python/packager_check.py",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "factorial",
+   "muse": [
+    "tools/gen_explog_tables.py",
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "docs/studies/m1/bound_terms.py",
+    "docs/studies/m1/m1exp.py",
+    "docs/studies/m1/m1exp32.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "family",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html"
+   ],
+   "ncft_files": 22
+  },
+  {
+   "id": "fclose",
+   "muse": [
+    "board/interval_host.c",
+    "demo/ias15_host_main.c",
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "host/fuzz/cft_fuzz.c",
+    "host/fuzz/fuzz_program.c"
+   ],
+   "ncft_files": 17
+  },
+  {
+   "id": "fetched",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh"
+   ],
+   "cft": [
+    "bindings/wasm/remote.html",
+    "hw/test_sched.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "figure",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "python/project_figures.py",
+    "python/project_packager.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "figures",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "python/project_packager.py",
+    "python/tests/test_lang_time.py",
+    "site/nightly.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "fillStyle",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "fillText",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "filter",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs"
+   ],
+   "ncft_files": 16
+  },
+  {
+   "id": "filters",
+   "muse": [
+    "video/assemble.py"
+   ],
+   "cft": [
+    "python/packager_png.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "finite_value",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "python/tests/test_clause5.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "firsts",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32_run.py",
+    "hw/card_stress_progress.py",
+    "programs/lang_check.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "floor_log2",
+   "muse": [
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py",
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "fmtSel",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "footer",
+   "muse": [
+    "site/index.html",
+    "video/scenes.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "forEach",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 14
+  },
+  {
+   "id": "forward",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "frac_field",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "python/tests/test_formatof.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "frac_part",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "python/tests/test_rounding.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "fractions",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html",
+    "tests/gen_interval_catalogue.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/hx/hx_fma_cex.py"
+   ],
+   "ncft_files": 111
+  },
+  {
+   "id": "frames",
+   "muse": [
+    "audit-bundle/lead-scripts/concat_assembly_v1.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v3.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "fromtimestamp",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "hw/sched/sched_calendar.py",
+    "python/project_packager.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "frozen",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "docs/studies/m2/m2budget.py",
+    "docs/studies/m4/m4budget.py",
+    "programs/acceptance.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "functools",
+   "muse": [
+    "tests/gen_vectors_tier2.py",
+    "video/style.py"
+   ],
+   "cft": [
+    "docs/studies/m2/m2const.py",
+    "hw/sched/sched_steps.py",
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "g_fail",
+   "muse": [
+    "board/hello_main.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.cc"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "gen_vectors",
+   "muse": [
+    "audit-bundle/lead-scripts/prep_sixboard.sh",
+    "audit-bundle/lead-scripts/tininess_commit.sh",
+    "board/run_board.sh"
+   ],
+   "cft": [
+    "bindings/wasm/build.sh"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "geometry",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/ext-a/model.py",
+    "tb/test_seq_core.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "getBigUint64",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/wasm/remote.mjs"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "getContext",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "getElementById",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "getFloat64",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "getUint32",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/wasm/remote.mjs"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "get_payload",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "getenv",
+   "muse": [
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/divsqrt.c",
+    "bindings/arduino/cft-arduino/src/cft/src/transcend.c"
+   ],
+   "ncft_files": 23
+  },
+  {
+   "id": "getrandbits",
+   "muse": [
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "bindings/python/demo_mpfr_dropin.py",
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/ext-a/wide_golden.py"
+   ],
+   "ncft_files": 77
+  },
+  {
+   "id": "guarded",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh"
+   ],
+   "cft": [
+    "hw/test_card_stress_progress.py",
+    "hw/test_sched.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "harness",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "verify/run.sh"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "hasattr",
+   "muse": [
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v3.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v4.sh"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/batch.py",
+    "docs/studies/ext-a/model.py",
+    "docs/studies/ext-a/transcend_cap.py"
+   ],
+   "ncft_files": 27
+  },
+  {
+   "id": "hashes",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "board/ias15_host.py",
+    "board/ias15_run.sh"
+   ],
+   "cft": [
+    "host/fuzz/fuzz_ckpt.py",
+    "python/tests/test_acceptance_marks.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "height",
+   "muse": [
+    "site/app.js",
+    "site/index.html",
+    "video/scenes.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "hi_out",
+   "muse": [
+    "board/interval_workload.c",
+    "board/interval_workload.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/softfloat.c",
+    "bindings/arduino/cft-arduino/src/cft/src/softfloat.h",
+    "host/src/softfloat.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "homogeneous",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "hw/gen_layouts.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "horner",
+   "muse": [
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "python/tests/test_cert.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "identity",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "host/tests/orbits_check.py",
+    "host/tests/segrun_check.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "inf_bits",
+   "muse": [
+    "src/msf64.c",
+    "tests/alg_decider.c",
+    "tests/gen_vectors_f16.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/m1/m1exp.py",
+    "docs/studies/m1/m1exp32.py"
+   ],
+   "ncft_files": 61
+  },
+  {
+   "id": "innerHTML",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "instantiate",
+   "muse": [
+    "site/app.js",
+    "site/replay.mjs",
+    "tools/gen_tables.py"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/lib.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "instrument",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "host/tests/audit_plants.py",
+    "tb/busfx.py",
+    "tb/test_krnl_faults.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "integrator",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "programs/lang_check.py"
+   ],
+   "ncft_files": 19
+  },
+  {
+   "id": "interval",
+   "muse": [
+    "audit-bundle/lead-scripts/check_plants_w4interval.sh",
+    "audit-bundle/lead-scripts/make_plants_w4interval.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "tb/test_seq_core.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "intervals",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "hw/card_stress_lib.py",
+    "hw/card_stress_report.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "inttypes",
+   "muse": [
+    "board/interval_host.c",
+    "board/interval_main.c"
+   ],
+   "cft": [
+    "host/tools/cft_selftest.c",
+    "host/tools/collatz.c",
+    "host/tools/enclose.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "is754version1985",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/index.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "is754version2008",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/index.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "is754version2019",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/index.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "is_digit",
+   "muse": [
+    "src/msf_string.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "host/src/chars.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "is_half",
+   "muse": [
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/audit.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "is_infinite",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "python/tests/test_transcend.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "is_int",
+   "muse": [
+    "src/msf_math.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/transcend.c",
+    "host/src/transcend.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "is_nan",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c",
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/swp-a/symmetry_check.py"
+   ],
+   "ncft_files": 30
+  },
+  {
+   "id": "is_normal",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "is_signed",
+   "muse": [
+    "src/msf16.c",
+    "src/msf32.c",
+    "src/msf64.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c",
+    "bindings/python/cftmpfr/core.py",
+    "host/src/clause5.c"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "is_zero",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "bindings/python/test_cftmpfr.py",
+    "host/tests/device_test.c"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "isalpha",
+   "muse": [
+    "audit-bundle/lead-scripts/extract_copy.py"
+   ],
+   "cft": [
+    "host/tools/cft-asm.c",
+    "python/tests/lang_mathform.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "isfile",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_cost.py",
+    "hw/card_stress.py",
+    "hw/card_stress_lib.py"
+   ],
+   "ncft_files": 19
+  },
+  {
+   "id": "isoformat",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "hw/card_stress_progress.py",
+    "hw/test_card_stress_progress.py",
+    "python/figure_extracts.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "keepends",
+   "muse": [
+    "demo/make_ias15_extract.py"
+   ],
+   "cft": [
+    "programs/check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "kernel",
+   "muse": [
+    "audit-bundle/lead-scripts/append26.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "labelled",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "python/cft_golden/lang/render.py",
+    "python/tests/test_lang_time.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "labels",
+   "muse": [
+    "video/segments/gitvisual.py"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py",
+    "hw/card_stress_progress.py",
+    "hw/card_stress_report.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "landed",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py",
+    "python/cftc/schedule.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "layers",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "python/check_docs_index.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "lgamma",
+   "muse": [
+    "compat/msf_aeabi.c"
+   ],
+   "cft": [
+    "docs/studies/m1/m1exp.py",
+    "docs/studies/m1/m1exp32.py",
+    "docs/studies/swp-a/sweep_cost.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "limits",
+   "muse": [
+    "tests/sanitize_canary_ub.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft_config.h",
+    "host/include/cft.hpp",
+    "python/cft_golden/lang/graph.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "linalg",
+   "muse": [
+    "video/segments/gitvisual.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/validate_models.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "lineTo",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "lineWidth",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "lineno",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/node/conformance.mjs",
+    "bindings/wasm/verify.mjs"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "list_ports",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py"
+   ],
+   "cft": [
+    "host/tools/cft-serial-bridge.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "lo_out",
+   "muse": [
+    "board/interval_workload.c",
+    "board/interval_workload.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/softfloat.c",
+    "bindings/arduino/cft-arduino/src/cft/src/softfloat.h",
+    "host/src/softfloat.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "loading",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "log2p1",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/test.mjs",
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "log_path",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py"
+   ],
+   "cft": [
+    "hw/sched/sched_build.py",
+    "hw/sched/sched_proc.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "lru_cache",
+   "muse": [
+    "tests/gen_vectors_tier2.py",
+    "video/style.py"
+   ],
+   "cft": [
+    "docs/studies/m2/m2const.py",
+    "hw/sched/sched_steps.py",
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "makedirs",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_explog.py",
+    "tests/gen_vectors_trig.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/compile_check.py",
+    "bindings/arduino/sync.py",
+    "host/tests/soak_chunk_check.py"
+   ],
+   "ncft_files": 19
+  },
+  {
+   "id": "malformed",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tools/audit.c",
+    "hw/card_stress_report.py",
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "malloc",
+   "muse": [
+    "tests/sanitize_canary_clean.c",
+    "tests/sanitize_canary_heap.c",
+    "tests/sanitize_canary_heap_far.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c"
+   ],
+   "ncft_files": 37
+  },
+  {
+   "id": "marked",
+   "muse": [
+    "audit-bundle/lead-scripts/probe_extract.py"
+   ],
+   "cft": [
+    "docs/studies/m1/census.py",
+    "docs/studies/m1/g44.py",
+    "docs/studies/m1/m1measure.py"
+   ],
+   "ncft_files": 41
+  },
+  {
+   "id": "marker",
+   "muse": [
+    "board/read_until.py",
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "python/packager_check.py",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "markup",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "masses",
+   "muse": [
+    "video/scenes.py"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "matched",
+   "muse": [
+    "demo/compare_ias15.py",
+    "video/data.py"
+   ],
+   "cft": [
+    "host/tools/cft-asm.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "matches",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "site/app.js"
+   ],
+   "cft": [
+    "docs/studies/swp-a/seed_audit.py",
+    "python/tests/test_cftc.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "max_workers",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "host/tests/photograph_check.py",
+    "vectors/gen_vectors.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "maxsize",
+   "muse": [
+    "tests/gen_vectors_tier2.py",
+    "video/style.py"
+   ],
+   "cft": [
+    "docs/studies/m2/m2const.py",
+    "hw/sched/sched_steps.py",
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "memchr",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/include/cft.hpp",
+    "host/tests/device_test.c",
+    "host/tools/audit.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "memcmp",
+   "muse": [
+    "demo/kissfft_host_main.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Hello/Hello.ino",
+    "bindings/arduino/cft-arduino/examples/RemoteSerialFma/RemoteSerialFma.ino",
+    "bindings/arduino/cft-arduino/examples/RemoteWiFiFma/RemoteWiFiFma.ino"
+   ],
+   "ncft_files": 32
+  },
+  {
+   "id": "memcpy",
+   "muse": [
+    "board/hello_main.c",
+    "board/ias15_hash.c",
+    "board/ias15_selftest.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/VectorReplay/VectorReplay.ino",
+    "bindings/arduino/cft-arduino/src/cft/include/cft_seq_flags.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c"
+   ],
+   "ncft_files": 56
+  },
+  {
+   "id": "memmove",
+   "muse": [
+    "site/glue.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "host/fuzz/cft_fuzz.c",
+    "host/src/chars.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "memset",
+   "muse": [
+    "site/glue.c",
+    "tests/runner.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Bench/Bench.ino",
+    "bindings/arduino/cft-arduino/examples/Hello/Hello.ino",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c"
+   ],
+   "ncft_files": 58
+  },
+  {
+   "id": "merged",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/remote.mjs",
+    "hw/test_card_stress.py",
+    "programs/check.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "metrics",
+   "muse": [
+    "audit-bundle/lead-scripts/make_plants_w5metrics.sh",
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh"
+   ],
+   "cft": [
+    "docs/studies/swp-a/stress_records.py",
+    "hw/card_stress.py",
+    "hw/card_stress_progress.py"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "micros",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/RemoteWiFiFma/RemoteWiFiFma.ino"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mingw64",
+   "muse": [
+    "demo/run_demo.sh",
+    "examples/host/build.sh",
+    "tools/run.sh"
+   ],
+   "cft": [
+    "verify/run.sh",
+    "verify/test-inner-skips.sh"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "minmax",
+   "muse": [
+    "audit-bundle/lead-scripts/check_plants_w4minmax.sh",
+    "audit-bundle/lead-scripts/make_plants_w4minmax.sh"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "minnorm",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_explog.py",
+    "tests/gen_vectors_trig.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "minsub",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "host/tests/api_test.c",
+    "host/tools/clause5_soak.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mismatches",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh"
+   ],
+   "cft": [
+    "host/fuzz/program_differential.py",
+    "host/tools/clause5_soak.c",
+    "host/tools/divsqrt_soak.c"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "most_common",
+   "muse": [
+    "audit-bundle/lead-scripts/concat_assembly_v2.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v3.sh",
+    "audit-bundle/lead-scripts/concat_assembly_v4.sh"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "python/external_ibm.py",
+    "python/external_ucblib.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "moveTo",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_abs",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_add",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_add_ui",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_check_range",
+   "muse": [
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_clear",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "mpfr_clears",
+   "muse": [
+    "demo/twiddle_gate.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_cmp",
+   "muse": [
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_cmpabs",
+   "muse": [
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_cospi",
+   "muse": [
+    "demo/twiddle_gate.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_exp2",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_exp2m1",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_exp_t",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_get_emax",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_get_emax_max",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_get_emin",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_get_emin_min",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_get_exp",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_c5.h",
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_get_prec",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_get_version",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "demo/twiddle_gate.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "mpfr_hypot",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_inf_p",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_init2",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "mpfr_inits2",
+   "muse": [
+    "demo/twiddle_gate.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_log2",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_log2p1",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_mul_2si",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_c5.h",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_nan_p",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/explog_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_neg",
+   "muse": [
+    "demo/twiddle_gate.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_nextabove",
+   "muse": [
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_nextbelow",
+   "muse": [
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_out_str",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_prec_t",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "host/tests/mp_err_check.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_ptr",
+   "muse": [
+    "demo/twiddle_gate.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_rec_sqrt",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_rnd_t",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/divsqrt_soak.c",
+    "host/tools/mpfr_c5.h"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_set",
+   "muse": [
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_c5.h",
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_set_emax",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_set_emin",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_set_si",
+   "muse": [
+    "demo/twiddle_gate.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_set_ui",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_set_ui_2exp",
+   "muse": [
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "host/tests/mp_err_check.c",
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_signbit",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "mpfr_sinpi",
+   "muse": [
+    "demo/twiddle_gate.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_sqrt",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_strtofr",
+   "muse": [
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "mpfr_sub",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "mpfr_subnormalize",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpfr_t",
+   "muse": [
+    "audit-bundle/lead-scripts/mpfr_probe.sh",
+    "demo/twiddle_gate.c",
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tests/mp_err_check.c"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "mpfr_trunc",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/mpfr_c5.h",
+    "host/tools/mpfr_check.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "mpfr_zero_p",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_quadmath.c",
+    "host/tools/cft_bench_peers.c",
+    "host/tools/mpfr_c5.h"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "mpmath",
+   "muse": [
+    "tools/gen_explog_tables.py",
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "docs/studies/m1/cancel.py",
+    "docs/studies/m1/consts_report.py",
+    "docs/studies/m1/g44.py"
+   ],
+   "ncft_files": 71
+  },
+  {
+   "id": "msys64",
+   "muse": [
+    "demo/run_demo.sh",
+    "examples/host/build.sh",
+    "tools/run.sh"
+   ],
+   "cft": [
+    "verify/run.sh",
+    "verify/test-inner-skips.sh"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "nan_in",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "host/tools/mpfr_check.c",
+    "host/tools/mpfr_ieee.h"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "narrow",
+   "muse": [
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/node/test.mjs",
+    "docs/studies/hx/hx_iterates.py"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "native",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "demo/run_demo.sh",
+    "video/data.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/verify_demos.mjs"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "ndarray",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/batch.py",
+    "bindings/python/test_cftmpfr.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "needle",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_mutants.py"
+   ],
+   "cft": [
+    "bindings/wasm/make_page.py",
+    "host/tests/device_test.c",
+    "host/tests/orbits_check.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "neg_one",
+   "muse": [
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "host/tests/augmented_check.py",
+    "host/tests/cpp_api_test.cpp",
+    "python/cft_golden/softfloat.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "neg_zero",
+   "muse": [
+    "demo/twiddle_gate.c"
+   ],
+   "cft": [
+    "python/tests/test_ed25519.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "neighbours",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_explog.py",
+    "tests/gen_vectors_trig.py"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32.py",
+    "host/tests/seq_check.py",
+    "python/tests/mathlib_family.py"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "npairs",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "host/tools/gathertime.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "ns_per",
+   "muse": [
+    "board/bench_main.c"
+   ],
+   "cft": [
+    "host/tools/cft_resident.cpp"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "nsteps",
+   "muse": [
+    "board/ias15_main.c",
+    "demo/ias15_host_main.c"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js",
+    "host/tests/orbits_check.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "nterms",
+   "muse": [
+    "src/msf_math.c",
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "programs/check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "numerator",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_fma_cex.py",
+    "docs/studies/m1/cancel.py",
+    "docs/studies/m1/g44.py"
+   ],
+   "ncft_files": 69
+  },
+  {
+   "id": "one_bits",
+   "muse": [
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/m1/census.py",
+    "docs/studies/m1/m1exp.py"
+   ],
+   "ncft_files": 76
+  },
+  {
+   "id": "only_b",
+   "muse": [
+    "audit-bundle/lead-scripts/diff_video_trees.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/merge_law.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "op_name",
+   "muse": [
+    "site/build_data.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Bench/Bench.ino",
+    "host/include/cft.hpp",
+    "host/tests/cpp_api_test.cpp"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "operand_pool",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "python/tests/test_divsqrt.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "opname",
+   "muse": [
+    "board/harness_main.c",
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_ladder.py",
+    "docs/studies/hx/hx_spaces.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "oracle",
+   "muse": [
+    "audit-bundle/lead-scripts/append20.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_cost.py",
+    "host/tools/mpfr_check.c",
+    "hw/sweep_record.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "ordered",
+   "muse": [
+    "audit-bundle/lead-scripts/append_corrections.py",
+    "audit-bundle/lead-scripts/land_aug_plants.py",
+    "audit-bundle/lead-scripts/land_exp2_plants.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "hw/test_card_stress_report.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "origin",
+   "muse": [
+    "board/msf_led.h"
+   ],
+   "cft": [
+    "host/tools/cft-serve.c",
+    "host/tools/ws.c",
+    "host/tools/ws.h"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "outdir",
+   "muse": [
+    "audit-bundle/lead-scripts/probe_extract.py",
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "host/fuzz/fuzz_ckpt.py",
+    "host/tests/remote_check.py",
+    "vectors/gen_vectors.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "outward",
+   "muse": [
+    "board/interval_workload.c"
+   ],
+   "cft": [
+    "python/cft_golden/transcend.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "padStart",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "panels",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "python/project_figures.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "params",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "host/tests/audit_check.py",
+    "host/tests/segrun_check.py"
+   ],
+   "ncft_files": 32
+  },
+  {
+   "id": "parcel",
+   "muse": [
+    "audit-bundle/lead-scripts/append26.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "audit-bundle/lead-scripts/watch_ledger.sh"
+   ],
+   "cft": [
+    "site/nightly.html"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "parity",
+   "muse": [
+    "src/msf_math.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/clause5.c",
+    "host/src/clause5.c",
+    "verify/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "parseInt",
+   "muse": [
+    "site/app.js",
+    "site/replay.mjs"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/node/remote_test.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "partial",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "docs/studies/sched-a/coverage_state.py",
+    "hw/card_stress_lib.py",
+    "hw/card_stress_progress.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "patched",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "demo/make_kissfft_tree.py"
+   ],
+   "cft": [
+    "hw/test_card_stress_report.py",
+    "python/packager_check.py",
+    "python/tests/test_lang_refs.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "pflags",
+   "muse": [
+    "board/harness_main.c",
+    "tests/gen_vectors_f32.py"
+   ],
+   "cft": [
+    "host/tests/reduce_parts_test.c",
+    "host/tests/seq_check.py",
+    "python/cft_golden/lang/interp.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "phases",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "docs/studies/m1/m1core.py",
+    "docs/studies/m1/pools_all.py",
+    "docs/studies/m1/pools_run.py"
+   ],
+   "ncft_files": 19
+  },
+  {
+   "id": "picked",
+   "muse": [
+    "audit-bundle/lead-scripts/board_w1_sample.py",
+    "audit-bundle/lead-scripts/board_w2_sample.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/hardcase_div.py",
+    "host/src/backend_xrt.cpp",
+    "host/tests/seq_check.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "pinned",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "python/cftc/check.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "planned",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "tools/run.sh"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32_run.py",
+    "hw/card_stress_report.py",
+    "hw/test_card_stress.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "polygon",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/gitvisual.py",
+    "video/segments/idea.py"
+   ],
+   "cft": [
+    "python/figure_kit.py",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "popleft",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "tb/busfx.py",
+    "tb/fpfma_common.py",
+    "tb/test_normseg.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "porcelain",
+   "muse": [
+    "audit-bundle/lead-scripts/append22.sh",
+    "audit-bundle/lead-scripts/p0_commit.sh",
+    "audit-bundle/lead-scripts/tininess_commit.sh"
+   ],
+   "cft": [
+    "docs/studies/hx/box_hx_probe.sh",
+    "host/tests/build_id_check.sh",
+    "host/tools/gen_build_id.sh"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "profile",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "certificates/corpus.py"
+   ],
+   "ncft_files": 10
+  },
+  {
+   "id": "progress",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "proofs",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh"
+   ],
+   "cft": [
+    "python/check_docs_index.py",
+    "python/packager_status.py",
+    "verify/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "protocol",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "host/tools/serial_replay.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "proven",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/remote.html",
+    "python/project_figures.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "pushed",
+   "muse": [
+    "audit-bundle/lead-scripts/append14.sh",
+    "audit-bundle/lead-scripts/append17.sh",
+    "audit-bundle/lead-scripts/append22.sh"
+   ],
+   "cft": [
+    "hw/sched/sched_code.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "python",
+   "muse": [
+    "audit-bundle/lead-scripts/append27.sh",
+    "audit-bundle/lead-scripts/build_multiboard_ias15.sh",
+    "audit-bundle/lead-scripts/check_plants_w2.sh"
+   ],
+   "cft": [
+    "bindings/wasm/remote.html",
+    "docs/studies/m4/queue.sh",
+    "host/tests/remote_check.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "querySelector",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "quoted",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "python/tests/test_lang_time.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "radian",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh"
+   ],
+   "cft": [
+    "python/cft_golden/vectors.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "radius",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/intro_outro.py",
+    "video/segments/render_why.py"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "randint",
+   "muse": [
+    "tests/gen_vectors.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_f16.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/m1/g44.py",
+    "docs/studies/m1/m1harness.py"
+   ],
+   "ncft_files": 44
+  },
+  {
+   "id": "randrange",
+   "muse": [
+    "tests/gen_vectors_alg.py",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/hx/hx_spaces.py",
+    "docs/studies/swp-a/hardcase_div.py"
+   ],
+   "ncft_files": 52
+  },
+  {
+   "id": "ranges",
+   "muse": [
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "hw/test_divsqrt_hard.py",
+    "python/cft_golden/reduce.py",
+    "python/tests/test_mathlib.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "readFileSync",
+   "muse": [
+    "site/replay.mjs"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/conformance.mjs",
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "read_line",
+   "muse": [
+    "board/host_replay.py",
+    "board/interval_board_host.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "host/src/conformance.c",
+    "host/tools/cft-asm.c"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "read_records",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "docs/studies/sched-a/coverage_state.py",
+    "docs/studies/swp-a/stress_records.py",
+    "host/tests/enclose_check.py"
+   ],
+   "ncft_files": 18
+  },
+  {
+   "id": "readline",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py",
+    "board/ias15_host.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/tile_counts.py",
+    "host/tools/serial_replay.py",
+    "hw/sched/sched_run.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "recorded",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "site/app.js",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "bindings/wasm/verify_demos.mjs"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "records",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 17
+  },
+  {
+   "id": "ref_augmented",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_augmented.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_from_int",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_logb",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_remainder",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_scaleb",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_to_int",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "ref_total_order",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py"
+   ],
+   "cft": [
+    "python/tests/ref754.py",
+    "python/tests/test_clause5.py",
+    "python/tests/test_tiny_formats.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "region",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32_run.py",
+    "python/tests/mathlib_runs.py",
+    "python/tests/test_mathlib_trig.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "replay",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh",
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/RemoteReplay/RemoteReplay.ino",
+    "bindings/arduino/cft-arduino/src/remote/cft_remote_replay.h",
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.cc"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "replayed",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "reset_input_buffer",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py",
+    "board/interval_board_host.py"
+   ],
+   "cft": [
+    "host/tools/serial_replay.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "resize",
+   "muse": [
+    "video/scenes.py",
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "host/include/cft.hpp",
+    "host/src/backend_xrt.cpp"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "rng_next",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/tests/reduce_parts_test.c",
+    "host/tools/cft_bench.c",
+    "host/tools/cft_bench_peers.c"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "rng_state",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "host/examples/vector_fma.c",
+    "host/examples/vector_fma.cpp",
+    "host/fuzz/cft_fuzz.c"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "round_int",
+   "muse": [
+    "tests/gen_vectors.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py",
+    "host/tests/clause5_check.py",
+    "python/cft_golden/__init__.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "rsplit",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "host/tests/soak_chunk_check.py",
+    "host/tests/tf_subject_check.py",
+    "hw/card_stress_lib.py"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "run_case",
+   "muse": [
+    "tests/aug_exhaustive.c"
+   ],
+   "cft": [
+    "host/tools/serial_replay.py",
+    "host/tools/tf_subject.c",
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "runtime",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/build.sh",
+    "bindings/wasm/build_demos.sh",
+    "bindings/wasm/make_demos.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "sampled",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "certificates/corpus.py",
+    "host/tests/audit_check.py",
+    "host/tests/segrun_check_v2.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "samples",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "scaled",
+   "muse": [
+    "src/msf16.c",
+    "src/msf32.c",
+    "tests/gen_vectors.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/conformance.mjs",
+    "bindings/wasm/verify.mjs"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "scratch",
+   "muse": [
+    "audit-bundle/lead-scripts/append10.sh",
+    "audit-bundle/lead-scripts/append11.sh",
+    "audit-bundle/lead-scripts/append12.sh"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/divsqrt.c",
+    "bindings/arduino/cft-arduino/src/cft/src/program.c",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "scratch_out",
+   "muse": [
+    "src/msf_aug.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c"
+   ],
+   "ncft_files": 38
+  },
+  {
+   "id": "script",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 19
+  },
+  {
+   "id": "seeded",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "separators",
+   "muse": [
+    "audit-bundle/lead-scripts/add_rechecker.py",
+    "audit-bundle/lead-scripts/fold_final.py",
+    "audit-bundle/lead-scripts/fold_metrics_w1.py"
+   ],
+   "cft": [
+    "docs/studies/sched-a/volumes.py",
+    "docs/studies/swp-a/merge_law.py",
+    "hw/card_stress_lib.py"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "serial",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend.h",
+    "bindings/arduino/cft-arduino/src/cft/src/device.c"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "served",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "docs/studies/sched-a/coverage_state.py",
+    "host/tools/cft-serve.c",
+    "hw/card_stress.py"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "session",
+   "muse": [
+    "audit-bundle/lead-scripts/run_extract.sh"
+   ],
+   "cft": [
+    "host/tools/cft-serial-bridge.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "setBigUint64",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/node/remote_test.mjs",
+    "bindings/node/seq_corpus.mjs"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "setFloat32",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "setFloat64",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/remote_test.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "setUint32",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "bindings/node/remote_test.mjs",
+    "bindings/node/seq_corpus.mjs"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "set_payload",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "set_payload_core",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "host/src/chars.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "set_payload_signaling",
+   "muse": [
+    "src/msf_performat.inc"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "settled",
+   "muse": [
+    "video/segments/render_why.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/divsqrt.c",
+    "host/src/divsqrt.c",
+    "tb/test_seq_core.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "setvbuf",
+   "muse": [
+    "tests/alg_decider.c"
+   ],
+   "cft": [
+    "host/tests/remote_test.c",
+    "host/tools/tf_subject.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "sha256_file",
+   "muse": [
+    "demo/fetch.py",
+    "demo/make_kissfft_tree.py"
+   ],
+   "cft": [
+    "bindings/arduino/sync.py",
+    "bindings/wasm/make_demos.py",
+    "host/tests/photograph_check.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "sha256sum",
+   "muse": [
+    "audit-bundle/lead-scripts/board-w1.sh",
+    "audit-bundle/lead-scripts/board-w2.sh",
+    "audit-bundle/lead-scripts/build_multiboard_ias15.sh"
+   ],
+   "cft": [
+    "bindings/wasm/build.sh",
+    "bindings/wasm/build_demos.sh",
+    "docs/studies/swp-a/seed_replay.sh"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "shifted",
+   "muse": [
+    "src/msf_string.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/formatof.c",
+    "host/src/formatof.c",
+    "hw/test_card_stress_report.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "shuffle",
+   "muse": [
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "host/tests/seq_check.py",
+    "python/cft_golden/vectors.py",
+    "python/tests/test_reduce.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "sign_bit",
+   "muse": [
+    "src/msf_roundpack.c",
+    "tests/alg_decider.c",
+    "tests/explog_decider.c"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "sign_mask",
+   "muse": [
+    "src/msf_alg.c",
+    "src/msf_aug.c",
+    "src/msf_decode.h"
+   ],
+   "cft": [
+    "docs/studies/ext-a/wide_golden.py",
+    "docs/studies/m1/m1core.py",
+    "docs/studies/m1/m1exp.py"
+   ],
+   "ncft_files": 98
+  },
+  {
+   "id": "signbit",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "host/tools/clause5_soak.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "sketch",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "python/tests/test_arduino_remote_abi.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "slots_used",
+   "muse": [
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "programs/lang_check.py",
+    "programs/tangent_check.py",
+    "python/cftc/__init__.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "snapshot",
+   "muse": [
+    "audit-bundle/lead-scripts/watch_ledger.sh"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py",
+    "host/tests/soak_chunk_check.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "snprintf",
+   "muse": [
+    "board/harness_main.c",
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/VectorReplay/VectorReplay.ino",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c"
+   ],
+   "ncft_files": 35
+  },
+  {
+   "id": "sort_keys",
+   "muse": [
+    "site/build_data.py"
+   ],
+   "cft": [
+    "bindings/arduino/sync.py",
+    "bindings/node/make_seq_corpus.py",
+    "docs/studies/swp-a/merge_law.py"
+   ],
+   "ncft_files": 23
+  },
+  {
+   "id": "specials",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg2.sh",
+    "tests/gen_vectors_aug.py",
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/hx/hx_ladder.py",
+    "docs/studies/m4/plants.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "squares",
+   "muse": [
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "src_root",
+   "muse": [
+    "audit-bundle/lead-scripts/build_audit_bundle.py"
+   ],
+   "cft": [
+    "hw/test_c5_exhaustive.py",
+    "hw/test_card_stress.py",
+    "hw/test_divsqrt_hard.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "sscanf",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/explog_exhaustive.c",
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tools/collatz.c",
+    "host/tools/enclose.c",
+    "host/tools/mersenne.c"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "stamped",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "verify/test-ensure-vectors.sh"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "stamps",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "python/project_packager.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "started",
+   "muse": [
+    "src/msf_string.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_core.js"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "startsWith",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/cft_node.js",
+    "bindings/node/core.mjs",
+    "bindings/node/remote_test.mjs"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "staticmethod",
+   "muse": [
+    "video/segments/prep_augint_sample.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "docs/studies/m1/vm1b/adlib.py",
+    "docs/studies/m2/m2budget.py"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "stddef",
+   "muse": [
+    "board/ias15_api.h",
+    "board/ias15_hash.c",
+    "include/muse_softfloat.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "bindings/arduino/cft-arduino/src/cft/include/cft_seq_flags.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend.h"
+   ],
+   "ncft_files": 27
+  },
+  {
+   "id": "strchr",
+   "muse": [
+    "tests/explog_exhaustive.c",
+    "tests/trig_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "host/src/backend_remote.c"
+   ],
+   "ncft_files": 16
+  },
+  {
+   "id": "streamed",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "streams",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/wasm/remote.mjs",
+    "docs/studies/swp-a/seed_audit.py",
+    "host/tests/audit_check.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "stride",
+   "muse": [
+    "demo/twiddle_gate.c"
+   ],
+   "cft": [
+    "bindings/node/remote_test.mjs",
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html"
+   ],
+   "ncft_files": 24
+  },
+  {
+   "id": "strings",
+   "muse": [
+    "audit-bundle/lead-scripts/probe_extract.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/diagnostics.py",
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "strips",
+   "muse": [
+    "tests/gen_vectors_explog.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/symmetry_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "strlen",
+   "muse": [
+    "board/harness_main.c",
+    "tests/runner.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft_seq_flags.h",
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c"
+   ],
+   "ncft_files": 29
+  },
+  {
+   "id": "strncmp",
+   "muse": [
+    "board/harness_main.c",
+    "tests/explog_exhaustive.c",
+    "tests/runner.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft/src/device.c"
+   ],
+   "ncft_files": 20
+  },
+  {
+   "id": "strncpy",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/device.c",
+    "host/src/device.c"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "stroke",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "python/figure_kit.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "strokeStyle",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "strong",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "strstr",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c",
+    "host/tests/device_test.c",
+    "host/tests/remote_test.c"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "strtok",
+   "muse": [
+    "board/harness_main.c",
+    "board/ias15_main.c",
+    "board/interval_main.c"
+   ],
+   "cft": [
+    "host/tools/audit.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "strtoull",
+   "muse": [
+    "board/harness_main.c",
+    "board/interval_host.c",
+    "board/interval_main.c"
+   ],
+   "cft": [
+    "host/fuzz/cft_fuzz.c",
+    "host/src/backend_xrt.cpp",
+    "host/tests/device_test.c"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "subjects",
+   "muse": [
+    "video/scenes.py"
+   ],
+   "cft": [
+    "docs/studies/swp-a/merge_law.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "submit",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py"
+   ],
+   "cft": [
+    "host/tests/photograph_check.py",
+    "hw/sched/cft_sched.py",
+    "hw/sched/sched_state.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "subset",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "programs/estimates.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "swapped",
+   "muse": [
+    "src/msf_math.c"
+   ],
+   "cft": [
+    "docs/studies/swp-a/merge_law.py",
+    "programs/check.py",
+    "python/tests/test_cftc.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "t_bits",
+   "muse": [
+    "board/ias15_api.h"
+   ],
+   "cft": [
+    "docs/studies/m1/m1exp.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "t_start",
+   "muse": [
+    "board/interval_board_host.py",
+    "video/render.py"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "tb/test_seq_core.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "tables",
+   "muse": [
+    "audit-bundle/lead-scripts/control9_commit.sh",
+    "audit-bundle/lead-scripts/resolve_w1.sh",
+    "audit-bundle/lead-scripts/run_extract.sh"
+   ],
+   "cft": [
+    "host/tests/seq_check.py",
+    "python/tests/mathlib_trig_harness.py",
+    "python/tests/test_mathlib_trig.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "terminate",
+   "muse": [
+    "tests/berkeley_ingest.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.py",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 8
+  },
+  {
+   "id": "textContent",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "timeout",
+   "muse": [
+    "audit-bundle/lead-scripts/multi_ias15.py",
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "board/host_replay.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/remote/test/host_check.py",
+    "certificates/corpus.py",
+    "docs/studies/hx/box_hx_probe.sh"
+   ],
+   "ncft_files": 49
+  },
+  {
+   "id": "timespec",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "docs/studies/hx/hx_probe.c",
+    "docs/studies/hx/hx_quadmath.c"
+   ],
+   "ncft_files": 14
+  },
+  {
+   "id": "timestamp",
+   "muse": [
+    "tools/extract_session_metrics.py",
+    "video/segments/prep_process_graph.py"
+   ],
+   "cft": [
+    "hw/card_stress_report.py",
+    "hw/sched/sched_calendar.py",
+    "hw/test_sched.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "timezone",
+   "muse": [
+    "audit-bundle/lead-scripts/sixboard_harness.py",
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "python/packager_check.py",
+    "python/project_packager.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "tiny_before",
+   "muse": [
+    "src/msf_roundpack.c"
+   ],
+   "cft": [
+    "python/external_ibm.py",
+    "python/tests/test_external_gens.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "toLocaleString",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "toLowerCase",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/test.mjs",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "toString",
+   "muse": [
+    "site/app.js"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs",
+    "bindings/node/program_test.mjs"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "to_hex",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/python/cftmpfr/core.py",
+    "bindings/python/test_cftmpfr.py"
+   ],
+   "ncft_files": 15
+  },
+  {
+   "id": "to_inf",
+   "muse": [
+    "src/msf_roundpack.c",
+    "tests/explog_decider.c",
+    "tests/gen_vectors.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_ladder.py",
+    "python/tests/test_rounding.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "tobytes",
+   "muse": [
+    "video/render.py",
+    "video/segments/gitvisual.py",
+    "video/segments/idea.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/batch.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "totalOrder",
+   "muse": [
+    "audit-bundle/lead-scripts/oracle4.sh",
+    "audit-bundle/lead-scripts/oracle5.sh"
+   ],
+   "cft": [
+    "bindings/node/core.mjs",
+    "bindings/node/lib.mjs",
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "totals",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "docs/studies/m2/tw32_run.py",
+    "docs/studies/sched-a/script_census.py",
+    "hw/test_card_stress_report.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "tracked",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh"
+   ],
+   "cft": [
+    "host/tools/gen_build_id.sh",
+    "hw/test_card_stress.py",
+    "python/check_docs_index.py"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "transform",
+   "muse": [
+    "video/segments/gitvisual.py"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "site/nightly.html"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "two_sum",
+   "muse": [
+    "board/interval_workload.c"
+   ],
+   "cft": [
+    "docs/studies/m1/m1exp32.py",
+    "docs/studies/m2/m2core.py",
+    "docs/studies/m2/m2red.py"
+   ],
+   "ncft_files": 7
+  },
+  {
+   "id": "typing",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "hw/card_stress_lib.py",
+    "hw/card_stress_progress.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "u64_bitlen",
+   "muse": [
+    "src/msf_math.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/mpfloat.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "ulp_exp",
+   "muse": [
+    "tests/alg_decider.c",
+    "tests/gen_vectors_alg.py"
+   ],
+   "cft": [
+    "docs/studies/m2/m2plan.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "uniform",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "video/scenes.py"
+   ],
+   "cft": [
+    "docs/studies/m1/m1harness.py",
+    "docs/studies/m1/m1rate.py",
+    "hw/test_sweep_record.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "unpack",
+   "muse": [
+    "tests/gen_interval_catalogue.py",
+    "video/data.py",
+    "video/segments/prep_augint_sample.py"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/core.py",
+    "bindings/python/test_cftmpfr.py",
+    "docs/studies/m1/m1core.py"
+   ],
+   "ncft_files": 61
+  },
+  {
+   "id": "urlopen",
+   "muse": [
+    "demo/fetch.py"
+   ],
+   "cft": [
+    "python/fetch_external.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "used_c",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "python/cftc/lower.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "validate",
+   "muse": [
+    "video/render.py",
+    "video/timeline.py"
+   ],
+   "cft": [
+    "host/tools/cft-asm.c",
+    "host/tools/pi_worstcase.py",
+    "hw/sched/sched_spec.py"
+   ],
+   "ncft_files": 9
+  },
+  {
+   "id": "value_of",
+   "muse": [
+    "tests/gen_vectors_aug.py"
+   ],
+   "cft": [
+    "programs/tangent_check.py",
+    "python/cft_golden/lang/constants.py",
+    "python/cftc/manifest.py"
+   ],
+   "ncft_files": 6
+  },
+  {
+   "id": "vector",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/page_template.html",
+    "bindings/wasm/remote.html"
+   ],
+   "ncft_files": 12
+  },
+  {
+   "id": "vectors",
+   "muse": [
+    "audit-bundle/lead-scripts/build1.sh",
+    "audit-bundle/lead-scripts/merge_w5alg1.sh",
+    "audit-bundle/lead-scripts/tininess_commit.sh"
+   ],
+   "cft": [
+    "bindings/arduino/verify.sh",
+    "bindings/wasm/build.sh",
+    "bindings/wasm/conformance.html"
+   ],
+   "ncft_files": 54
+  },
+  {
+   "id": "vendored",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "python/project_figures.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "verdicts",
+   "muse": [
+    "tools/extract_session_metrics.py"
+   ],
+   "cft": [
+    "formal/run.sh",
+    "host/fuzz/fuzz_program.c",
+    "hw/sweep_freq.sh"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "verifier",
+   "muse": [
+    "audit-bundle/lead-scripts/append16.sh",
+    "audit-bundle/lead-scripts/append21.sh",
+    "audit-bundle/lead-scripts/check_plants_w4.sh"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "visibility",
+   "muse": [
+    "site/glue.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/include/cft.h",
+    "host/include/cft.h"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "want_bits",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "python/tests/test_clause5.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "want_flags",
+   "muse": [
+    "examples/host/main.c",
+    "examples/pico/main.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/python/test_cftmpfr.py",
+    "host/src/conformance.c"
+   ],
+   "ncft_files": 14
+  },
+  {
+   "id": "want_hash",
+   "muse": [
+    "demo/run_demo.sh"
+   ],
+   "cft": [
+    "bindings/wasm/make_demos.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "want_out",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "python/cftc/check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "wasmBytes",
+   "muse": [
+    "site/replay.mjs"
+   ],
+   "cft": [
+    "bindings/node/lib.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "watched",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/test_sched.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "weights",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "hw/card_stress.py",
+    "hw/card_stress_lib.py",
+    "programs/workloads/cft-hard-workloads/tools/models.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "widths",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "docs/studies/ext-a/mpfr_scale.c",
+    "hw/card_stress_report.py",
+    "python/cft_golden/lang/render.py"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "window",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5alg2.sh"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ],
+   "ncft_files": 11
+  },
+  {
+   "id": "windows",
+   "muse": [
+    "tests/aug_exhaustive.c"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/backend_remote.c",
+    "docs/studies/hx/hx_cost.py",
+    "host/src/backend_remote.c"
+   ],
+   "ncft_files": 14
+  },
+  {
+   "id": "with_suffix",
+   "muse": [
+    "tests/berkeley_ingest.py"
+   ],
+   "cft": [
+    "host/tests/orbits_check.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "witnesses",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5attr.sh"
+   ],
+   "cft": [
+    "bindings/node/test.mjs"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "worked",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "hw/sched/sched_run.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "workloads",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w5demo.sh",
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html",
+    "verify/run.sh"
+   ],
+   "ncft_files": 3
+  },
+  {
+   "id": "worktree",
+   "muse": [
+    "audit-bundle/lead-scripts/append23.sh",
+    "audit-bundle/lead-scripts/make_plants.sh"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_probe_test.sh",
+    "docs/studies/hx/hx_quadmath.sh",
+    "host/tests/build_id_check.sh"
+   ],
+   "ncft_files": 4
+  },
+  {
+   "id": "wrapped",
+   "muse": [
+    "video/segments/intro_outro.py"
+   ],
+   "cft": [
+    "bindings/node/program_test.mjs",
+    "docs/studies/m2/tw32_run.py",
+    "hw/sched/sched_staged.py"
+   ],
+   "ncft_files": 5
+  },
+  {
+   "id": "wrappers",
+   "muse": [
+    "audit-bundle/lead-scripts/merge_w4kissfft.sh"
+   ],
+   "cft": [
+    "formal/run.sh"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "write_file",
+   "muse": [
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py",
+    "tests/gen_vectors_xf.py"
+   ],
+   "cft": [
+    "host/tools/positive-run.c"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "write_lines",
+   "muse": [
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "hw/test_sweep_record.py"
+   ],
+   "ncft_files": 1
+  },
+  {
+   "id": "zero_bits",
+   "muse": [
+    "src/msf64.c",
+    "tests/gen_vectors_f16.py",
+    "tests/gen_vectors_f32.py"
+   ],
+   "cft": [
+    "host/tests/augmented_check.py",
+    "host/tests/character_check.py",
+    "host/tests/clause5_check.py"
+   ],
+   "ncft_files": 42
+  },
+  {
+   "id": "zero_sign",
+   "muse": [
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "programs/workloads/cft-hard-workloads/tools/exact_oracle.py",
+    "programs/workloads/cft-hard-workloads/tools/run_workloads.py"
+   ],
+   "ncft_files": 2
+  },
+  {
+   "id": "zero_sum_sign",
+   "muse": [
+    "tests/gen_vectors_f64.py"
+   ],
+   "cft": [
+    "docs/studies/hx/hx_ladder.py"
+   ],
+   "ncft_files": 1
+  }
+ ],
+ "strings_shared_unexplained": [
+  {
+   "s": " | cut -d' ' -f1)",
+   "muse": [
+    "board/common.sh"
+   ],
+   "cft": [
+    "bindings/wasm/build_demos.sh",
+    "hw/rebuild-2022.sh"
+   ]
+  },
+  {
+   "s": "#include <stdint.h>",
+   "muse": [
+    "tools/gen_explog_tables.py",
+    "tools/gen_trig_tables.py"
+   ],
+   "cft": [
+    "host/tools/gen_2opi.py",
+    "host/tools/gen_mp_consts.py"
+   ]
+  },
+  {
+   "s": "$BUILD/corrupt.log",
+   "muse": [
+    "tools/run.sh"
+   ],
+   "cft": [
+    "bindings/arduino/verify.sh"
+   ]
+  },
+  {
+   "s": "$OUT/host-build.log",
+   "muse": [
+    "audit-bundle/lead-scripts/run_aug_board.sh",
+    "audit-bundle/lead-scripts/run_explog_board.sh",
+    "audit-bundle/lead-scripts/run_explog_board_s3b.sh"
+   ],
+   "cft": [
+    "hw/sweep_freq.sh"
+   ]
+  },
+  {
+   "s": "-fsanitize=address,undefined -fno-sanitize-recover=all",
+   "muse": [
+    "tools/run.sh"
+   ],
+   "cft": [
+    "host/fuzz/run_ckpt.sh"
+   ]
+  },
+  {
+   "s": "0123456789abcdef",
+   "muse": [
+    "demo/fetch.py",
+    "demo/ias15_host_main.c",
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/examples/Hello/Hello.ino",
+    "bindings/arduino/cft-arduino/examples/VectorReplay/VectorReplay.ino",
+    "bindings/arduino/cft-arduino/src/cft/src/chars.c"
+   ]
+  },
+  {
+   "s": "0123456789abcdefABCDEF",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "host/tests/character_check.py",
+    "python/cft_golden/chars.py",
+    "python/cft_golden/lang/syntax.py"
+   ]
+  },
+  {
+   "s": "1.7976931348623157e308",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "bindings/node/test.mjs",
+    "python/tests/test_chars.py"
+   ]
+  },
+  {
+   "s": "100000000000000000000",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "host/tests/segrun_check_v2.py"
+   ]
+  },
+  {
+   "s": "3.14159265358979323846",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "python/tests/test_asm.py"
+   ]
+  },
+  {
+   "s": "3.14159265358979323846264338327950288",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py"
+   ]
+  },
+  {
+   "s": "99999999999999999999",
+   "muse": [
+    "tests/gen_vectors_str.py"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ]
+  },
+  {
+   "s": "abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq",
+   "muse": [
+    "tests/runner.c"
+   ],
+   "cft": [
+    "host/tests/api_test.c"
+   ]
+  },
+  {
+   "s": "augmentedAddition",
+   "muse": [
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "augmentedMultiplication",
+   "muse": [
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "augmentedSubtraction",
+   "muse": [
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "fusedMultiplyAdd",
+   "muse": [
+    "audit-bundle/lead-scripts/check_gen.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/python/test_cftmpfr.py",
+    "python/cft_golden/formatof.py"
+   ]
+  },
+  {
+   "s": "is754version1985",
+   "muse": [
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/__init__.py"
+   ]
+  },
+  {
+   "s": "is754version2008",
+   "muse": [
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/__init__.py"
+   ]
+  },
+  {
+   "s": "is754version2019",
+   "muse": [
+    "audit-bundle/lead-scripts/check_gen.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/python/cftmpfr/__init__.py"
+   ]
+  },
+  {
+   "s": "maximumMagnitude",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "maximumMagnitudeNumber",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "minimumMagnitude",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "minimumMagnitudeNumber",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "setPayloadSignaling",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/msf_dispatch.h"
+   ],
+   "cft": [
+    "bindings/node/conformance.mjs",
+    "bindings/node/core.mjs"
+   ]
+  },
+  {
+   "s": "set_payload_signaling",
+   "muse": [
+    "audit-bundle/lead-scripts/w4_seam_tables.py",
+    "tests/gen_vectors_tier2.py"
+   ],
+   "cft": [
+    "bindings/arduino/cft-arduino/src/cft/src/conformance.c",
+    "bindings/arduino/cft-arduino/src/cft_replay.c",
+    "bindings/node/lib.mjs"
+   ]
+  },
+  {
+   "s": "width=device-width, initial-scale=1",
+   "muse": [
+    "site/index.html"
+   ],
+   "cft": [
+    "bindings/wasm/conformance.html",
+    "bindings/wasm/demos.html",
+    "bindings/wasm/demos_template.html"
+   ]
+  },
+  {
+   "s": "wrote %s (%d bytes)",
+   "muse": [
+    "tools/gen_tables.py"
+   ],
+   "cft": [
+    "python/gen_divfull.py",
+    "python/gen_seq_flags.py"
+   ]
+  }
+ ],
+ "comment_shingles_shared_unexplained": 0,
+ "comment_passages": []
+}

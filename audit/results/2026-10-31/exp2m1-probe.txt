@@ -1,0 +1,31 @@
+cft  binary32  exp2m1(128) roundTiesToEven     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary32  exp2m1(128) roundTiesToEven     -> 0x7f800000, flags 0x14  ok
+cft  binary32  exp2m1(128) roundTowardZero     -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+muse binary32  exp2m1(128) roundTowardZero     -> 0x7f7fffff, flags 0x10  ok
+cft  binary32  exp2m1(128) roundTowardNegative -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+muse binary32  exp2m1(128) roundTowardNegative -> 0x7f7fffff, flags 0x10  ok
+cft  binary32  exp2m1(128) roundTowardPositive -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary32  exp2m1(128) roundTowardPositive -> 0x7f800000, flags 0x14  ok
+cft  binary32  exp2m1(128) roundTiesToAway     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary32  exp2m1(128) roundTiesToAway     -> 0x7f800000, flags 0x14  ok
+cft  binary64  exp2m1(1024) roundTiesToEven     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary64  exp2m1(1024) roundTiesToEven     -> 0x7ff0000000000000, flags 0x14  ok
+cft  binary64  exp2m1(1024) roundTowardZero     -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+muse binary64  exp2m1(1024) roundTowardZero     -> 0x7fefffffffffffff, flags 0x10  ok
+cft  binary64  exp2m1(1024) roundTowardNegative -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+muse binary64  exp2m1(1024) roundTowardNegative -> 0x7fefffffffffffff, flags 0x10  ok
+cft  binary64  exp2m1(1024) roundTowardPositive -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary64  exp2m1(1024) roundTowardPositive -> 0x7ff0000000000000, flags 0x14  ok
+cft  binary64  exp2m1(1024) roundTiesToAway     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+muse binary64  exp2m1(1024) roundTiesToAway     -> 0x7ff0000000000000, flags 0x14  ok
+cft  binary128 exp2m1(16384) roundTiesToEven     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+cft  binary128 exp2m1(16384) roundTowardZero     -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+cft  binary128 exp2m1(16384) roundTowardNegative -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+cft  binary128 exp2m1(16384) roundTowardPositive -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+cft  binary128 exp2m1(16384) roundTiesToAway     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+cft  binary256 exp2m1(262144) roundTiesToEven     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+cft  binary256 exp2m1(262144) roundTowardZero     -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+cft  binary256 exp2m1(262144) roundTowardNegative -> maxFinite, flags 0x14; 754 requires maxFinite, flags 0x10  WRONG
+cft  binary256 exp2m1(262144) roundTowardPositive -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+cft  binary256 exp2m1(262144) roundTiesToAway     -> +inf, flags 0x14; 754 requires +inf, flags 0x14  ok
+exp2m1 at emax+1: 30 cases, 8 not as 754-2019 7.4 requires

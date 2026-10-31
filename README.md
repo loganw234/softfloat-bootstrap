@@ -40,6 +40,8 @@ and cft-fp256, are read from git objects at the commits [build/sources.lock](bui
 | [verify/run.sh](verify/run.sh) | the front door, after HonestFramework's `templates/gate-runner.sh` |
 | [docs/KIT-0.md](docs/KIT-0.md) | the plan, its verifiers' findings, and the lead's slips |
 | [docs/reviews/](docs/reviews/KIT-0/README.md) | every verifier's and surveyor's report, and the drafts they read |
+| [audit/](audit/README.md) | the audit of the project repository against cft-fp256, and the two libraries' cross-test: its tools, and each run's results |
+| [docs/AUDIT-1.md](docs/AUDIT-1.md) | the first audit, 2026-10-31: what it found, and its limits |
 | `dist/` | ignored: the built kit, the zip and its SHA256SUMS |
 
 ## Privacy

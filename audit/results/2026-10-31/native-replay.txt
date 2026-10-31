@@ -1,0 +1,191 @@
+requests 171728 Counter({('muse', 'augmented'): 92292, ('cft', 'augmented'): 65904, ('cft', 'to_decimal'): 4160, ('muse', 'from_decimal'): 2970, ('muse', 'to_decimal'): 2404, ('muse', 'from_hex'): 1306, ('cft', 'from_decimal'): 1260, ('cft', 'to_hex'): 730, ('cft', 'from_hex'): 630, ('muse', 'to_hex'): 72})
+
+   54048  cft-corpus -> cft [control] augmented@32             ok
+   11856  cft-corpus -> cft [control] augmented@64             ok
+     505  cft-corpus -> cft [control] from_decimal@32          ok
+     125  cft-corpus -> cft [control] from_decimal@32          refused (cft syntax: whole string only)
+     505  cft-corpus -> cft [control] from_decimal@64          ok
+     125  cft-corpus -> cft [control] from_decimal@64          refused (cft syntax: whole string only)
+     245  cft-corpus -> cft [control] from_hex@32              ok
+      70  cft-corpus -> cft [control] from_hex@32              refused (cft syntax: whole string only)
+     245  cft-corpus -> cft [control] from_hex@64              ok
+      70  cft-corpus -> cft [control] from_hex@64              refused (cft syntax: whole string only)
+    2080  cft-corpus -> cft [control] to_decimal@32            ok
+    2080  cft-corpus -> cft [control] to_decimal@64            ok
+     365  cft-corpus -> cft [control] to_hex@32                ok
+     365  cft-corpus -> cft [control] to_hex@64                ok
+    3040  cft-corpus -> muse [CROSS] augmented@32              flags 08->00
+     546  cft-corpus -> muse [CROSS] augmented@32              nan-bits
+   50462  cft-corpus -> muse [CROSS] augmented@32              ok
+     903  cft-corpus -> muse [CROSS] augmented@64              flags 08->00
+     543  cft-corpus -> muse [CROSS] augmented@64              nan-bits
+   10410  cft-corpus -> muse [CROSS] augmented@64              ok
+      29  cft-corpus -> muse [CROSS] from_decimal@32           VALUE (>20 significant digits: muse H=20 two-step route)
+       4  cft-corpus -> muse [CROSS] from_decimal@32           flags 00->10 (>20 significant digits: muse H=20 two-step route)
+       6  cft-corpus -> muse [CROSS] from_decimal@32           flags 00->18 (>20 significant digits: muse H=20 two-step route)
+     436  cft-corpus -> muse [CROSS] from_decimal@32           ok
+     155  cft-corpus -> muse [CROSS] from_decimal@32           prefix-only (muse syntax: longest valid prefix)
+      33  cft-corpus -> muse [CROSS] from_decimal@64           VALUE (>20 significant digits: muse H=20 two-step route)
+       4  cft-corpus -> muse [CROSS] from_decimal@64           flags 00->10 (>20 significant digits: muse H=20 two-step route)
+       6  cft-corpus -> muse [CROSS] from_decimal@64           flags 00->18 (>20 significant digits: muse H=20 two-step route)
+     432  cft-corpus -> muse [CROSS] from_decimal@64           ok
+     155  cft-corpus -> muse [CROSS] from_decimal@64           prefix-only (muse syntax: longest valid prefix)
+     215  cft-corpus -> muse [CROSS] from_hex@32               ok
+     100  cft-corpus -> muse [CROSS] from_hex@32               prefix-only (muse syntax: longest valid prefix)
+     215  cft-corpus -> muse [CROSS] from_hex@64               ok
+     100  cft-corpus -> muse [CROSS] from_hex@64               prefix-only (muse syntax: longest valid prefix)
+     160  cft-corpus -> muse [CROSS] to_decimal@32             VALUE
+    1920  cft-corpus -> muse [CROSS] to_decimal@32             ok
+     175  cft-corpus -> muse [CROSS] to_decimal@64             VALUE
+    1905  cft-corpus -> muse [CROSS] to_decimal@64             ok
+     365  cft-corpus -> muse [CROSS] to_hex@32                 ok
+     365  cft-corpus -> muse [CROSS] to_hex@64                 ok
+    4179  muse-corpus -> cft [CROSS] augmented@32              flags 00->08
+    5039  muse-corpus -> cft [CROSS] augmented@32              nan-bits
+   36928  muse-corpus -> cft [CROSS] augmented@32              ok
+    4142  muse-corpus -> cft [CROSS] augmented@64              flags 00->08
+    5038  muse-corpus -> cft [CROSS] augmented@64              nan-bits
+   36966  muse-corpus -> cft [CROSS] augmented@64              ok
+      28  muse-corpus -> cft [CROSS] from_decimal@32           VALUE (>20 significant digits: muse H=20 two-step route)
+       4  muse-corpus -> cft [CROSS] from_decimal@32           flags 10->00 (>20 significant digits: muse H=20 two-step route)
+       4  muse-corpus -> cft [CROSS] from_decimal@32           flags 18->00 (>20 significant digits: muse H=20 two-step route)
+       1  muse-corpus -> cft [CROSS] from_decimal@32           muse expects a prefix parse
+    1301  muse-corpus -> cft [CROSS] from_decimal@32           ok
+     142  muse-corpus -> cft [CROSS] from_decimal@32           refused (cft syntax: whole string only)
+      49  muse-corpus -> cft [CROSS] from_decimal@64           VALUE (>20 significant digits: muse H=20 two-step route)
+       4  muse-corpus -> cft [CROSS] from_decimal@64           flags 10->00 (>20 significant digits: muse H=20 two-step route)
+       4  muse-corpus -> cft [CROSS] from_decimal@64           flags 18->00 (>20 significant digits: muse H=20 two-step route)
+       1  muse-corpus -> cft [CROSS] from_decimal@64           muse expects a prefix parse
+    1290  muse-corpus -> cft [CROSS] from_decimal@64           ok
+     142  muse-corpus -> cft [CROSS] from_decimal@64           refused (cft syntax: whole string only)
+     553  muse-corpus -> cft [CROSS] from_hex@32               ok
+     100  muse-corpus -> cft [CROSS] from_hex@32               refused (cft syntax: whole string only)
+     553  muse-corpus -> cft [CROSS] from_hex@64               ok
+     100  muse-corpus -> cft [CROSS] from_hex@64               refused (cft syntax: whole string only)
+      24  muse-corpus -> cft [CROSS] to_decimal@32             VALUE
+    1178  muse-corpus -> cft [CROSS] to_decimal@32             ok
+      24  muse-corpus -> cft [CROSS] to_decimal@64             VALUE
+    1178  muse-corpus -> cft [CROSS] to_decimal@64             ok
+      36  muse-corpus -> cft [CROSS] to_hex@32                 ok
+      36  muse-corpus -> cft [CROSS] to_hex@64                 ok
+   46146  muse-corpus -> muse [control] augmented@32           ok
+   46146  muse-corpus -> muse [control] augmented@64           ok
+    1480  muse-corpus -> muse [control] from_decimal@32        ok
+    1490  muse-corpus -> muse [control] from_decimal@64        ok
+     653  muse-corpus -> muse [control] from_hex@32            ok
+     653  muse-corpus -> muse [control] from_hex@64            ok
+    1202  muse-corpus -> muse [control] to_decimal@32          ok
+    1202  muse-corpus -> muse [control] to_decimal@64          ok
+      36  muse-corpus -> muse [control] to_hex@32              ok
+      36  muse-corpus -> muse [control] to_hex@64              ok
+
+[cft-corpus -> cft [control] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE + | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE - | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE . | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE + | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE - | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE . | muse 0 00 C=0 len=1 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE 0x | muse 0 00 C=0 len=2 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE 0x1 | muse 0 00 C=0 len=3 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE 0x.p+0 | muse 0 00 C=0 len=6 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE 0x | muse 0 00 C=0 len=2 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE 0x1 | muse 0 00 C=0 len=3 | cft 1 0 00
+[cft-corpus -> cft [control] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE 0x.p+0 | muse 0 00 C=0 len=6 | cft 1 0 00
+[cft-corpus -> muse [CROSS] augmented@32 :: flags 08->00] AUG 32 add 1 3f800000 | muse 3f800000 1 00 | cft 0 3f800000 1 08
+[cft-corpus -> muse [CROSS] augmented@32 :: flags 08->00] AUG 32 add 1 3f800001 | muse 3f800001 1 00 | cft 0 3f800001 1 08
+[cft-corpus -> muse [CROSS] augmented@32 :: flags 08->00] AUG 32 add 1 3f7fffff | muse 3f7fffff 1 00 | cft 0 3f7fffff 1 08
+[cft-corpus -> muse [CROSS] augmented@32 :: nan-bits] AUG 32 add 0 7f800001 | muse 7fc00001 7fc00001 01 | cft 0 7fc00000 7fc00000 01
+[cft-corpus -> muse [CROSS] augmented@32 :: nan-bits] AUG 32 add 0 7fc00005 | muse 7fc00005 7fc00005 00 | cft 0 7fc00000 7fc00000 00
+[cft-corpus -> muse [CROSS] augmented@32 :: nan-bits] AUG 32 add 0 ffc00000 | muse ffc00000 ffc00000 00 | cft 0 7fc00000 7fc00000 00
+[cft-corpus -> muse [CROSS] augmented@64 :: flags 08->00] AUG 64 add 1 3ff0000000000000 | muse 3ff0000000000000 1 00 | cft 0 3ff0000000000000 1 08
+[cft-corpus -> muse [CROSS] augmented@64 :: flags 08->00] AUG 64 add 1 3ff0000000000001 | muse 3ff0000000000001 1 00 | cft 0 3ff0000000000001 1 08
+[cft-corpus -> muse [CROSS] augmented@64 :: flags 08->00] AUG 64 add 1 3fefffffffffffff | muse 3fefffffffffffff 1 00 | cft 0 3fefffffffffffff 1 08
+[cft-corpus -> muse [CROSS] augmented@64 :: nan-bits] AUG 64 add 0 7ff0000000000001 | muse 7ff8000000000001 7ff8000000000001 01 | cft 0 7ff8000000000000 7ff8000000000000 01
+[cft-corpus -> muse [CROSS] augmented@64 :: nan-bits] AUG 64 add 0 7ff8000000000005 | muse 7ff8000000000005 7ff8000000000005 00 | cft 0 7ff8000000000000 7ff8000000000000 00
+[cft-corpus -> muse [CROSS] augmented@64 :: nan-bits] AUG 64 add 0 fff8000000000000 | muse fff8000000000000 fff8000000000000 00 | cft 0 7ff8000000000000 7ff8000000000000 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 1.000000059604644775390625e+0 | muse 3f800001 10 C=29 len=29 | cft 0 3f800000 10
+[cft-corpus -> muse [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE -1.000000059604644775390625e+0 | muse bf800001 10 C=30 len=30 | cft 0 bf800000 10
+[cft-corpus -> muse [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 1.0000000596046447753906249e+0 | muse 3f800001 10 C=30 len=30 | cft 0 3f800000 10
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 1.1754943508222875079687365372222456778186655567720875215087517062784172594547271728515625e-38 | muse 800000 10 C=94 len=94 | cft 0 800000 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 3.4028234663852885981170418348451692544e+38 | muse 7f7fffff 10 C=43 len=43 | cft 0 7f7fffff 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RMM 1.1754943508222875079687365372222456778186655567720875215087517062784172594547271728515625e-38 | muse 800000 10 C=94 len=94 | cft 0 800000 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 1.40129846432481707092372958328991613128026194187651577175706828388979108268586060148663818836212158203125e-45 | muse 1 18 C=110 len=110 | cft 0 1 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE -1.40129846432481707092372958328991613128026194187651577175706828388979108268586060148663818836212158203125e-45 | muse 80000001 18 C=111 len=111 | cft 0 80000001 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 1.175494210692441075487029444849287348827052428745893333857174530571588870475618904265502351336181163787841796875e-38 | muse 7fffff 18 C=117 len=117 | cft 0 7fffff 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 32 RNE nan(1) | muse 7fc00000 00 C=3 len=6 | cft 0 7fc00001 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 32 RNE nan(0x1) | muse 7fc00000 00 C=3 len=8 | cft 0 7fc00001 00
+[cft-corpus -> muse [CROSS] from_decimal@32 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 32 RNE -nan(0x2) | muse ffc00000 00 C=4 len=9 | cft 0 ffc00002 00
+[cft-corpus -> muse [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 1.000000000000000111022302462515654042363166809082031251e+0 | muse 3ff0000000000000 10 C=59 len=59 | cft 0 3ff0000000000001 10
+[cft-corpus -> muse [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 2.225073858507201630123055637955676152503612414573018013083228724049586647606759446192036794116886953213985520549032000903434781884412325572184367563347617020518175998922941393629966742598285899994830148971433555578567693279306015978183162142425
+[cft-corpus -> muse [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 7.410984687618698162648531893023320585475897039214871466383785237510132609053131277979497545424539885696948470431685765963899850655339096945981621940161728171894510697854671067917687257517734731555330779540854980960845750095811137303474765809687
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 1.797693134862315708145274237317043567980705675258449965989174768031572607800285387605895586327668781715404589535143824642343213268894641827684675467035375169860499105765512820762454900903893289440758685084551339423045832369032229481658085593321
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->10 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RMM 2.225073858507201383090232717332404064219215980462331830553327416887204434813918195854283159012511020564067339731035811005152434161553460108856012385377718821130777993532002330479610147442583636071921565046942503734208375250806650616658158948720
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 4.940656458412465441765687928682213723650598026143247644255856825006755072702087518652998363616359923797965646954457177309266567103559397963987747960107818781263007131903114045278458171678489821036887186360569987307230500063874091535649843873124
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE -4.94065645841246544176568792868221372365059802614324764425585682500675507270208751865299836361635992379796564695445717730926656710355939796398774796010781878126300713190311404527845817167848982103688718636056998730723050006387409153564984387312
+[cft-corpus -> muse [CROSS] from_decimal@64 :: flags 00->18 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 2.225073858507200889024586876085859887650423112240959465493524802562440009228235695178775888803759155264230978095043431208587738715835729182199302029437922422355981982750124204178896957131179108226104397197960400045489739193807919893608152561311
+[cft-corpus -> muse [CROSS] from_decimal@64 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 64 RNE nan(1) | muse 7ff8000000000000 00 C=3 len=6 | cft 0 7ff8000000000001 00
+[cft-corpus -> muse [CROSS] from_decimal@64 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 64 RNE nan(0x1) | muse 7ff8000000000000 00 C=3 len=8 | cft 0 7ff8000000000001 00
+[cft-corpus -> muse [CROSS] from_decimal@64 :: prefix-only (muse syntax: longest valid prefix)] FROMDEC 64 RNE -nan(0x2) | muse fff8000000000000 00 C=4 len=9 | cft 0 fff8000000000002 00
+[cft-corpus -> muse [CROSS] from_hex@32 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 32 RNE nan(1) | muse 7fc00000 00 C=3 len=6 | cft 0 7fc00001 00
+[cft-corpus -> muse [CROSS] from_hex@32 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 32 RNE nan(0x1) | muse 7fc00000 00 C=3 len=8 | cft 0 7fc00001 00
+[cft-corpus -> muse [CROSS] from_hex@32 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 32 RNE -nan(0x2) | muse ffc00000 00 C=4 len=9 | cft 0 ffc00002 00
+[cft-corpus -> muse [CROSS] from_hex@64 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 64 RNE nan(1) | muse 7ff8000000000000 00 C=3 len=6 | cft 0 7ff8000000000001 00
+[cft-corpus -> muse [CROSS] from_hex@64 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 64 RNE nan(0x1) | muse 7ff8000000000000 00 C=3 len=8 | cft 0 7ff8000000000001 00
+[cft-corpus -> muse [CROSS] from_hex@64 :: prefix-only (muse syntax: longest valid prefix)] FROMHEX 64 RNE -nan(0x2) | muse fff8000000000000 00 C=4 len=9 | cft 0 fff8000000000002 00
+[cft-corpus -> muse [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 1 105 | muse 1.40129846432481707090000000000000000000000000000000000000000000000000000000000000000000000000000000000000e-45 10 | cft 0 1.40129846432481707092372958328991613128026194187651577175706828388979108268586060148663818836212158203125e-45 0
+[cft-corpus -> muse [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 7fffff 112 | muse 1.175494210692441075500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e-38 10 | cft 0 1.17549421069244107548702944484928734882705242874589333385717453057158887047561890426550235133618116
+[cft-corpus -> muse [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 800000 89 | muse 1.1754943508222875080000000000000000000000000000000000000000000000000000000000000000000000e-38 10 | cft 0 1.1754943508222875079687365372222456778186655567720875215087517062784172594547271728515625e-38 00
+[cft-corpus -> muse [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE 1 751 | muse 4.9406564584124654418000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[cft-corpus -> muse [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE fffffffffffff 767 | muse 2.2250738585072008890000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[cft-corpus -> muse [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE 10000000000000 715 | muse 2.225073858507201383100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[muse-corpus -> cft [CROSS] augmented@32 :: flags 00->08] AUG 32 add 3f800000 00000001 | muse 3f800000 1 00 | cft 0 3f800000 1 08
+[muse-corpus -> cft [CROSS] augmented@32 :: flags 00->08] AUG 32 add 00000001 3f800000 | muse 3f800000 1 00 | cft 0 3f800000 1 08
+[muse-corpus -> cft [CROSS] augmented@32 :: flags 00->08] AUG 32 sub 3f800000 00000001 | muse 3f800000 80000001 00 | cft 0 3f800000 80000001 08
+[muse-corpus -> cft [CROSS] augmented@32 :: nan-bits] AUG 32 add 00000000 ffc00005 | muse ffc00005 ffc00005 00 | cft 0 7fc00000 7fc00000 00
+[muse-corpus -> cft [CROSS] augmented@32 :: nan-bits] AUG 32 add ffc00005 00000000 | muse ffc00005 ffc00005 00 | cft 0 7fc00000 7fc00000 00
+[muse-corpus -> cft [CROSS] augmented@32 :: nan-bits] AUG 32 sub 00000000 ffc00005 | muse ffc00005 ffc00005 00 | cft 0 7fc00000 7fc00000 00
+[muse-corpus -> cft [CROSS] augmented@64 :: flags 00->08] AUG 64 add 3ff0000000000000 0000000000000001 | muse 3ff0000000000000 1 00 | cft 0 3ff0000000000000 1 08
+[muse-corpus -> cft [CROSS] augmented@64 :: flags 00->08] AUG 64 add 0000000000000001 3ff0000000000000 | muse 3ff0000000000000 1 00 | cft 0 3ff0000000000000 1 08
+[muse-corpus -> cft [CROSS] augmented@64 :: flags 00->08] AUG 64 sub 3ff0000000000000 0000000000000001 | muse 3ff0000000000000 8000000000000001 00 | cft 0 3ff0000000000000 8000000000000001 08
+[muse-corpus -> cft [CROSS] augmented@64 :: nan-bits] AUG 64 add 0000000000000000 fff8000000000005 | muse fff8000000000005 fff8000000000005 00 | cft 0 7ff8000000000000 7ff8000000000000 00
+[muse-corpus -> cft [CROSS] augmented@64 :: nan-bits] AUG 64 add fff8000000000005 0000000000000000 | muse fff8000000000005 fff8000000000005 00 | cft 0 7ff8000000000000 7ff8000000000000 00
+[muse-corpus -> cft [CROSS] augmented@64 :: nan-bits] AUG 64 sub 0000000000000000 fff8000000000005 | muse fff8000000000005 fff8000000000005 00 | cft 0 7ff8000000000000 7ff8000000000000 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RMM 7.00649232162408535461864791644958065640130970938257885878534141944895541342930300743319094181060791015625e-46 | muse 0 18 C=110 len=110 | cft 0 1 18
+[muse-corpus -> cft [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RMM -7.00649232162408535461864791644958065640130970938257885878534141944895541342930300743319094181060791015625e-46 | muse 80000000 18 C=111 len=111 | cft 0 80000001 18
+[muse-corpus -> cft [CROSS] from_decimal@32 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RTZ 2.350988561514728583455765982071533026645717985517980855365926236850006129930346077117064851336181163787841796875e-38 | muse fffffe 10 C=117 len=117 | cft 0 ffffff 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 2.350988561514728583455765982071533026645717985517980855365926236850006129930346077117064851336181163787841796875e-38 | muse ffffff 10 C=117 len=117 | cft 0 ffffff 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE -2.350988561514728583455765982071533026645717985517980855365926236850006129930346077117064851336181163787841796875e-38 | muse 80ffffff 10 C=118 len=118 | cft 0 80ffffff 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RMM 2.350988561514728583455765982071533026645717985517980855365926236850006129930346077117064851336181163787841796875e-38 | muse ffffff 10 C=117 len=117 | cft 0 ffffff 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE 5.8774717541114375398436826861112283890933277838604376075437585313920862972736358642578125e-39 | muse 400000 18 C=94 len=94 | cft 0 400000 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RNE -5.8774717541114375398436826861112283890933277838604376075437585313920862972736358642578125e-39 | muse 80400000 18 C=95 len=95 | cft 0 80400000 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 32 RMM 5.8774717541114375398436826861112283890933277838604376075437585313920862972736358642578125e-39 | muse 400000 18 C=94 len=94 | cft 0 400000 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: muse expects a prefix parse] FROMDEC 32 RNE nan(1) | muse 7fc00000 00 C=3 len=6 | cft 0 7fc00001 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE ~ | muse 0 00 C=0 len=0 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE + | muse 0 00 C=0 len=1 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_decimal@32 :: refused (cft syntax: whole string only)] FROMDEC 32 RNE - | muse 0 00 C=0 len=1 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 2.470328229206232720882843964341106861825299013071623822127928412503377536351043759326499181808179961898982823477228588654633283551779698981993873980053909390631503565951557022639229085839244910518443593180284993653615250031937045767824921936562
+[muse-corpus -> cft [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE -2.47032822920623272088284396434110686182529901307162382212792841250337753635104375932649918180817996189898282347722858865463328355177969898199387398005390939063150356595155702263922908583924491051844359318028499365361525003193704576782492193656
+[muse-corpus -> cft [CROSS] from_decimal@64 :: VALUE (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 7.410984687618698162648531893023320585475897039214871466383785237510132609053131277979497545424539885696948470431685765963899850655339096945981621940161728171894510697854671067917687257517734731555330779540854980960845750095811137303474765809687
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 4.450147717014402272114819593418263951869639092703291296046852219449644444042153891033059047816270175828298317826079242213740172877389189291055314414815641243486759976282126534658507104573762744298025962244902903779698114444614570510266311510031
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE -4.45014771701440227211481959341826395186963909270329129604685221944964444404215389103305904781627017582829831782607924221374017287738918929105531441481564124348675997628212653465850710457376274429802596224490290377969811444461457051026631151003
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 10->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RMM 4.450147717014402272114819593418263951869639092703291296046852219449644444042153891033059047816270175828298317826079242213740172877389189291055314414815641243486759976282126534658507104573762744298025962244902903779698114444614570510266311510031
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE 1.112536929253600691545116358666202032109607990231165915276663708443602217406959097927141579506255510282033669865517905502576217080776730054428006192688859410565388996766001165239805073721291818035960782523471251867104187625403325308329079474360
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RNE -1.11253692925360069154511635866620203210960799023116591527666370844360221740695909792714157950625551028203366986551790550257621708077673005442800619268885941056538899676600116523980507372129181803596078252347125186710418762540332530832907947436
+[muse-corpus -> cft [CROSS] from_decimal@64 :: flags 18->00 (>20 significant digits: muse H=20 two-step route)] FROMDEC 64 RMM 1.112536929253600691545116358666202032109607990231165915276663708443602217406959097927141579506255510282033669865517905502576217080776730054428006192688859410565388996766001165239805073721291818035960782523471251867104187625403325308329079474360
+[muse-corpus -> cft [CROSS] from_decimal@64 :: muse expects a prefix parse] FROMDEC 64 RNE nan(1) | muse 7ff8000000000000 00 C=3 len=6 | cft 0 7ff8000000000001 00
+[muse-corpus -> cft [CROSS] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE ~ | muse 0 00 C=0 len=0 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE + | muse 0 00 C=0 len=1 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_decimal@64 :: refused (cft syntax: whole string only)] FROMDEC 64 RNE - | muse 0 00 C=0 len=1 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE ~ | muse 0 00 C=0 len=0 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE 0x | muse 0 00 C=0 len=2 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@32 :: refused (cft syntax: whole string only)] FROMHEX 32 RNE 0X | muse 0 00 C=0 len=2 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE ~ | muse 0 00 C=0 len=0 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE 0x | muse 0 00 C=0 len=2 | cft 1 0 00
+[muse-corpus -> cft [CROSS] from_hex@64 :: refused (cft syntax: whole string only)] FROMHEX 64 RNE 0X | muse 0 00 C=0 len=2 | cft 1 0 00
+[muse-corpus -> cft [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 00000001 25 | muse 1.401298464324817070900000e-45 10 | cft 0 1.401298464324817070923730e-45 10
+[muse-corpus -> cft [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 00000003 25 | muse 4.203895392974451212800000e-45 10 | cft 0 4.203895392974451212771189e-45 10
+[muse-corpus -> cft [CROSS] to_decimal@32 :: VALUE] TODEC 32 RNE 007fffff 25 | muse 1.175494210692441075500000e-38 10 | cft 0 1.175494210692441075487029e-38 10
+[muse-corpus -> cft [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE 0000000000000001 25 | muse 4.940656458412465441800000e-324 10 | cft 0 4.940656458412465441765688e-324 10
+[muse-corpus -> cft [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE 0000000000000003 25 | muse 1.482196937523739632500000e-323 10 | cft 0 1.482196937523739632529706e-323 10
+[muse-corpus -> cft [CROSS] to_decimal@64 :: VALUE] TODEC 64 RNE 000fffffffffffff 25 | muse 2.225073858507200889000000e-308 10 | cft 0 2.225073858507200889024587e-308 10

@@ -1,0 +1,5 @@
+checked answers 62256
+     2127  
+    31128  cft ok
+    31128  muse ok
+  non-ok: ('(not in oracle)', '') 2127

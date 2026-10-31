@@ -1,0 +1,7 @@
+[   0.1s] blobs: muse 466 muse-kit 7 cft 3430 bootstrap 8
+[   0.8s] baseline files 649
+[   0.9s] controls planted: 17 ['sf_unpack.c', 'sf_unpack.c', 'sf_unpack.c', 'sf_round_pack.c', 'sf_round_pack.c', 'sf_round_pack.c']
+[   3.6s] suspect k-grams: L0 426588 L1 276791
+[  49.1s] cft holds suspect k-grams: L0 1850 L1 2735
+[  49.7s] baseline holds suspect k-grams: L0 8 L1 63
+[  50.0s] done; suspects 483

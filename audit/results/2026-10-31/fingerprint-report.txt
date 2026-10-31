@@ -1,0 +1,680 @@
+=== POSITIVE CONTROLS (cft code planted into a copy of muse src/msf32.c or tools/gen_tables.py) ===
+  caught = a run of >= T0 exact or >= T1 normalised tokens that overlaps the PLANTED lines; a run elsewhere
+  in the host file is the host's own and does not count
+  CAUGHT  CONTROL/verbatim/sf_unpack.c                     planted lines 516-547  best L1 241 tokens, complexity 0.483, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed/sf_unpack.c                      planted lines 516-547  best L1 241 tokens, complexity 0.483, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed+reflowed/sf_unpack.c             planted lines 516-550  best L1 241 tokens, complexity 0.483, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/verbatim/sf_round_pack.c                 planted lines 516-585  best L0 445 tokens, complexity 0.52, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed/sf_round_pack.c                  planted lines 516-585  best L1 445 tokens, complexity 0.52, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed+reflowed/sf_round_pack.c         planted lines 516-572  best L1 445 tokens, complexity 0.52, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/verbatim/sf_steer.c                      planted lines 516-546  best L0 197 tokens, complexity 0.418, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed/sf_steer.c                       planted lines 516-546  best L1 197 tokens, complexity 0.418, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/renamed+reflowed/sf_steer.c              planted lines 516-548  best L1 197 tokens, complexity 0.418, from cft:bindings/arduino/cft-arduino/src/cft/src/softfloat.c
+  CAUGHT  CONTROL/verbatim/sq_const.c                      planted lines 516-559  best L0 256 tokens, complexity 0.34, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/renamed/sq_const.c                       planted lines 516-559  best L1 256 tokens, complexity 0.34, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/renamed+reflowed/sq_const.c              planted lines 516-559  best L1 256 tokens, complexity 0.34, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/verbatim/divsqrt_via_program.c           planted lines 516-573  best L0 329 tokens, complexity 0.607, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/renamed/divsqrt_via_program.c            planted lines 516-573  best L1 329 tokens, complexity 0.607, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/renamed+reflowed/divsqrt_via_program.c   planted lines 516-564  best L1 329 tokens, complexity 0.607, from cft:bindings/arduino/cft-arduino/src/cft/src/divsqrt.c
+  CAUGHT  CONTROL/py-renamed/unpack.py                     planted lines 640-658  best L1 164 tokens, complexity 0.64, from cft:python/cft_golden/softfloat.py
+  CAUGHT  CONTROL/py-renamed/_round_up.py                  planted lines 640-661  best L1 103 tokens, complexity 0.52, from cft:python/cft_golden/softfloat.py
+  controls caught: 17 of 17
+
+=== MUSE PATHS, strongest version, cft-only overlap (not in Berkeley 3e or the kit) ===
+  293 paths; 13 reach a run of >= 50 exact or >= 80 normalised tokens
+  path                                                 vers  L0run  L1run  L0cov%  L1cov%  anyL0%
+  tests/sha256.c                                          1    133    430   44.44   64.10   44.44
+  src/msf32.c                                             5      0    432    0.00    5.88    0.00
+  src/msf64.c                                             4      0    432    0.00    5.59    0.00
+  tests/gen_vectors_xf.py                                 2      0    309    0.00    7.43    0.00
+  tests/gen_vectors_f32.py                                3      0    293    0.00   12.66    0.00
+  tests/gen_vectors_f16.py                                2      0    229    0.00    9.02    0.00
+  tests/gen_vectors_f64.py                                3     25    180    0.28    3.91    0.28
+  compat/msf_aeabi.c                                      2      0    157    0.00   13.20    0.00
+  tests/gen_vectors_str.py                                2     24    118    0.32    6.24    0.32
+  tests/trig_exhaustive.c                                 1     51     60    2.09    2.02    2.09
+  video/segments/prep_augint_sample.py                    1     47     57    2.97    3.60    2.97
+  tests/msf_dispatch.h                                   20      0    132    0.00    0.96    0.00
+  tests/explog_exhaustive.c                               2     42     60    1.90    7.43    1.90
+  tools/gen_explog_tables.py                              3     47     50    3.70    7.32    3.70
+  tools/gen_trig_tables.py                                2     47     50    2.89    3.08    2.89
+  tests/alg_decider.c                                     2     41     53    2.91    4.37    2.91
+  src/msf_string.c                                        3     26     75    0.37   25.42    0.37
+  demo/ias15_host_shim.c                                  1     30     61    2.38   13.43    2.38
+  src/msf_aug.c                                           2      0    108    0.00    4.71    0.00
+  site/index.html                                         2     28     61    1.13    6.06    1.13
+  tools/extract_session_metrics.py                        1     27     62    0.88    3.42    0.95
+  tests/aug_exhaustive.c                                  1     29     55    1.15    3.81    1.15
+  board/ias15_selftest.c                                  2     26     56    1.51    6.88    1.51
+  tests/explog_decider.c                                  3     31     46    0.97    1.43    0.97
+  board/interval_main.c                                   2     33     42    1.90    2.42    1.90
+  demo/ias15_host_main.c                                  1     29     46    4.05    6.42    4.05
+  video/data.py                                           1      0     91    0.00    6.51    0.00
+  demo/twiddle_gate.c                                     2     31     40    3.80    4.90    3.80
+  board/ias15_main.c                                      3     30     40    2.12    2.82    2.12
+  board/kissfft_main.c                                    2     30     40    3.02    4.03    3.02
+  board/interval_host.c                                   1     26     42    1.73    2.80    1.73
+  board/hello_main.c                                      1     24     44    6.66   13.31    6.66
+  audit-bundle/lead-scripts/board_w1_sample.py            1      0     75    0.00   32.61    0.00
+  audit-bundle/lead-scripts/board_w2_sample.py            1      0     75    0.00   32.61    0.00
+  video/segments/gitvisual.py                             6      0     73    0.00    0.59    0.00
+  audit-bundle/lead-scripts/integrate_segments.py         1      0     65    0.00   19.06    0.00
+  site/build_data.py                                      2      0     64    0.00   10.21    0.00
+  audit-bundle/lead-scripts/inspect3.py                   1      0     59    0.00   10.41    0.00
+  tests/gen_vectors_explog.py                             2      0     59    0.00    3.01    0.00
+  src/msf_formats.h                                       1      0     58    0.00   62.70    0.00
+
+  library code only (src/ include/ compat/ site/):
+  src/msf32.c                                             5      0    432    0.00    5.88
+  src/msf64.c                                             4      0    432    0.00    5.59
+  compat/msf_aeabi.c                                      2      0    157    0.00   13.20
+  src/msf_string.c                                        3     26     75    0.37   25.42
+  src/msf_aug.c                                           2      0    108    0.00    4.71
+  site/index.html                                         2     28     61    1.13    6.06
+  site/build_data.py                                      2      0     64    0.00   10.21
+  src/msf_formats.h                                       1      0     58    0.00   62.70
+  include/muse_softfloat.h                               21      0     47    0.00    0.43
+  src/msf_wide.c                                          1      0     41    0.00    3.08
+  src/msf_explog_tables.h                                 2      0     40    0.00    1.37
+  src/msf_trig_tables.h                                   1      0     40    0.00    1.53
+  compat/msf_aeabi.h                                      2      0      0    0.00    0.00
+  compat/msf_wrap.c                                       1      0      0    0.00    0.00
+  compat/msf_wrap.h                                       1      0      0    0.00    0.00
+
+=== LONGEST RUNS (top 12 by exact tokens, then top 12 by normalised) ===
+
+--- muse:tests/sha256.c@786eeb5d  L0 run 133 tokens (complexity 0.446), muse lines 40-46; best source cft:bindings/arduino/cft-arduino/src/cft/src/sha256.c lines [191, 196]
+   M   40|         uint32_t s1 = rotr(w[i - 2], 17) ^ rotr(w[i - 2], 19) ^ (w[i - 2] >> 10);
+   M   41|         w[i] = w[i - 16] + s0 + w[i - 7] + s1;
+   M   42|     }
+   M   43|     a = s->h[0]; b = s->h[1]; c = s->h[2]; d = s->h[3];
+   M   44|     e = s->h[4]; f = s->h[5]; g = s->h[6]; h = s->h[7];
+   M   45|     for (i = 0; i < 64; i++) {
+   M   46|         uint32_t s1 = rotr(e, 6) ^ rotr(e, 11) ^ rotr(e, 25);
+   (cft bindings/arduino/cft-arduino/src/cft/src/sha256.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  191|         uint32_t s1 = rotr32(w[i - 2], 17) ^ rotr32(w[i - 2], 19) ^
+   C  192|                       (w[i - 2] >> 10);
+   C  193|         w[i] = w[i - 16] + s0 + w[i - 7] + s1;
+   C  194|     }
+   C  195|     a = s->h[0]; b = s->h[1]; c = s->h[2]; d = s->h[3];
+   C  196|     e = s->h[4]; f = s->h[5]; g = s->h[6]; h = s->h[7];
+   C  197|     for (i = 0; i < 64; i++) {
+
+--- muse:tests/trig_exhaustive.c@f9b10e63  L0 run 51 tokens (complexity 0.646), muse lines 752-758; best source cft:host/fuzz/cft_fuzz.c lines [196, 200]
+   M  752| static uint64_t rng_next(void)
+   M  753| {
+   M  754|     uint64_t z = (rng_state += 0x9e3779b97f4a7c15ULL);
+   M  755|     z = (z ^ (z >> 30)) * 0xbf58476d1ce4e5b9ULL;
+   M  756|     z = (z ^ (z >> 27)) * 0x94d049bb133111ebULL;
+   M  757|     return z ^ (z >> 31);
+   M  758| }
+   (cft host/fuzz/cft_fuzz.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  196| static uint64_t rnd(void)
+   C  197| {
+   C  198|     uint64_t z = (rng_state += 0x9E3779B97F4A7C15ull);
+   C  199|     z = (z ^ (z >> 30)) * 0xBF58476D1CE4E5B9ull;
+   C  200|     z = (z ^ (z >> 27)) * 0x94D049BB133111EBull;
+   C  201|     return z ^ (z >> 31);
+   C  202| }
+
+--- muse:tools/gen_explog_tables.py@067c3e6e  L0 run 47 tokens (complexity 0.841), muse lines 44-48; best source cft:python/cft_golden/mathlib.py lines [332, 333]
+   M   44|     e = v.numerator.bit_length() - v.denominator.bit_length()
+   M   45|     while Fraction(2) ** e > v:
+   M   46|         e -= 1
+   M   47|     while Fraction(2) ** (e + 1) <= v:
+   M   48|         e += 1
+   (cft python/cft_golden/mathlib.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  332|     e = v.numerator.bit_length() - v.denominator.bit_length()
+   C  333|     while Fraction(2) ** e > v:
+   C  334|         e -= 1
+   C  335|     while Fraction(2) ** (e + 1) <= v:
+   C  336|         e += 1
+
+--- muse:tools/gen_trig_tables.py@82adc29b  L0 run 47 tokens (complexity 0.841), muse lines 41-46; best source cft:python/cft_golden/mathlib.py lines [332, 333]
+   M   41|     e = v.numerator.bit_length() - v.denominator.bit_length()
+   M   42|     # adjust: want 2^e <= v < 2^(e+1)
+   M   43|     while Fraction(2) ** e > v:
+   M   44|         e -= 1
+   M   45|     while Fraction(2) ** (e + 1) <= v:
+   M   46|         e += 1
+   (cft python/cft_golden/mathlib.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  332|     e = v.numerator.bit_length() - v.denominator.bit_length()
+   C  333|     while Fraction(2) ** e > v:
+   C  334|         e -= 1
+   C  335|     while Fraction(2) ** (e + 1) <= v:
+   C  336|         e += 1
+   C  337|     sc = Fraction(2) ** (nbits - 1 - e)
+
+--- muse:video/segments/prep_augint_sample.py@ae54298c  L0 run 47 tokens (complexity 0.841), muse lines 50-54; best source cft:python/tests/test_rounding.py lines [39, 40]
+   M   50|     e = a.numerator.bit_length() - a.denominator.bit_length()
+   M   51|     while Fraction(2) ** e > a:
+   M   52|         e -= 1
+   M   53|     while Fraction(2) ** (e + 1) <= a:
+   M   54|         e += 1
+   (cft python/tests/test_rounding.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   39|     e = a.numerator.bit_length() - a.denominator.bit_length()
+   C   40|     while Fraction(2) ** e > a:
+   C   41|         e -= 1
+   C   42|     while Fraction(2) ** (e + 1) <= a:
+   C   43|         e += 1
+
+--- muse:tests/explog_exhaustive.c@1fcf761f  L0 run 42 tokens (complexity 0.59), muse lines 267-271; best source cft:bindings/arduino/cft-arduino/src/cft/src/lane_cut.h lines [126, 128]
+   M  267|     uint64_t z = (g_rng += 0x9e3779b97f4a7c15ULL);
+   M  268|     z = (z ^ (z >> 30)) * 0xbf58476d1ce4e5b9ULL;
+   M  269|     z = (z ^ (z >> 27)) * 0x94d049bb133111ebULL;
+   M  270|     return z ^ (z >> 31);
+   M  271| }
+   (cft bindings/arduino/cft-arduino/src/cft/src/lane_cut.h @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  126|     uint64_t z = (*s += 0x9E3779B97F4A7C15ull);
+   C  127|     z = (z ^ (z >> 30)) * 0xBF58476D1CE4E5B9ull;
+   C  128|     z = (z ^ (z >> 27)) * 0x94D049BB133111EBull;
+   C  129|     return z ^ (z >> 31);
+   C  130| }
+
+--- muse:tests/alg_decider.c@f54d4e57  L0 run 41 tokens (complexity 0.789), muse lines 608-617; best source cft:host/tests/reduce_parts_test.c lines [40, 44]
+   M  608| static uint64_t rng_state;
+   M  609| static uint64_t rng_next(void)
+   M  610| {
+   M  611|     uint64_t x = rng_state;
+   M  612|     x ^= x >> 12;
+   M  613|     x ^= x << 25;
+   M  614|     x ^= x >> 27;
+   M  615|     rng_state = x;
+   M  616|     return x * 0x2545F4914F6CDD1DULL;
+   M  617| }
+   (cft host/tests/reduce_parts_test.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   40| static uint64_t rng_state = 0x9E3779B97F4A7C15ull;
+   C   41| static uint64_t rng_next(void)
+   C   42| {
+   C   43|     uint64_t x = rng_state;
+   C   44|     x ^= x >> 12; x ^= x << 25; x ^= x >> 27;
+   C   45|     rng_state = x;
+   C   46|     return x * 0x2545F4914F6CDD1Dull;
+   C   47| }
+   C   48| 
+   C   49| /* A normal number with a full random significand and a mid-range
+
+--- muse:demo/make_kissfft_tree.py@4530703a  L0 run 36 tokens (complexity 0.97), muse lines 72-79; best source cft:vectors/gen_vectors.py lines [552, 557]
+   M   72|         "42fd7132fdb19e986d66693a081d90239b19b9a9496f319e86510f5fe7be9402",
+   M   73| }
+   M   74| 
+   M   75| 
+   M   76| def sha256_file(path):
+   M   77|     h = hashlib.sha256()
+   M   78|     with open(path, "rb") as f:
+   M   79|         for chunk in iter(lambda: f.read(1024 * 1024), b""):
+   (cft vectors/gen_vectors.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  552|     "formatof":    write_formatof,
+   C  553| }
+   C  554| 
+   C  555| 
+   C  556| def sha256_file(path):
+   C  557|     h = hashlib.sha256()
+   C  558|     with open(path, "rb") as f:
+   C  559|         for chunk in iter(lambda: f.read(1 << 20), b""):
+
+--- muse:demo/fetch.py@80cb75fd  L0 run 34 tokens (complexity 0.968), muse lines 45-48; best source cft:vectors/gen_vectors.py lines [556, 557]
+   M   45| def sha256_file(path):
+   M   46|     h = hashlib.sha256()
+   M   47|     with open(path, "rb") as f:
+   M   48|         for chunk in iter(lambda: f.read(1024 * 1024), b""):
+   (cft vectors/gen_vectors.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  556| def sha256_file(path):
+   C  557|     h = hashlib.sha256()
+   C  558|     with open(path, "rb") as f:
+   C  559|         for chunk in iter(lambda: f.read(1 << 20), b""):
+
+--- muse:board/interval_main.c@afccfb13  L0 run 33 tokens (complexity 0.233), muse lines 23-28; best source cft:docs/studies/hx/hx_quadmath.c lines [18, 19]
+   M   23| #include <inttypes.h>
+   M   24| #include <stdint.h>
+   M   25| #include <stdio.h>
+   M   26| #include <stdlib.h>
+   M   27| #include <string.h>
+   M   28| #include "pico/stdlib.h"
+   (cft docs/studies/hx/hx_quadmath.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   18| #include <quadmath.h>
+   C   19| #include <stdint.h>
+   C   20| #include <stdio.h>
+   C   21| #include <stdlib.h>
+   C   22| #include <string.h>
+   C   23| #include <time.h>
+
+--- muse:tests/trig_exhaustive.c@f9b10e63  L0 run 32 tokens (complexity 0.586), muse lines 779-783; best source cft:host/tools/divsqrt_soak.c lines [2228, 2229]
+   M  779|     if (strcmp(argv[1], "f32") == 0 && argc == 4) {
+   M  780|         /* LO..HI is a magnitude range (sign bit clear); each
+   M  781|          * shard checks both signs of every finite magnitude. */
+   M  782|         uint64_t lo = strtoull(argv[2], NULL, 0);
+   M  783|         uint64_t hi = strtoull(argv[3], NULL, 0);
+   (cft host/tools/divsqrt_soak.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 2228|     if (!strcmp(argv[1], "sqrt32")) {
+   C 2229|         uint64_t lo = strtoull(argv[2], NULL, 0);
+   C 2230|         uint64_t hi = strtoull(argv[3], NULL, 0);
+   C 2231|         rc = soak_sqrt32(lo, hi, mi);
+   C 2232|     } else if (hard_known(argv[1])) {
+
+--- muse:demo/twiddle_gate.c@8e3a21d4  L0 run 31 tokens (complexity 0.25), muse lines 70-74; best source cft:docs/studies/hx/hx_probe.c lines [27, 28]
+   M   70| #include <stdint.h>
+   M   71| #include <stdio.h>
+   M   72| #include <stdlib.h>
+   M   73| #include <string.h>
+   M   74| #include <mpfr.h>
+   (cft docs/studies/hx/hx_probe.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   27| #include <stdint.h>
+   C   28| #include <stdio.h>
+   C   29| #include <stdlib.h>
+   C   30| #include <string.h>
+   C   31| #include <time.h>
+
+--- muse:src/msf32.c@4d515c67  L1 run 432 tokens (complexity 0.019), muse lines 689-724; best source cft:host/tests/transcend_check.py lines [1234, 1235]
+   M  689| DEF_ADD(msf32_add, msf32_t, FMT32, msf32_t, FMT32)
+   M  690| DEF_ADD(msf32_add_f32_f64, msf32_t, FMT32, msf64_t, FMT64)
+   M  691| DEF_ADD(msf32_add_f64_f32, msf64_t, FMT64, msf32_t, FMT32)
+   M  692| DEF_ADD(msf32_add_f64_f64, msf64_t, FMT64, msf64_t, FMT64)
+   M  693| DEF_SUB(msf32_sub, msf32_t, FMT32, msf32_t, FMT32)
+   M  694| DEF_SUB(msf32_sub_f32_f64, msf32_t, FMT32, msf64_t, FMT64)
+   M  695| DEF_SUB(msf32_sub_f64_f32, msf64_t, FMT64, msf32_t, FMT32)
+   M  696| DEF_SUB(msf32_sub_f64_f64, msf64_t, FMT64, msf64_t, FMT64)
+   M  697| DEF_MUL(msf32_mul, msf32_t, FMT32, msf32_t, FMT32)
+   M  698| DEF_MUL(msf32_mul_f32_f64, msf32_t, FMT32, msf64_t, FMT64)
+   M  699| DEF_MUL(msf32_mul_f64_f32, msf64_t, FMT64, msf32_t, FMT32)
+   M  700| DEF_MUL(msf32_mul_f64_f64, msf64_t, FMT64, msf64_t, FMT64)
+   M  701| DEF_DIV(msf32_div, msf32_t, FMT32, msf32_t, FMT32)
+   M  702| DEF_DIV(msf32_div_f32_f64, msf32_t, FMT32, msf64_t, FMT64)
+   M  703| DEF_DIV(msf32_div_f64_f32, msf64_t, FMT64, msf32_t, FMT32)
+   M  704| DEF_DIV(msf32_div_f64_f64, msf64_t, FMT64, msf64_t, FMT64)
+   M  705| DEF_ADD(msf32_add_f16_f16, msf16_t, FMT16, msf16_t, FMT16)
+   M  706| DEF_ADD(msf32_add_f16_f32, msf16_t, FMT16, msf32_t, FMT32)
+   M  707| DEF_ADD(msf32_add_f16_f64, msf16_t, FMT16, msf64_t, FMT64)
+   M  708| DEF_ADD(msf32_add_f32_f16, msf32_t, FMT32, msf16_t, FMT16)
+   M  709| DEF_ADD(msf32_add_f64_f16, msf64_t, FMT64, msf16_t, FMT16)
+   M  710| DEF_SUB(msf32_sub_f16_f16, msf16_t, FMT16, msf16_t, FMT16)
+   M  711| DEF_SUB(msf32_sub_f16_f32, msf16_t, FMT16, msf32_t, FMT32)
+   M  712| DEF_SUB(msf32_sub_f16_f64, msf16_t, FMT16, msf64_t, FMT64)
+   M  713| DEF_SUB(msf32_sub_f32_f16, msf32_t, FMT32, msf16_t, FMT16)
+   (cft host/tests/transcend_check.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 1234|             check_binary(lib, dev, fmt, "atan2pi", apairs)
+   C 1235|             check_batches(lib, dev, fmt, pool, ppairs)
+   C 1236|             check_trig_batches(lib, dev, fmt, tpool, apairs)
+   C 1237|             check_named_unary(lib, dev, fmt, RADIAN, rpool)
+   C 1238|             check_named_unary(lib, dev, fmt, HYPER, hpool)
+   C 1239|             check_phase3_batches(lib, dev, fmt, rpool, hpool)
+   C 1240|             check_t91_unary(lib, dev, fmt, t9pool)
+   C 1241|             check_binary(lib, dev, fmt, "powr", t9pairs)
+   C 1242|             check_t91_int(lib, dev, fmt, t9int)
+   C 1243|             check_rootn_is_sqrt(lib, dev, fmt, t9pool)
+   C 1244|             check_t91_batches(lib, dev, fmt, t9pool, t9int)
+   C 1245|             check_aliasing(lib, dev, fmt, pool)
+   C 1246|             print(f"  {name}: the transcendental entry points agree with "
+   C 1247|                   f"the model ({CHECKED} comparisons so far)")
+   C 1248|     finally:
+   C 1249|         lib.cft_close(dev)
+   C 1250|     st = tr.STATS
+   C 1251|     nfn = (len(UNARY) + len(BINARY) + len(TRIG_UNARY) + len(TRIG_BINARY)
+   C 1252|            + len(RADIAN) + len(HYPER) + len(T91_UNARY) + len(T91_BINARY)
+   C 1253|            + len(T91_INT))
+   C 1254|     print(f"transcend_check: {CHECKED} comparisons over {nfn} "
+   C 1255|           "functions, C == model on every one")
+   C 1256|     print(f"  the model's evaluator: {st['ziv_calls']} enclosures, "
+   C 1257|           f"{st['escalations']} escalations, deepest working precision "
+   C 1258|           f"{st['max_prec']} bits,\n"
+
+--- muse:src/msf64.c@35211a21  L1 run 432 tokens (complexity 0.019), muse lines 734-769; best source cft:host/tests/transcend_check.py lines [1234, 1235]
+   M  734| DEF_ADD(msf64_add_f32_f32, MSF_FMT_F32, msf32_t, MSF_FMT_F32, msf32_t)
+   M  735| DEF_ADD(msf64_add_f32_f64, MSF_FMT_F32, msf32_t, MSF_FMT_F64, msf64_t)
+   M  736| DEF_ADD(msf64_add_f64_f32, MSF_FMT_F64, msf64_t, MSF_FMT_F32, msf32_t)
+   M  737| DEF_ADD(msf64_add, MSF_FMT_F64, msf64_t, MSF_FMT_F64, msf64_t)
+   M  738| DEF_SUB(msf64_sub_f32_f32, MSF_FMT_F32, msf32_t, MSF_FMT_F32, msf32_t)
+   M  739| DEF_SUB(msf64_sub_f32_f64, MSF_FMT_F32, msf32_t, MSF_FMT_F64, msf64_t)
+   M  740| DEF_SUB(msf64_sub_f64_f32, MSF_FMT_F64, msf64_t, MSF_FMT_F32, msf32_t)
+   M  741| DEF_SUB(msf64_sub, MSF_FMT_F64, msf64_t, MSF_FMT_F64, msf64_t)
+   M  742| DEF_MUL(msf64_mul_f32_f32, MSF_FMT_F32, msf32_t, MSF_FMT_F32, msf32_t)
+   M  743| DEF_MUL(msf64_mul_f32_f64, MSF_FMT_F32, msf32_t, MSF_FMT_F64, msf64_t)
+   M  744| DEF_MUL(msf64_mul_f64_f32, MSF_FMT_F64, msf64_t, MSF_FMT_F32, msf32_t)
+   M  745| DEF_MUL(msf64_mul, MSF_FMT_F64, msf64_t, MSF_FMT_F64, msf64_t)
+   M  746| DEF_DIV(msf64_div_f32_f32, MSF_FMT_F32, msf32_t, MSF_FMT_F32, msf32_t)
+   M  747| DEF_DIV(msf64_div_f32_f64, MSF_FMT_F32, msf32_t, MSF_FMT_F64, msf64_t)
+   M  748| DEF_DIV(msf64_div_f64_f32, MSF_FMT_F64, msf64_t, MSF_FMT_F32, msf32_t)
+   M  749| DEF_DIV(msf64_div, MSF_FMT_F64, msf64_t, MSF_FMT_F64, msf64_t)
+   M  750| DEF_ADD(msf64_add_f16_f16, MSF_FMT_F16, msf16_t, MSF_FMT_F16, msf16_t)
+   M  751| DEF_ADD(msf64_add_f16_f32, MSF_FMT_F16, msf16_t, MSF_FMT_F32, msf32_t)
+   M  752| DEF_ADD(msf64_add_f16_f64, MSF_FMT_F16, msf16_t, MSF_FMT_F64, msf64_t)
+   M  753| DEF_ADD(msf64_add_f32_f16, MSF_FMT_F32, msf32_t, MSF_FMT_F16, msf16_t)
+   M  754| DEF_ADD(msf64_add_f64_f16, MSF_FMT_F64, msf64_t, MSF_FMT_F16, msf16_t)
+   M  755| DEF_SUB(msf64_sub_f16_f16, MSF_FMT_F16, msf16_t, MSF_FMT_F16, msf16_t)
+   M  756| DEF_SUB(msf64_sub_f16_f32, MSF_FMT_F16, msf16_t, MSF_FMT_F32, msf32_t)
+   M  757| DEF_SUB(msf64_sub_f16_f64, MSF_FMT_F16, msf16_t, MSF_FMT_F64, msf64_t)
+   M  758| DEF_SUB(msf64_sub_f32_f16, MSF_FMT_F32, msf32_t, MSF_FMT_F16, msf16_t)
+   (cft host/tests/transcend_check.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 1234|             check_binary(lib, dev, fmt, "atan2pi", apairs)
+   C 1235|             check_batches(lib, dev, fmt, pool, ppairs)
+   C 1236|             check_trig_batches(lib, dev, fmt, tpool, apairs)
+   C 1237|             check_named_unary(lib, dev, fmt, RADIAN, rpool)
+   C 1238|             check_named_unary(lib, dev, fmt, HYPER, hpool)
+   C 1239|             check_phase3_batches(lib, dev, fmt, rpool, hpool)
+   C 1240|             check_t91_unary(lib, dev, fmt, t9pool)
+   C 1241|             check_binary(lib, dev, fmt, "powr", t9pairs)
+   C 1242|             check_t91_int(lib, dev, fmt, t9int)
+   C 1243|             check_rootn_is_sqrt(lib, dev, fmt, t9pool)
+   C 1244|             check_t91_batches(lib, dev, fmt, t9pool, t9int)
+   C 1245|             check_aliasing(lib, dev, fmt, pool)
+   C 1246|             print(f"  {name}: the transcendental entry points agree with "
+   C 1247|                   f"the model ({CHECKED} comparisons so far)")
+   C 1248|     finally:
+   C 1249|         lib.cft_close(dev)
+   C 1250|     st = tr.STATS
+   C 1251|     nfn = (len(UNARY) + len(BINARY) + len(TRIG_UNARY) + len(TRIG_BINARY)
+   C 1252|            + len(RADIAN) + len(HYPER) + len(T91_UNARY) + len(T91_BINARY)
+   C 1253|            + len(T91_INT))
+   C 1254|     print(f"transcend_check: {CHECKED} comparisons over {nfn} "
+   C 1255|           "functions, C == model on every one")
+   C 1256|     print(f"  the model's evaluator: {st['ziv_calls']} enclosures, "
+   C 1257|           f"{st['escalations']} escalations, deepest working precision "
+   C 1258|           f"{st['max_prec']} bits,\n"
+
+--- muse:tests/sha256.c@786eeb5d  L1 run 430 tokens (complexity 0.281), muse lines 38-61; best source cft:bindings/arduino/cft-arduino/src/cft/src/sha256.c lines [188, 208]
+   M   38|     for (i = 16; i < 64; i++) {
+   M   39|         uint32_t s0 = rotr(w[i - 15], 7) ^ rotr(w[i - 15], 18) ^ (w[i - 15] >> 3);
+   M   40|         uint32_t s1 = rotr(w[i - 2], 17) ^ rotr(w[i - 2], 19) ^ (w[i - 2] >> 10);
+   M   41|         w[i] = w[i - 16] + s0 + w[i - 7] + s1;
+   M   42|     }
+   M   43|     a = s->h[0]; b = s->h[1]; c = s->h[2]; d = s->h[3];
+   M   44|     e = s->h[4]; f = s->h[5]; g = s->h[6]; h = s->h[7];
+   M   45|     for (i = 0; i < 64; i++) {
+   M   46|         uint32_t s1 = rotr(e, 6) ^ rotr(e, 11) ^ rotr(e, 25);
+   M   47|         uint32_t ch = (e & f) ^ (~e & g);
+   M   48|         uint32_t t1 = h + s1 + ch + K[i] + w[i];
+   M   49|         uint32_t s0 = rotr(a, 2) ^ rotr(a, 13) ^ rotr(a, 22);
+   M   50|         uint32_t mj = (a & b) ^ (a & c) ^ (b & c);
+   M   51|         uint32_t t2 = s0 + mj;
+   M   52|         h = g; g = f; f = e; e = d + t1;
+   M   53|         d = c; c = b; b = a; a = t1 + t2;
+   M   54|     }
+   M   55|     s->h[0] += a; s->h[1] += b; s->h[2] += c; s->h[3] += d;
+   M   56|     s->h[4] += e; s->h[5] += f; s->h[6] += g; s->h[7] += h;
+   M   57| }
+   M   58| 
+   M   59| void msf_sha256_init(msf_sha256_t *s)
+   M   60| {
+   M   61|     s->h[0] = 0x6a09e667u; s->h[1] = 0xbb67ae85u;
+   (cft bindings/arduino/cft-arduino/src/cft/src/sha256.c @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  188|     for (i = 16; i < 64; i++) {
+   C  189|         uint32_t s0 = rotr32(w[i - 15], 7) ^ rotr32(w[i - 15], 18) ^
+   C  190|                       (w[i - 15] >> 3);
+   C  191|         uint32_t s1 = rotr32(w[i - 2], 17) ^ rotr32(w[i - 2], 19) ^
+   C  192|                       (w[i - 2] >> 10);
+   C  193|         w[i] = w[i - 16] + s0 + w[i - 7] + s1;
+   C  194|     }
+   C  195|     a = s->h[0]; b = s->h[1]; c = s->h[2]; d = s->h[3];
+   C  196|     e = s->h[4]; f = s->h[5]; g = s->h[6]; h = s->h[7];
+   C  197|     for (i = 0; i < 64; i++) {
+   C  198|         uint32_t S1 = rotr32(e, 6) ^ rotr32(e, 11) ^ rotr32(e, 25);
+   C  199|         uint32_t ch = (e & f) ^ (~e & g);
+   C  200|         uint32_t t1 = h + S1 + ch + SHA_K[i] + w[i];
+   C  201|         uint32_t S0 = rotr32(a, 2) ^ rotr32(a, 13) ^ rotr32(a, 22);
+   C  202|         uint32_t maj = (a & b) ^ (a & c) ^ (b & c);
+   C  203|         uint32_t t2 = S0 + maj;
+   C  204|         h = g; g = f; f = e; e = d + t1;
+   C  205|         d = c; c = b; b = a; a = t1 + t2;
+   C  206|     }
+   C  207|     s->h[0] += a; s->h[1] += b; s->h[2] += c; s->h[3] += d;
+   C  208|     s->h[4] += e; s->h[5] += f; s->h[6] += g; s->h[7] += h;
+   C  209| }
+   C  210| 
+   C  211| void cft_sha256_init(cft_sha256_ctx *s)
+
+--- muse:tests/gen_vectors_xf.py@36e7cdb5  L1 run 309 tokens (complexity 0.042), muse lines 553-564; best source cft:tb/test_mulpass.py lines [32, 39]
+   M  553|     return out
+   M  554| 
+   M  555| 
+   M  556| FMA_TRIPLES = [
+   M  557|     (7, 7, 8), (7, 7, 7), (0, 22, 24), (22, 0, 24), (0, 22, 7), (22, 7, 23),
+   M  558|     (22, 7, 22), (7, 7, 22), (2, 2, 2), (16, 11, 0), (16, 7, 17), (13, 13, 14),
+   M  559|     (28, 7, 8), (9, 9, 10), (30, 30, 31), (5, 12, 2), (4, 11, 3), (24, 7, 7),
+   M  560|     (7, 26, 7), (7, 7, 27), (0, 7, 0), (1, 7, 0), (1, 8, 1), (20, 20, 21),
+   M  561|     (12, 12, 12), (18, 11, 17), (19, 12, 19), (29, 7, 29), (15, 11, 14),
+   M  562|     (6, 7, 5), (3, 11, 2), (10, 10, 8), (31, 31, 30), (25, 26, 24),
+   M  563|     (22, 22, 22), (0, 0, 23), (26, 7, 24), (7, 7, 26),
+   M  564| ]
+   (cft tb/test_mulpass.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   32| from cocotb.triggers import ClockCycles, FallingEdge, RisingEdge
+   C   33| 
+   C   34| # (instance, P, COLS) - the table in tb_mulpass.sv, restated so the
+   C   35| # bench can derive each period on its own and compare.
+   C   36| INSTANCES = [
+   C   37|     (0, 53, 1), (1, 53, 2),
+   C   38|     (2, 113, 1), (3, 113, 2), (4, 113, 3),
+   C   39|     (5, 237, 1), (6, 237, 2), (7, 237, 5), (8, 237, 3), (9, 237, 4),
+   C   40| ]
+   C   41| MCH = 24          # the chunk width cft_mulgeom.svh fixes; a second copy on purpose
+   C   42| LEVEL = 5         # enabled intervals from S1 capture to product
+   C   43| 
+
+--- muse:tests/gen_vectors_f32.py@94ed8124  L1 run 293 tokens (complexity 0.045), muse lines 806-817; best source cft:tb/test_mulpass.py lines [32, 39]
+   M  806|     return out
+   M  807| 
+   M  808| 
+   M  809| FMA_TRIPLES = [
+   M  810|     (7, 7, 8), (7, 7, 7), (0, 22, 24), (22, 0, 24), (0, 22, 7), (22, 7, 23),
+   M  811|     (22, 7, 22), (7, 7, 22), (2, 2, 2), (16, 11, 0), (16, 7, 17), (13, 13, 14),
+   M  812|     (28, 7, 8), (9, 9, 10), (30, 30, 31), (5, 12, 2), (4, 11, 3), (24, 7, 7),
+   M  813|     (7, 26, 7), (7, 7, 27), (0, 7, 0), (1, 7, 0), (1, 8, 1), (20, 20, 21),
+   M  814|     (12, 12, 12), (18, 11, 17), (19, 12, 19), (29, 7, 29), (15, 11, 14),
+   M  815|     (6, 7, 5), (3, 11, 2), (10, 10, 8), (31, 31, 30), (25, 26, 24),
+   M  816|     (22, 22, 22), (0, 0, 23),
+   M  817| ]
+   (cft tb/test_mulpass.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   32| from cocotb.triggers import ClockCycles, FallingEdge, RisingEdge
+   C   33| 
+   C   34| # (instance, P, COLS) - the table in tb_mulpass.sv, restated so the
+   C   35| # bench can derive each period on its own and compare.
+   C   36| INSTANCES = [
+   C   37|     (0, 53, 1), (1, 53, 2),
+   C   38|     (2, 113, 1), (3, 113, 2), (4, 113, 3),
+   C   39|     (5, 237, 1), (6, 237, 2), (7, 237, 5), (8, 237, 3), (9, 237, 4),
+   C   40| ]
+   C   41| MCH = 24          # the chunk width cft_mulgeom.svh fixes; a second copy on purpose
+   C   42| LEVEL = 5         # enabled intervals from S1 capture to product
+   C   43| 
+
+--- muse:tests/gen_vectors_f16.py@216de8eb  L1 run 229 tokens (complexity 0.058), muse lines 851-860; best source cft:tb/test_mulpass.py lines [32, 39]
+   M  851|     return out
+   M  852| 
+   M  853| 
+   M  854| FMA_TRIPLES = [
+   M  855|     (7, 7, 8), (7, 7, 7), (0, 22, 24), (22, 0, 24), (0, 22, 7), (22, 7, 23),
+   M  856|     (22, 7, 22), (7, 7, 22), (2, 2, 2), (16, 11, 0), (16, 7, 17), (13, 13, 14),
+   M  857|     (28, 7, 8), (9, 9, 10), (30, 30, 31), (5, 12, 2), (4, 11, 3), (24, 7, 7),
+   M  858|     (7, 26, 7), (7, 7, 27), (0, 7, 0), (1, 7, 0), (1, 8, 1), (20, 20, 21),
+   M  859|     (12, 12, 12), (18, 11, 17), (19, 12, 19), (29, 7, 29),
+   M  860| ]
+   (cft tb/test_mulpass.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C   32| from cocotb.triggers import ClockCycles, FallingEdge, RisingEdge
+   C   33| 
+   C   34| # (instance, P, COLS) - the table in tb_mulpass.sv, restated so the
+   C   35| # bench can derive each period on its own and compare.
+   C   36| INSTANCES = [
+   C   37|     (0, 53, 1), (1, 53, 2),
+   C   38|     (2, 113, 1), (3, 113, 2), (4, 113, 3),
+   C   39|     (5, 237, 1), (6, 237, 2), (7, 237, 5), (8, 237, 3), (9, 237, 4),
+   C   40| ]
+   C   41| MCH = 24          # the chunk width cft_mulgeom.svh fixes; a second copy on purpose
+
+--- muse:tests/gen_vectors_f32.py@94ed8124  L1 run 184 tokens (complexity 0.061), muse lines 635-640; best source cft:hw/test_divsqrt_hard.py lines [682, 685]
+   M  635| SPECIAL_IDX = [0, 1, 2, 3, 7, 8, 22, 23, 24, 26]
+   M  636| NUM_PAIRS = [(7, 8), (8, 7), (7, 7), (9, 10), (10, 9), (4, 2), (2, 4),
+   M  637|              (5, 4), (4, 5), (16, 16), (16, 18), (18, 18), (2, 2), (19, 2),
+   M  638|              (13, 14), (20, 21), (28, 7), (7, 28), (29, 7), (30, 30),
+   M  639|              (30, 31), (16, 7), (7, 16), (5, 5), (6, 5), (11, 12), (15, 13),
+   M  640|              (3, 3), (25, 7), (7, 27)]
+   (cft hw/test_divsqrt_hard.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  682| ATTRS5 = ["rne", "rtz", "rdn", "rup", "rmm"]
+   C  683| # the fp32 slice's specials: zeros and subnormals of both signs, the subnormal/normal boundary, 1.0, the largest
+   C  684| # finite and the infinities, the sNaN/qNaN boundary, the top of the negative NaNs
+   C  685| SLICE_RANGES = [(0, 0x800), (0x007FFC00, 0x00800400), (0x3F7FFC00, 0x3F800400), (0x7F7FFC00, 0x7F800400),
+   C  686|                 (0x7FBFFC00, 0x7FC00400), (0x80000000, 0x80000800), (0xBF7FFC00, 0xBF800400),
+   C  687|                 (0xFF7FFC00, 0xFF800400), ((1 << 32) - 0x800, 1 << 32)]
+
+--- muse:tests/gen_vectors_f16.py@216de8eb  L1 run 181 tokens (complexity 0.073), muse lines 519-537; best source cft:hw/test_card_stress.py lines [6673, 6674]
+   M  519|     return deliver_int(k, Fraction(k) != v, tok, exact_form)
+   M  520| 
+   M  521| 
+   M  522| CMP_PREDS = [  # (name suffix, relation set, signaling family)
+   M  523|     ("quiet_equal", "eq", 0), ("quiet_not_equal", "lt,gt,un", 0),
+   M  524|     ("signaling_equal", "eq", 1), ("signaling_not_equal", "lt,gt,un", 1),
+   M  525|     ("quiet_greater", "gt", 0), ("quiet_greater_equal", "gt,eq", 0),
+   M  526|     ("quiet_less", "lt", 0), ("quiet_less_equal", "lt,eq", 0),
+   M  527|     ("quiet_not_greater", "lt,eq,un", 0), ("quiet_not_less", "gt,eq,un", 0),
+   M  528|     ("quiet_less_unordered", "lt,un", 0),
+   M  529|     ("quiet_greater_unordered", "gt,un", 0),
+   M  530|     ("quiet_unordered", "un", 0), ("quiet_ordered", "lt,eq,gt", 0),
+   M  531|     ("signaling_greater", "gt", 1), ("signaling_greater_equal", "gt,eq", 1),
+   M  532|     ("signaling_less", "lt", 1), ("signaling_less_equal", "lt,eq", 1),
+   M  533|     ("signaling_not_greater", "lt,eq,un", 1),
+   M  534|     ("signaling_not_less", "gt,eq,un", 1),
+   M  535|     ("signaling_less_unordered", "lt,un", 1),
+   M  536|     ("signaling_greater_unordered", "gt,un", 1),
+   M  537| ]
+   (cft hw/test_card_stress.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 6673|         index = fixture_index()
+   C 6674|         rows = [("div32-rne", "soak-div32.txt", 4096), ("div64-rne", "rnd-div64.txt", 4096), ("sqrt64-rne", "rnd-sqrt64.txt", 4096),
+   C 6675|                 ("rint64-rne", "rnd-rint64.txt", 4096), ("conv64to32-rne", "rnd-conv64to32.txt", 4096),
+   C 6676|                 ("conv32to64", "c5-conv32to64.txt", 4096), ("rem32", "rnd-rem32.txt", 4096), ("rem64", "rnd-rem64.txt", 4096),
+   C 6677|                 ("logb64", "rnd-logb64.txt", 4096), ("class64", "rnd-class64.txt", 4096),
+   C 6678|                 ("cvtfrom32-rne", "rnd-cvtfrom32.txt", 4096), ("cvtfrom64-rne", "rnd-cvtfrom64.txt", 4096),
+   C 6679|                 ("nextup64", "rnd-nextup64.txt", 4096), ("nextdown64", "rnd-nextdown64.txt", 4096),
+   C 6680|                 ("cvtfrom64-rne", "rnd-cvtfrom64-c16384.txt", 16384), ("nextup64", "rnd-nextup64-c16384.txt", 16384),
+   C 6681|                 ("div64-rne", "rnd-div64-c16384.txt", 16384)]
+   C 6682|         bad = []
+   C 6683|         for iname, nm, batch in rows:
+   C 6684|             it, t = by[iname], fixture(nm)
+   C 6685|             _tool, op, count, mode = soak_command(index, nm)
+   C 6686|             want = it.random_cases(count, batch)
+   C 6687|             try:
+   C 6688|                 v = L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want, None, chunk=None if batch == 4096 else batch)
+   C 6689|                 held = v.ok and v.counts["cases"] == want
+   C 6690|                 short = raises(lambda: L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want + 1, None, chunk=None if batch == 4096 else b
+   C 6691|             except (L2.VerdictError, TypeError) as e:          # a TypeError: random_cases gave no figure (None + 1), as the base's does for these ops
+
+--- muse:tests/gen_vectors_xf.py@36e7cdb5  L1 run 181 tokens (complexity 0.073), muse lines 334-352; best source cft:hw/test_card_stress.py lines [6673, 6674]
+   M  334|     return pack_signed(da.value(), rm, dest)
+   M  335| 
+   M  336| 
+   M  337| CMP_PREDS = [  # (name suffix, relation set, signaling family)
+   M  338|     ("quiet_equal", "eq", 0), ("quiet_not_equal", "lt,gt,un", 0),
+   M  339|     ("signaling_equal", "eq", 1), ("signaling_not_equal", "lt,gt,un", 1),
+   M  340|     ("quiet_greater", "gt", 0), ("quiet_greater_equal", "gt,eq", 0),
+   M  341|     ("quiet_less", "lt", 0), ("quiet_less_equal", "lt,eq", 0),
+   M  342|     ("quiet_not_greater", "lt,eq,un", 0), ("quiet_not_less", "gt,eq,un", 0),
+   M  343|     ("quiet_less_unordered", "lt,un", 0),
+   M  344|     ("quiet_greater_unordered", "gt,un", 0),
+   M  345|     ("quiet_unordered", "un", 0), ("quiet_ordered", "lt,eq,gt", 0),
+   M  346|     ("signaling_greater", "gt", 1), ("signaling_greater_equal", "gt,eq", 1),
+   M  347|     ("signaling_less", "lt", 1), ("signaling_less_equal", "lt,eq", 1),
+   M  348|     ("signaling_not_greater", "lt,eq,un", 1),
+   M  349|     ("signaling_not_less", "gt,eq,un", 1),
+   M  350|     ("signaling_less_unordered", "lt,un", 1),
+   M  351|     ("signaling_greater_unordered", "gt,un", 1),
+   M  352| ]
+   (cft hw/test_card_stress.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 6673|         index = fixture_index()
+   C 6674|         rows = [("div32-rne", "soak-div32.txt", 4096), ("div64-rne", "rnd-div64.txt", 4096), ("sqrt64-rne", "rnd-sqrt64.txt", 4096),
+   C 6675|                 ("rint64-rne", "rnd-rint64.txt", 4096), ("conv64to32-rne", "rnd-conv64to32.txt", 4096),
+   C 6676|                 ("conv32to64", "c5-conv32to64.txt", 4096), ("rem32", "rnd-rem32.txt", 4096), ("rem64", "rnd-rem64.txt", 4096),
+   C 6677|                 ("logb64", "rnd-logb64.txt", 4096), ("class64", "rnd-class64.txt", 4096),
+   C 6678|                 ("cvtfrom32-rne", "rnd-cvtfrom32.txt", 4096), ("cvtfrom64-rne", "rnd-cvtfrom64.txt", 4096),
+   C 6679|                 ("nextup64", "rnd-nextup64.txt", 4096), ("nextdown64", "rnd-nextdown64.txt", 4096),
+   C 6680|                 ("cvtfrom64-rne", "rnd-cvtfrom64-c16384.txt", 16384), ("nextup64", "rnd-nextup64-c16384.txt", 16384),
+   C 6681|                 ("div64-rne", "rnd-div64-c16384.txt", 16384)]
+   C 6682|         bad = []
+   C 6683|         for iname, nm, batch in rows:
+   C 6684|             it, t = by[iname], fixture(nm)
+   C 6685|             _tool, op, count, mode = soak_command(index, nm)
+   C 6686|             want = it.random_cases(count, batch)
+   C 6687|             try:
+   C 6688|                 v = L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want, None, chunk=None if batch == 4096 else batch)
+   C 6689|                 held = v.ok and v.counts["cases"] == want
+   C 6690|                 short = raises(lambda: L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want + 1, None, chunk=None if batch == 4096 else b
+   C 6691|             except (L2.VerdictError, TypeError) as e:          # a TypeError: random_cases gave no figure (None + 1), as the base's does for these ops
+
+--- muse:tests/gen_vectors_f32.py@94ed8124  L1 run 180 tokens (complexity 0.068), muse lines 490-505; best source cft:hw/test_card_stress.py lines [6674, 6674]
+   M  490| CMP_PREDS = [  # (name suffix, relation set, signaling family)
+   M  491|     ("quiet_equal", "eq", 0), ("quiet_not_equal", "lt,gt,un", 0),
+   M  492|     ("signaling_equal", "eq", 1), ("signaling_not_equal", "lt,gt,un", 1),
+   M  493|     ("quiet_greater", "gt", 0), ("quiet_greater_equal", "gt,eq", 0),
+   M  494|     ("quiet_less", "lt", 0), ("quiet_less_equal", "lt,eq", 0),
+   M  495|     ("quiet_not_greater", "lt,eq,un", 0), ("quiet_not_less", "gt,eq,un", 0),
+   M  496|     ("quiet_less_unordered", "lt,un", 0),
+   M  497|     ("quiet_greater_unordered", "gt,un", 0),
+   M  498|     ("quiet_unordered", "un", 0), ("quiet_ordered", "lt,eq,gt", 0),
+   M  499|     ("signaling_greater", "gt", 1), ("signaling_greater_equal", "gt,eq", 1),
+   M  500|     ("signaling_less", "lt", 1), ("signaling_less_equal", "lt,eq", 1),
+   M  501|     ("signaling_not_greater", "lt,eq,un", 1),
+   M  502|     ("signaling_not_less", "gt,eq,un", 1),
+   M  503|     ("signaling_less_unordered", "lt,un", 1),
+   M  504|     ("signaling_greater_unordered", "gt,un", 1),
+   M  505| ]
+   (cft hw/test_card_stress.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 6674|         rows = [("div32-rne", "soak-div32.txt", 4096), ("div64-rne", "rnd-div64.txt", 4096), ("sqrt64-rne", "rnd-sqrt64.txt", 4096),
+   C 6675|                 ("rint64-rne", "rnd-rint64.txt", 4096), ("conv64to32-rne", "rnd-conv64to32.txt", 4096),
+   C 6676|                 ("conv32to64", "c5-conv32to64.txt", 4096), ("rem32", "rnd-rem32.txt", 4096), ("rem64", "rnd-rem64.txt", 4096),
+   C 6677|                 ("logb64", "rnd-logb64.txt", 4096), ("class64", "rnd-class64.txt", 4096),
+   C 6678|                 ("cvtfrom32-rne", "rnd-cvtfrom32.txt", 4096), ("cvtfrom64-rne", "rnd-cvtfrom64.txt", 4096),
+   C 6679|                 ("nextup64", "rnd-nextup64.txt", 4096), ("nextdown64", "rnd-nextdown64.txt", 4096),
+   C 6680|                 ("cvtfrom64-rne", "rnd-cvtfrom64-c16384.txt", 16384), ("nextup64", "rnd-nextup64-c16384.txt", 16384),
+   C 6681|                 ("div64-rne", "rnd-div64-c16384.txt", 16384)]
+   C 6682|         bad = []
+   C 6683|         for iname, nm, batch in rows:
+   C 6684|             it, t = by[iname], fixture(nm)
+   C 6685|             _tool, op, count, mode = soak_command(index, nm)
+   C 6686|             want = it.random_cases(count, batch)
+   C 6687|             try:
+   C 6688|                 v = L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want, None, chunk=None if batch == 4096 else batch)
+   C 6689|                 held = v.ok and v.counts["cases"] == want
+
+--- muse:tests/gen_vectors_f64.py@e6ac2137  L1 run 180 tokens (complexity 0.068), muse lines 451-466; best source cft:hw/test_card_stress.py lines [6674, 6674]
+   M  451| PREDICATES = [
+   M  452|     ("quiet_equal", "eq", 0), ("quiet_not_equal", "ne", 0),
+   M  453|     ("signaling_equal", "eq", 1), ("signaling_not_equal", "ne", 1),
+   M  454|     ("quiet_greater", "gt", 0), ("quiet_greater_equal", "ge", 0),
+   M  455|     ("quiet_less", "lt", 0), ("quiet_less_equal", "le", 0),
+   M  456|     ("quiet_not_greater", "notgt", 0), ("quiet_not_less", "notlt", 0),
+   M  457|     ("quiet_less_unordered", "ltun", 0),
+   M  458|     ("quiet_greater_unordered", "gtun", 0),
+   M  459|     ("quiet_unordered", "unord", 0), ("quiet_ordered", "ord", 0),
+   M  460|     ("signaling_greater", "gt", 1), ("signaling_greater_equal", "ge", 1),
+   M  461|     ("signaling_less", "lt", 1), ("signaling_less_equal", "le", 1),
+   M  462|     ("signaling_not_greater", "notgt", 1),
+   M  463|     ("signaling_not_less", "notlt", 1),
+   M  464|     ("signaling_less_unordered", "ltun", 1),
+   M  465|     ("signaling_greater_unordered", "gtun", 1),
+   M  466| ]
+   (cft hw/test_card_stress.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C 6674|         rows = [("div32-rne", "soak-div32.txt", 4096), ("div64-rne", "rnd-div64.txt", 4096), ("sqrt64-rne", "rnd-sqrt64.txt", 4096),
+   C 6675|                 ("rint64-rne", "rnd-rint64.txt", 4096), ("conv64to32-rne", "rnd-conv64to32.txt", 4096),
+   C 6676|                 ("conv32to64", "c5-conv32to64.txt", 4096), ("rem32", "rnd-rem32.txt", 4096), ("rem64", "rnd-rem64.txt", 4096),
+   C 6677|                 ("logb64", "rnd-logb64.txt", 4096), ("class64", "rnd-class64.txt", 4096),
+   C 6678|                 ("cvtfrom32-rne", "rnd-cvtfrom32.txt", 4096), ("cvtfrom64-rne", "rnd-cvtfrom64.txt", 4096),
+   C 6679|                 ("nextup64", "rnd-nextup64.txt", 4096), ("nextdown64", "rnd-nextdown64.txt", 4096),
+   C 6680|                 ("cvtfrom64-rne", "rnd-cvtfrom64-c16384.txt", 16384), ("nextup64", "rnd-nextup64-c16384.txt", 16384),
+   C 6681|                 ("div64-rne", "rnd-div64-c16384.txt", 16384)]
+   C 6682|         bad = []
+   C 6683|         for iname, nm, batch in rows:
+   C 6684|             it, t = by[iname], fixture(nm)
+   C 6685|             _tool, op, count, mode = soak_command(index, nm)
+   C 6686|             want = it.random_cases(count, batch)
+   C 6687|             try:
+   C 6688|                 v = L2.parse_soak(t, index[nm][0], it.op, it.verdict_mode, None, want, None, chunk=None if batch == 4096 else batch)
+   C 6689|                 held = v.ok and v.counts["cases"] == want
+
+--- muse:tests/gen_vectors_f16.py@216de8eb  L1 run 157 tokens (complexity 0.091), muse lines 1068-1072; best source cft:python/tests/mathlib_family.py lines [499, 501]
+   M 1068|     out = []
+   M 1069|     pair_idx = [(7, 7), (7, 8), (8, 7), (0, 1), (1, 0), (2, 0), (3, 2),
+   M 1070|                 (5, 4), (4, 5), (22, 22), (22, 23), (23, 16), (16, 22),
+   M 1071|                 (7, 22), (24, 7), (7, 24), (26, 26), (24, 25), (27, 7),
+   M 1072|                 (9, 7), (30, 30), (30, 31), (16, 17), (7, 16), (0, 2)]
+   (cft python/tests/mathlib_family.py @ HEAD; line numbers are from the version that first matched, so this is approximate)
+   C  499| _EXP_FP32_1 = []
+   C  500| _EXP_FP64_2 = [
+   C  501|     (1, 53), (3, 53), (5, 53), (7, 53), (9, 53), (11, 53), (13, 53),
+   C  502|     (15, 53), (-1, 54), (-3, 54), (-5, 54), (-7, 54), (-9, 54), (-11, 54),
+   C  503|     (-13, 54), (-15, 54),

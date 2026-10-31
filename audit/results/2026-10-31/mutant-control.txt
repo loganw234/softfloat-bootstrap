@@ -1,0 +1,13 @@
+cases 2223000 in 6.516s over 660 tasks
+
+by class:
+     2207104  ok
+       15507  nan-payload
+         348  int invalid delivery
+          20  VALUE
+          15  flags muse - cft inexact
+           3  flags muse overflow cft overflow|inexact
+           2  flags muse inexact cft overflow|inexact
+           1  flags muse underflow cft underflow|inexact
+
+sample for the oracle: 1661 cases -> bigdiff-mutant.sample.jsonl (beside the run's other outputs)

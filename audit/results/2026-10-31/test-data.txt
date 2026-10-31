@@ -1,0 +1,82 @@
+muse high-entropy words 33468, cft 43905, shared 54 (0.161% of muse)
+      6  muse tests/explog-f64.vec                     cft programs/systems/compiled-tangent/culture-rk4-tangent-fp64.cfta
+      5  muse tests/alg-f64.vec                        cft programs/systems/compiled-tangent/culture-rk4-tangent-fp64.cfta
+      3  muse tests/trig-f32.vec                       cft docs/studies/m4/box-out2/measure.fp32-dw18-diag.out.txt
+      2  muse tests/alg-f32.vec                        cft python/tests/test_mathlib_reduction_tw.py
+      2  muse tests/interval_catalogue.tsv             cft docs/figures/stress.json
+      2  muse examples/README.md                       cft host/tests/api_test.c
+      2  muse tests/from-decimal-str.vec               cft bindings/wasm/README.md
+      2  muse tests/trig-f64.vec                       cft docs/studies/m4/box-out2/measure.fp64-diag.out.txt
+      1  muse tests/VECTORS.md                         cft hw/test_c5_wide.py
+      1  muse tests/gen_vectors_f32.py                 cft bindings/arduino/cft-arduino/src/cft/src/backend_remote.c
+      1  muse tests/interval_catalogue.tsv             cft bindings/node/conformance.mjs
+      1  muse tests/alg-f32.vec                        cft bindings/python/test_cftmpfr.py
+      1  muse examples/README.md                       cft programs/systems/compiled-tangent/culture-rk4-tangent-fp64.cfta
+      1  muse demo/fetch.py                            cft bindings/arduino/cft-arduino/examples/Hello/Hello.ino
+      1  muse tests/alg-f64.vec                        cft certificates/programs/augsum-fp64.cfta
+      1  muse tests/alg-f64.vec                        cft programs/systems/compiled-tangent/lotkavolterra-rk4-tangent-fp64.canonical.cftl
+      1  muse tests/from-decimal-str.vec               cft python/tests/test_mathlib_reduction_tw.py
+      1  muse board/ias15_selftest.c                   cft bindings/python/test_cftmpfr.py
+      1  muse tests/from-decimal-str.vec               cft docs/LANGUAGE.md
+      1  muse board/ias15_selftest.c                   cft docs/VALIDATION.md
+      1  muse tests/interval_catalogue.tsv             cft docs/VALIDATION.md
+      1  muse tests/interval_catalogue.tsv             cft bindings/node/seq_corpus.jsonl
+      1  muse tests/explog-f32.vec                     cft docs/studies/m2/census.fp32-tiny.out.txt
+      1  muse tests/gen_vectors_str.py                 cft hw/test_card_stress.py
+      1  muse tests/gen_vectors_str.py                 cft docs/VALIDATION.md
+
+the shared words, decoded (a famous value is the explanation; a random operand would not be):
+  0000000123456789 = 2.414359655e-314
+  0000000268435456 = 5.1082324377e-314
+  0000000999999999 = 2.0371159593e-313
+  0000001073741824 = 3.49089319795e-313
+  0000002147483647 = 7.06167215313e-313
+  0000004028235e38 = 1.36140437649e-312
+  0000004294967296 = 1.41283372376e-312
+  000001e999999999 = 1.0389291392563e-311
+  0001099511627776 = 1.44272515933981e-309
+  01048576 = 2.4340324512373923e-38
+  01234567 = 2.9988165487136453e-38
+  0123456789abcdef = 3.512700564088504e-303
+  04194304 = 1.8015835633442063e-36
+  16777216 = 1.9988500277945703e-25
+  16777217 = 1.9988501510540867e-25
+  20261027 = 1.4066091286660302e-19
+  39b504f3 = 0.0003452669770922512
+  3dcccccd = 0.10000000149011612
+  3eaaaaab = 0.3333333432674408
+  3f3504ed = 0.7071064114570618
+  3f3504ee = 0.7071064710617065
+  3f747ae147ae147b = 0.005
+  3f847ae147ae147b = 0.01
+  3fb504f3 = 1.4142135381698608
+  3fb745d1745d1746 = 0.09090909090909091
+  3fb999999999999a = 0.1
+  3fbc71c71c71c71c = 0.1111111111111111
+  3fc2492492492492 = 0.14285714285714285
+  3fc5555555555555 = 0.16666666666666666
+  3fc999999999999a = 0.2
+  3fd3333333333333 = 0.3
+  3fd5555555555555 = 0.3333333333333333
+  3fe5555555555555 = 0.6666666666666666
+  3fe6a09e667f3bc9 = 0.7071067811865471
+  3fe6a09e667f3bd1 = 0.707106781186548
+  3ff172b83c7d517b = 1.0905077326652577
+  3ff306fe0a31b715 = 1.189207115002721
+  3ff4bfdad5362a27 = 1.2968395546510096
+  3ff6a09e667f3bcd = 1.4142135623730951
+  3ff8ace5422aa0db = 1.5422108254079407
+  3ffae89f995ad3ad = 1.681792830507429
+  3ffd5818dcfba487 = 1.8340080864093424
+  4005555555555555 = 2.6666666666666665
+  4005bf0a8b145769 = 2.718281828459045
+  400921fb54442d18 = 3.141592653589793
+  40490fdb = 3.1415927410125732
+  47c35000 = 100000.0
+  4b400001 = 12582913.0
+  4b400002 = 12582914.0
+  4b400003 = 12582915.0
+  baa00000 = -0.001220703125
+  bf3504f7 = -0.7071070075035095
+  bfb999999999999a = -0.1
+  bfe6a09e667f3bcb = -0.7071067811865474

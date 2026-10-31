@@ -1,0 +1,9 @@
+cases 44460000 in 105.963s over 660 tasks
+
+by class:
+    44143795  ok
+      308963  nan-payload
+        7221  int invalid delivery
+          21  flags muse inexact cft overflow|inexact
+
+sample for the oracle: 33255 cases -> bigdiff.sample.jsonl (beside the run's other outputs)
